@@ -1,6 +1,6 @@
 # Превью «Системы ясности» на общей VM
 
-Для просмотра есть [GitHub Pages](https://elenasamanchuk.github.io/sistemayasnosti-site/). Для установки на VM использовать [архив сборки от корня](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-10) и приложенную SHA-256. Архив содержит только статические файлы сайта в режиме `noindex`.
+Для просмотра есть [GitHub Pages](https://elenasamanchuk.github.io/sistemayasnosti-site/). Для установки на VM использовать [архив сборки от корня](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-17) и приложенную SHA-256. Архив содержит только статические файлы сайта в режиме `noindex`.
 
 **Состояние 10.11.2026:** превью установлено админом, адрес https://preview.sistemayasnosti.com. Обновление версии: `bash tools/deploy-vm-preview.sh <тег релиза>`, настройки nginx не меняются.
 
@@ -8,7 +8,7 @@
 
 - Поддомен `preview.sistemayasnosti.com` направить A-записью на `212.233.93.50`. На 09.11.2026 A/AAAA отсутствовали. Боевой домен и ЛК остаются отдельными адресами.
 - Сверить действующие виртуальные хосты и их статусы, сохранить контрольные суммы существующих конфигов. При осмотре активны `kochfit`, `medvediva`, `medvediva-kg`, `medvediva-online`, `medvediva-prod`.
-- В новом пустом каталоге `/var/www/sistemayasnosti-preview/releases/<тег>` распаковать архив после `sha256sum -c sistemayasnosti-vm-preview-20261110-10.tar.gz.sha256`. Корень нового виртуального хоста — `/var/www/sistemayasnosti-preview/current`, ссылка на этот релиз.
+- В новом пустом каталоге `/var/www/sistemayasnosti-preview/releases/<тег>` распаковать архив после `sha256sum -c sistemayasnosti-vm-preview-20261110-17.tar.gz.sha256`. Корень нового виртуального хоста — `/var/www/sistemayasnosti-preview/current`, ссылка на этот релиз.
 
 ## Изолированное подключение nginx
 

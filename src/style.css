@@ -2,6 +2,7 @@
 @import "./tokens.css";
 @import "tailwindcss";
 @import "./block-spacing.css";
+@import "./mobile-rhythm.css";
 html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
 body{margin:0;font-family:var(--font-ui),Arial,sans-serif;color:#000}
 button,a{-webkit-tap-highlight-color:transparent}
@@ -185,3 +186,9 @@ main:has(.embed-reserve):not(:has(#sya-club-app:not(:empty))){min-height:100vh;m
 
 /* Главная, телефон: текст «печатной машинки» занимает меньше строк, чем на живом, блок ниже подтянут на разницу (сверка 10.11) */
 @media screen and (max-width:479px){#scene-2440038323{margin-top:calc(-12px * var(--scene-scale, 1))}}
+
+/* Решение Елены 10.11: контент по вертикали по центру белых блоков на телефоне (на живом сверху и снизу разные поля) */
+@media screen and (max-width:479px){
+  [data-node="176174013491923420"]{margin-top:25px}
+  [data-node="176159616784689380"],[data-node="176159616785476810"],[data-node="176159616772287280"],[data-node="176159616774695310"],[data-node="176159616776815330"],[data-node="176159616778922150"],[data-node="176159616781283280"],[data-node="176159616783452350"],[data-node="176159616788715830"],[data-node="1761598599310"],[data-node="1761598612233"],[data-node="1761598618989"],[data-node="1761598625405"],[data-node="1761598632809"],[data-node="1761598640154"]{margin-top:-17px}
+}
