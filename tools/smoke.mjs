@@ -106,7 +106,7 @@ async function checkForm(page, route, result, requests) {
   if (phone.length !== 1 || !phone[0].includes('номер телефона')) fail(`короткий телефон: ${phone}`);
   await fields.nth(1).fill(''); await fields.nth(1).pressSequentially('9001234567');
   const masked = await fields.nth(1).inputValue();
-  if (masked !== '+7(900) 123-45-67') fail(`маска телефона ${masked}`);
+  if (masked !== '+7 (900) 123-45-67') fail(`маска телефона ${masked}`);
   // Выбор страны: по умолчанию Россия, список открывается, Испания меняет код и формат, окно остаётся открытым
   const countryBtn = page.locator('.native-dialog .zero-form__country');
   if (!(await countryBtn.getAttribute('aria-label')).includes('Россия')) fail('страна по умолчанию не Россия');
@@ -117,7 +117,7 @@ async function checkForm(page, route, result, requests) {
   if (!(await page.evaluate(() => !!document.querySelector('.native-dialog')))) fail('выбор страны закрыл окно');
   await fields.nth(1).fill(''); await fields.nth(1).pressSequentially('+79001234567');
   const back = await fields.nth(1).inputValue();
-  if (back !== '+7(900) 123-45-67' || !(await countryBtn.getAttribute('aria-label')).includes('Россия')) fail(`ввод +7 не вернул Россию: ${back}`);
+  if (back !== '+7 (900) 123-45-67' || !(await countryBtn.getAttribute('aria-label')).includes('Россия')) fail(`ввод +7 не вернул Россию: ${back}`);
   await page.locator('.native-dialog .zero-form__submit').click();
   // Вне боевого домена успех изображается (решение Елены 09.11.2026), запросов быть не должно: проверка ниже
   const status = await page.locator('.native-dialog [role=status]').innerText({ timeout: 3000 }).catch(() => '');

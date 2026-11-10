@@ -1,53 +1,83 @@
 /* Создано tools/block-spacing.mjs, вручную не менять. Соседние Zero-блоки одного цвета: один отступ вместо двух (правило заказчика 10.11.2026) */
 @media screen and (min-width:1200px){
 #scene-1486577043{margin-top:calc(-1 * 45px * var(--scene-scale, 1))} /* / после 1485558153 */
+#scene-1487844433{margin-top:calc(-1 * 20px * var(--scene-scale, 1))} /* / после 1486577043 */
+#scene-1572248783{margin-top:calc(-1 * 84px * var(--scene-scale, 1))} /* / после 1487844433 */
 #scene-1557091733{margin-top:calc(-1 * 49px * var(--scene-scale, 1))} /* /taplink после 1555825513 */
 #scene-1557093663{margin-top:calc(-1 * 35px * var(--scene-scale, 1))} /* /taplink после 1557091733 */
 #scene-1557097383{margin-top:calc(-1 * 31px * var(--scene-scale, 1))} /* /taplink после 1557093663 */
 #scene-1703506743{margin-top:calc(-1 * 33px * var(--scene-scale, 1))} /* /mini после 1699756153 */
 #scene-2098148483{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098087683 */
+#scene-2098148563{margin-top:calc(-1 * 7px * var(--scene-scale, 1))} /* /about после 2098148483 */
+#scene-2098101413{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098148563 */
 #scene-2098115143{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098101413 */
 #scene-2426973753{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /clarity после 2426973733 */
+#scene-2426973763{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973753 */
+#scene-2440039273{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973763 */
 #scene-2426973793{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /clarity после 2440039273 */
+#scene-2426973803{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973793 */
 }
 @media screen and (min-width:960px) and (max-width:1199px){
 #scene-1486577043{margin-top:calc(-1 * 53px * var(--scene-scale, 1))} /* / после 1485558153 */
+#scene-1487844433{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* / после 1486577043 */
+#scene-1572248783{margin-top:calc(-1 * 80px * var(--scene-scale, 1))} /* / после 1487844433 */
 #scene-1557091733{margin-top:calc(-1 * 32px * var(--scene-scale, 1))} /* /taplink после 1555825513 */
 #scene-1557093663{margin-top:calc(-1 * 35px * var(--scene-scale, 1))} /* /taplink после 1557091733 */
 #scene-1557097383{margin-top:calc(-1 * 31px * var(--scene-scale, 1))} /* /taplink после 1557093663 */
 #scene-1703506743{margin-top:calc(-1 * 37px * var(--scene-scale, 1))} /* /mini после 1699756153 */
 #scene-2098148483{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098087683 */
+#scene-2098148563{margin-top:calc(-1 * 7px * var(--scene-scale, 1))} /* /about после 2098148483 */
+#scene-2098101413{margin-top:calc(-1 * 53px * var(--scene-scale, 1))} /* /about после 2098148563 */
 #scene-2098115143{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098101413 */
 #scene-2426973753{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973733 */
+#scene-2426973763{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973753 */
+#scene-2440039273{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973763 */
 #scene-2426973793{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /clarity после 2440039273 */
+#scene-2426973803{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973793 */
 }
 @media screen and (min-width:640px) and (max-width:959px){
 #scene-1486577043{margin-top:calc(-1 * 45px * var(--scene-scale, 1))} /* / после 1485558153 */
+#scene-1487844433{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* / после 1486577043 */
+#scene-1572248783{margin-top:calc(-1 * 70px * var(--scene-scale, 1))} /* / после 1487844433 */
 #scene-1557091733{margin-top:calc(-1 * 32px * var(--scene-scale, 1))} /* /taplink после 1555825513 */
 #scene-1557093663{margin-top:calc(-1 * 35px * var(--scene-scale, 1))} /* /taplink после 1557091733 */
 #scene-1557097383{margin-top:calc(-1 * 31px * var(--scene-scale, 1))} /* /taplink после 1557093663 */
 #scene-1703506743{margin-top:calc(-1 * 100px * var(--scene-scale, 1))} /* /mini после 1699756153 */
 #scene-1703000063{margin-top:calc(-1 * 4px * var(--scene-scale, 1))} /* /mini после 1700529763 */
 #scene-2098148483{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098087683 */
+#scene-2098148563{margin-top:calc(-1 * 7px * var(--scene-scale, 1))} /* /about после 2098148483 */
+#scene-2098101413{margin-top:calc(-1 * 53px * var(--scene-scale, 1))} /* /about после 2098148563 */
 #scene-2098115143{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /about после 2098101413 */
 #scene-2426973753{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973733 */
+#scene-2426973763{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973753 */
+#scene-2440039273{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973763 */
 #scene-2426973793{margin-top:calc(-1 * 60px * var(--scene-scale, 1))} /* /clarity после 2440039273 */
+#scene-2426973803{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973793 */
 }
 @media screen and (min-width:480px) and (max-width:639px){
 #scene-1486577043{margin-top:calc(-1 * 46px * var(--scene-scale, 1) + 1px)} /* / после 1485558153 */
+#scene-1487844433{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* / после 1486577043 */
+#scene-1572248783{margin-top:calc(-1 * 60px * var(--scene-scale, 1) + 1px)} /* / после 1487844433 */
 #scene-1557091733{margin-top:calc(-1 * 32px * var(--scene-scale, 1) + 1px)} /* /taplink после 1555825513 */
 #scene-1557093663{margin-top:calc(-1 * 35px * var(--scene-scale, 1) + 1px)} /* /taplink после 1557091733 */
 #scene-1557097383{margin-top:calc(-1 * 31px * var(--scene-scale, 1))} /* /taplink после 1557093663 */
 #scene-1703506743{margin-top:calc(-1 * 100px * var(--scene-scale, 1))} /* /mini после 1699756153 */
 #scene-1703000063{margin-top:calc(-1 * 3px * var(--scene-scale, 1) + 1px)} /* /mini после 1700529763 */
 #scene-2098148483{margin-top:calc(-1 * 60px * var(--scene-scale, 1) + 1px)} /* /about после 2098087683 */
+#scene-2098148563{margin-top:calc(-1 * 5px * var(--scene-scale, 1) + 1px)} /* /about после 2098148483 */
+#scene-2098101413{margin-top:calc(-1 * 50px * var(--scene-scale, 1) + 1px)} /* /about после 2098148563 */
 #scene-2098115143{margin-top:calc(-1 * 60px * var(--scene-scale, 1) + 1px)} /* /about после 2098101413 */
 #scene-2426973713{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426974553 */
 #scene-2426973753{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973733 */
+#scene-2426973763{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973753 */
+#scene-2440039273{margin-top:calc(-1 * 50px * var(--scene-scale, 1))} /* /clarity после 2426973763 */
 #scene-2426973793{margin-top:calc(-1 * 58px * var(--scene-scale, 1) + 1px)} /* /clarity после 2440039273 */
+#scene-2426973803{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973793 */
 }
 @media screen and (max-width:479px){
 #scene-1486577043{margin-top:calc(-1 * 35px * var(--scene-scale, 1))} /* / после 1485558153 */
+#scene-1487844433{margin-top:calc(-1 * 2px * var(--scene-scale, 1) + 1px)} /* / после 1486577043 */
+#scene-1572248783{margin-top:calc(-1 * 46px * var(--scene-scale, 1))} /* / после 1487844433 */
 #scene-1557091733{margin-top:calc(-1 * 43px * var(--scene-scale, 1) + 1px)} /* /taplink после 1555825513 */
 #scene-1557093663{margin-top:calc(-1 * 14px * var(--scene-scale, 1))} /* /taplink после 1557091733 */
 #scene-1557097383{margin-top:calc(-1 * 15px * var(--scene-scale, 1) + 1px)} /* /taplink после 1557093663 */
@@ -55,7 +85,10 @@
 #scene-1703000063{margin-top:calc(-1 * 2px * var(--scene-scale, 1) + 1px)} /* /mini после 1700529763 */
 #scene-1703875463{margin-top:calc(-1 * 3px * var(--scene-scale, 1) + 1px)} /* /mini после 1703867853 */
 #scene-2098148483{margin-top:calc(-1 * 30px * var(--scene-scale, 1) + 1px)} /* /about после 2098087683 */
+#scene-2098101413{margin-top:calc(-1 * 30px * var(--scene-scale, 1) + 1px)} /* /about после 2098148563 */
 #scene-2098115143{margin-top:calc(-1 * 30px * var(--scene-scale, 1) + 1px)} /* /about после 2098101413 */
 #scene-2426973753{margin-top:calc(-1 * 40px * var(--scene-scale, 1))} /* /clarity после 2426973733 */
+#scene-2440039273{margin-top:calc(-1 * 45px * var(--scene-scale, 1) + 1px)} /* /clarity после 2426973763 */
 #scene-2426973793{margin-top:calc(-1 * 40px * var(--scene-scale, 1))} /* /clarity после 2440039273 */
+#scene-2426973803{margin-top:calc(-1 * 10px * var(--scene-scale, 1))} /* /clarity после 2426973793 */
 }

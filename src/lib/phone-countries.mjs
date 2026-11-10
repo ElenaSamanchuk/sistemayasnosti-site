@@ -86,7 +86,8 @@ export function applyMask(country, digits) {
   }
   return out + body.slice(used);
 }
-const gap = (country) => (country.mask.startsWith('(') ? '' : ' ');
+// На живом код страны стоит отдельно от поля, поэтому между ним и номером всегда виден пробел
+const gap = () => ' ';
 export const placeholderFor = (country) => `+${country.code}${gap(country)}${country.mask.replace(/#/g, '0')}`;
 // Строка из поля → { country, national, text }. Если введён «+код», страна определяется по самому длинному совпадению.
 export function parsePhone(raw, current) {

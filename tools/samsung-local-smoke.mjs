@@ -253,7 +253,7 @@ try {
     await shot('and-09-phone-us');
     await field(1,'+79001234567');
     const ru=await phone();
-    if(ru.value!=='+7(900) 123-45-67'||!ru.country.includes('Россия'))throw new Error('Маска +7: '+JSON.stringify(ru));
+    if(ru.value!=='+7 (900) 123-45-67'||!ru.country.includes('Россия'))throw new Error('Маска +7: '+JSON.stringify(ru));
     await field(1,'+999123456789');
     const odd=await phone();
     await shot('and-10-phone-999');

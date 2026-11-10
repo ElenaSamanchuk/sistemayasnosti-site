@@ -33,9 +33,9 @@ test('h1 в модели: Zero-узел помечен тегом, статья 
 test('телефон: Россия по умолчанию и прежний формат', () => {
   const ru = byIso(undefined);
   assert.equal(ru.iso, 'RU');
-  assert.equal(placeholderFor(ru), '+7(000) 000-00-00');
-  assert.equal(parsePhone('9001234567', ru).text, '+7(900) 123-45-67');
-  assert.equal(parsePhone('89001234567', ru).text, '+7(900) 123-45-67');
+  assert.equal(placeholderFor(ru), '+7 (000) 000-00-00');
+  assert.equal(parsePhone('9001234567', ru).text, '+7 (900) 123-45-67');
+  assert.equal(parsePhone('89001234567', ru).text, '+7 (900) 123-45-67');
 });
 
 test('телефон: код страны определяется по «+», маска и проверка длины', () => {

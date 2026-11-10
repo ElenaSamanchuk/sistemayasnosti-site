@@ -308,7 +308,7 @@ function visibleAt(scene, width) {
 }
 function frozenReason(info) {
   if (FROZEN.has(info.id)) return FROZEN.get(info.id);
-  if (info.ovrflw === 'auto') return 'лента ovrflw auto';
+  // Ленты участвуют в правиле отступов: прокрутка у них по горизонтали, вертикальный отступ считается как у обычного блока (Елена, 10.11)
   if (info.ovrflw === 'visible') return 'элементы выходят за блок (ovrflw visible)';
   if (info.pos === 'fixed' || info.pos === 'sticky') return `блок ${info.pos}`;
   if (info.vh) return 'высота блока зависит от окна (height_vh)';

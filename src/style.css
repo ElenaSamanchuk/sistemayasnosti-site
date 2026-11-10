@@ -181,3 +181,6 @@ main:has(.embed-reserve):not(:has(#sya-club-app:not(:empty))){min-height:100vh;m
 
 /* Ссылка на обработку данных в попапе формы, цвет как на живом (сверка 10.11) */
 [data-node="1763388888891"] a{color:#ff8562}
+
+/* Главная, телефон: текст «печатной машинки» занимает меньше строк, чем на живом, блок ниже подтянут на разницу (сверка 10.11) */
+@media screen and (max-width:479px){#scene-2440038323{margin-top:calc(-12px * var(--scene-scale, 1))}}
