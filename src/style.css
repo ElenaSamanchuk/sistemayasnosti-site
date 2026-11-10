@@ -99,8 +99,9 @@ h1.scene-atom{margin:0;font-size:inherit;font-weight:inherit;letter-spacing:inhe
 
 /* Видео Zero */
 .scene-video{display:block}
-.scene-video .scene-atom{display:block;overflow:hidden}
-.scene-video-file{display:block;width:100%;height:100%;object-position:50% 50%;pointer-events:none;background:transparent}
+.scene-video .scene-atom{position:relative;display:block;overflow:hidden}
+/* Абсолютно, как на живом T396: в Safari height:100% внутри display:table даёт собственную высоту видео и кадр обрезается */
+.scene-video-file{position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-position:50% 50%;pointer-events:none;background:transparent}
 #html-video-1703875663-1766147559512000013,#html-video-1557093663-1763043211874{object-position:36% 50%}
 
 /* Форма Zero. Значения размеров приходят из настроек элемента */
