@@ -80,9 +80,11 @@ if (typeof window !== 'undefined') watch(open, (value) => { if (value) addEventL
   .site-nav__logo{display:none}
   .site-nav__center{padding:20px 0}
   .site-nav__list{display:block}
-  .site-nav__list li{padding:10px;white-space:normal}
-  .site-nav__link{display:inline-block;white-space:normal}
-  .site-nav__right{justify-self:auto;margin:0;padding:0 20px 20px}
+  /* Открытый бургер как на живом T228 (замер 390 и 360): пункт 35 px, блок кнопки 80 px, поля кнопки 20 px */
+  .site-nav__list li{padding:10px;white-space:normal;line-height:15px}
+  .site-nav__link{display:inline-block;vertical-align:top;white-space:normal;line-height:15px}
+  .site-nav__right{justify-self:auto;margin:0;padding:20px}
+  .site-nav__button{padding:0 20px}
   .site-nav__logo,.site-nav__center{top:0}
 }
 /* Прозрачная панель с размытием до 960 px: T123 rec1491047173 (rec1488865263 на главной) */

@@ -178,3 +178,6 @@ main:has(.embed-reserve):not(:has(#sya-club-app:not(:empty))){min-height:100vh;m
 @media (prefers-reduced-motion:reduce){.soft-fade-enter-active,.soft-fade-leave-active,.zero-form__option,.scene-atom[href*="sistemayasnostibot"] .scene-atom__button-text{transition:none}}
 /* Анимация появления с заполнением иначе удерживает прозрачность и не даёт стрелке плавно исчезнуть */
 .back-top.soft-fade-leave-active{animation:none}
+
+/* Ссылка на обработку данных в попапе формы, цвет как на живом (сверка 10.11) */
+[data-node="1763388888891"] a{color:#ff8562}
