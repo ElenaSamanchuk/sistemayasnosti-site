@@ -1,0 +1,96 @@
+{
+ "at": "2026-11-10T05:30:30.696Z",
+ "note": "локальная статика, живой сайт не открывался, внешние запросы перехвачены",
+ "results": [
+  {
+   "mode": "боевой домен (по http, через подмену DNS)",
+   "route": "/",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [
+    "GET https://mc.yandex.ru/metrika/tag.js",
+    "GET https://gso.kommo.com/js/button.js"
+   ],
+   "host": "http://sistemayasnosti.com"
+  },
+  {
+   "mode": "боевой домен (по http, через подмену DNS)",
+   "route": "/mini",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [
+    "GET https://mc.yandex.ru/metrika/tag.js",
+    "GET https://gso.kommo.com/js/button.js"
+   ],
+   "host": "http://sistemayasnosti.com"
+  },
+  {
+   "mode": "боевой домен (по http, через подмену DNS)",
+   "route": "/taplink",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [
+    "GET https://mc.yandex.ru/metrika/tag.js",
+    "GET https://gso.kommo.com/js/button.js"
+   ],
+   "host": "http://sistemayasnosti.com"
+  },
+  {
+   "mode": "www боевого домена (по http, через подмену DNS)",
+   "route": "/",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://www.sistemayasnosti.com"
+  },
+  {
+   "mode": "www боевого домена (по http, через подмену DNS)",
+   "route": "/mini",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://www.sistemayasnosti.com"
+  },
+  {
+   "mode": "www боевого домена (по http, через подмену DNS)",
+   "route": "/taplink",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://www.sistemayasnosti.com"
+  },
+  {
+   "mode": "локальный адрес",
+   "route": "/",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://127.0.0.1:4186"
+  },
+  {
+   "mode": "локальный адрес",
+   "route": "/mini",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://127.0.0.1:4186"
+  },
+  {
+   "mode": "локальный адрес",
+   "route": "/taplink",
+   "problems": [],
+   "status": "Спасибо! Данные успешно отправлены.",
+   "writes": [],
+   "blocked": [],
+   "host": "http://127.0.0.1:4186"
+  }
+ ]
+}

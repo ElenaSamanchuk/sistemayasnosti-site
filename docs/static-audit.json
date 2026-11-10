@@ -1,0 +1,237 @@
+{
+ "snapshot": "sources/live/2026-11-09",
+ "dist": "dist/",
+ "counts": {
+  "error": 0,
+  "warn": 12,
+  "info": 16
+ },
+ "stats": {
+  "zero": {
+   "элементов и групп": 1227,
+   "брейкпоинтов без своего left": 520,
+   "сверено": 272,
+   "пропущено": {
+    "axisx": 2,
+    "units": 0,
+    "нет правила": 0,
+    "группа-родитель": 0,
+    "flex-родитель": 246
+   }
+  },
+  "lists": {
+   "списков в снимке (без меню)": 20,
+   "списков в dist (без меню)": 20,
+   "правило ul": true,
+   "правило ol": true
+  },
+  "pages": {
+   "страниц проверено": 12,
+   "meta robots": [
+    "noindex,nofollow"
+   ]
+  },
+  "sitemap": {
+   "режим сборки": "preview",
+   "адресов в sitemap": 11
+  }
+ },
+ "findings": [
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/index.html",
+   "what": "13 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/taplink/index.html",
+   "what": "3 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/mini/index.html",
+   "what": "6 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/about/index.html",
+   "what": "4 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/clarity/index.html",
+   "what": "11 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/audio-club/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/audio-club-old/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/audio-club-old-old/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/oferta/index.html",
+   "what": "description пустой и в снимке (у Тильды он тоже не задан)",
+   "effect": "сниппет поисковика соберёт сам; желательно написать вручную"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/oferta/index.html",
+   "what": "og:description нет и в снимке",
+   "effect": "превью ссылки без описания"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/oferta/index.html",
+   "what": "нет og:image (и в снимке тоже нет)",
+   "effect": "ссылка в мессенджере уйдёт без картинки"
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/oferta/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/privacy/index.html",
+   "what": "description пустой и в снимке (у Тильды он тоже не задан)",
+   "effect": "сниппет поисковика соберёт сам; желательно написать вручную"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/privacy/index.html",
+   "what": "og:description нет и в снимке",
+   "effect": "превью ссылки без описания"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/privacy/index.html",
+   "what": "нет og:image (и в снимке тоже нет)",
+   "effect": "ссылка в мессенджере уйдёт без картинки"
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/privacy/index.html",
+   "what": "html lang=es",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/privacy/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/consent/index.html",
+   "what": "description пустой и в снимке (у Тильды он тоже не задан)",
+   "effect": "сниппет поисковика соберёт сам; желательно написать вручную"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/consent/index.html",
+   "what": "og:description нет и в снимке",
+   "effect": "превью ссылки без описания"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/consent/index.html",
+   "what": "нет og:image (и в снимке тоже нет)",
+   "effect": "ссылка в мессенджере уйдёт без картинки"
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/consent/index.html",
+   "what": "html lang=es",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/consent/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/cookie/index.html",
+   "what": "description пустой и в снимке (у Тильды он тоже не задан)",
+   "effect": "сниппет поисковика соберёт сам; желательно написать вручную"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/cookie/index.html",
+   "what": "og:description нет и в снимке",
+   "effect": "превью ссылки без описания"
+  },
+  {
+   "level": "warn",
+   "check": "seo",
+   "where": "dist/cookie/index.html",
+   "what": "нет og:image (и в снимке тоже нет)",
+   "effect": "ссылка в мессенджере уйдёт без картинки"
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/cookie/index.html",
+   "what": "html lang=es",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "a11y",
+   "where": "dist/cookie/index.html",
+   "what": "2 img с alt=\"\" (декоративные; проверить, нет ли среди них смысловых)",
+   "effect": ""
+  },
+  {
+   "level": "info",
+   "check": "sitemap-robots",
+   "where": "dist/sitemap.xml",
+   "what": "/audio-club-old-old не в sitemap: по правилам seo.mjs canonical в снимке указывает на другой адрес или страница noindex",
+   "effect": "нормально, если так задумано; проверить решение"
+  }
+ ]
+}

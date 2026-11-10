@@ -1,0 +1,85 @@
+{
+  "site": "https://elenasamanchuk.github.io/sistemayasnosti-site",
+  "at": "2026-11-09T17:38:34.995Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/mini/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/clarity/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/taplink/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/audio-club/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/audio-club-old/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/audio-club-old-old/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/oferta/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/privacy/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/consent/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    },
+    {
+      "route": "/cookie/",
+      "status": 200,
+      "robots": "noindex,nofollow",
+      "width": 390
+    }
+  ],
+  "failed": [],
+  "external": [],
+  "errors": [],
+  "menu": true,
+  "audio": true,
+  "redirect": "https://elenasamanchuk.github.io/sistemayasnosti-site/clarity/?utm_source=qa#program",
+  "custom404": true
+}

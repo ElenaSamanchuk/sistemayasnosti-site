@@ -1,0 +1,496 @@
+{
+ "at": "2026-11-09T17:50:53.182Z",
+ "mode": "превью, noindex",
+ "count": 12,
+ "salesPages": [
+  {
+   "path": "/pred",
+   "open": false,
+   "mode": "redirect"
+  },
+  {
+   "path": "/pred_fl",
+   "open": false,
+   "mode": "redirect"
+  }
+ ],
+ "h1": [
+  {
+   "path": "/",
+   "h1": 1
+  },
+  {
+   "path": "/taplink",
+   "h1": 1
+  },
+  {
+   "path": "/mini",
+   "h1": 1
+  },
+  {
+   "path": "/about",
+   "h1": 1
+  },
+  {
+   "path": "/clarity",
+   "h1": 1
+  },
+  {
+   "path": "/audio-club",
+   "h1": 1
+  },
+  {
+   "path": "/audio-club-old",
+   "h1": 1
+  },
+  {
+   "path": "/audio-club-old-old",
+   "h1": 1
+  },
+  {
+   "path": "/oferta",
+   "h1": 1
+  },
+  {
+   "path": "/privacy",
+   "h1": 1
+  },
+  {
+   "path": "/consent",
+   "h1": 1
+  },
+  {
+   "path": "/cookie",
+   "h1": 1
+  },
+  {
+   "path": "/404",
+   "h1": 1
+  }
+ ],
+ "routes": [
+  {
+   "path": "/",
+   "embeds": {
+    "component": [
+     "2019389043",
+     "1795637143",
+     "1490588213",
+     "1488855793"
+    ],
+    "global": [
+     {
+      "rec": "1569556213",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1559313953",
+      "reason": "Косметика Тильды: object-position: 36% 50% для видео #html-video-1486553383-176310543960410240. Одно CSS-правило на видео в новой вёрстке."
+     },
+     {
+      "rec": "1488865263",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1488865513) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "1491040633",
+      "reason": "Косметика Тильды: блик на кнопке (.light) для элемента tn-elem__14865533831761599192234. Один CSS-класс кнопки, текст в src/embeds/README.md."
+     },
+     {
+      "rec": "1493369823",
+      "reason": "SmoothScroll с cdnjs: внешний CDN нельзя, и нужна ли плавная прокрутка вообще, решает Елена (вопрос 3 в T123-INVENTORY). По умолчанию не включаем."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": [
+    "#zeropopupmain"
+   ]
+  },
+  {
+   "path": "/taplink",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "1557141233",
+      "reason": "Косметика Тильды: object-position: 36% 50% для видео #html-video-1557093663-1763043211874. Одно CSS-правило на видео в новой вёрстке."
+     },
+     {
+      "rec": "1559325923",
+      "reason": "Косметика Тильды: блик на кнопке (.light) для элемента tn-elem__1555825513176310873726344220. Один CSS-класс кнопки, текст в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/mini",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "1713786233",
+      "reason": "Косметика Тильды: object-position: 36% 50% для видео #html-video-1703875663-1766147559512000013. Одно CSS-правило на видео в новой вёрстке."
+     },
+     {
+      "rec": "1714199963",
+      "reason": "SmoothScroll с cdnjs: внешний CDN нельзя, и нужна ли плавная прокрутка вообще, решает Елена (вопрос 3 в T123-INVENTORY). По умолчанию не включаем."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/about",
+   "embeds": {
+    "component": [
+     "2019386053",
+     "2098149263"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "2098149283",
+      "reason": "SmoothScroll с cdnjs: внешний CDN нельзя, и нужна ли плавная прокрутка вообще, решает Елена (вопрос 3 в T123-INVENTORY). По умолчанию не включаем."
+     },
+     {
+      "rec": "2098149513",
+      "reason": "Косметика Тильды: блик на кнопке (.light) для элемента tn-elem__1555825513176310873726344220. Один CSS-класс кнопки, текст в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/clarity",
+   "embeds": {
+    "component": [
+     "2019386053",
+     "2426973863",
+     "2426973883"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "2426973843",
+      "reason": "Косметика Тильды: sticky у блока #rec2426973823 (top: 25vh, z-index: 0). Остальное в блоке чинит Тильду (transform/will-change, overflow-x: clip у #allrecords) и не переносится. Правила в src/embeds/README.md."
+     },
+     {
+      "rec": "2426973893",
+      "reason": "SmoothScroll с cdnjs: внешний CDN нельзя, и нужна ли плавная прокрутка вообще, решает Елена (вопрос 3 в T123-INVENTORY). По умолчанию не включаем."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/audio-club",
+   "embeds": {
+    "component": [
+     "2019386053",
+     "5543947003"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "5543946903",
+      "reason": "Часть аудиоклуба (2026-11): стили и шрифты. Подключаются внутри компонента AudioClub из public/embeds/audio-club/2026-11/club.css."
+     },
+     {
+      "rec": "5543947103",
+      "reason": "Часть аудиоклуба (2026-11): JS приложения. Подключается внутри компонента AudioClub из public/embeds/audio-club/2026-11/club.js."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/audio-club-old",
+   "embeds": {
+    "component": [
+     "2019386053",
+     "3603226603"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "3602643503",
+      "reason": "Часть аудиоклуба (2026-09): стили и шрифты. Подключаются внутри компонента AudioClub из public/embeds/audio-club/2026-09/club.css."
+     },
+     {
+      "rec": "3603229603",
+      "reason": "Часть аудиоклуба (2026-09): JS приложения. Подключается внутри компонента AudioClub из public/embeds/audio-club/2026-09/club.js."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/audio-club-old-old",
+   "embeds": {
+    "component": [
+     "2019386053",
+     "4600632103"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     },
+     {
+      "rec": "4600632003",
+      "reason": "Часть аудиоклуба (2026-10): стили и шрифты. Подключаются внутри компонента AudioClub из public/embeds/audio-club/2026-10/club.css."
+     },
+     {
+      "rec": "4600632203",
+      "reason": "Часть аудиоклуба (2026-10): JS приложения. Подключается внутри компонента AudioClub из public/embeds/audio-club/2026-10/club.js."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/oferta",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/privacy",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/consent",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  },
+  {
+   "path": "/cookie",
+   "embeds": {
+    "component": [
+     "2019386053"
+    ],
+    "global": [
+     {
+      "rec": "1862707833",
+      "name": "metrika"
+     },
+     {
+      "rec": "1569554833",
+      "name": "kommo"
+     }
+    ],
+    "skip": [
+     {
+      "rec": "1491047173",
+      "reason": "Косметика Тильды: размытие фона меню (#nav1486554413) и полупрозрачная панель до 960 px. Входит в общую шапку, правила в src/embeds/README.md."
+     }
+    ],
+    "missing": []
+   },
+   "unsupported": [],
+   "unsupportedNodes": {},
+   "unsupportedAnimations": {},
+   "popupsNotRendered": []
+  }
+ ]
+}

@@ -1,0 +1,2981 @@
+{
+ "at": "2026-11-10T05:27:45.529Z",
+ "engine": "chromium",
+ "scope": "локальная статика, все 12 страниц на 1440 и 390, расширенные сценарии и применимые интеграции с заглушками",
+ "results": [
+  {
+   "path": "/",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 8,
+    "transferBytes": 4669234,
+    "lazyImages": 14,
+    "deferredBackgrounds": 9,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 4806,
+   "title": "Система Ясности",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 4806,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Система Ясности 2.0 годовая программа потоков",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "#home",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "#home",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-2194603213-176310813087013300",
+     "initial": {
+      "paused": false,
+      "time": 2.360557,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.362627,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.065504,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "hscroll": {
+    "#rec1487844433": 150
+   },
+   "typewriter": 153,
+   "typewriterFull": true,
+   "popup": {
+    "opened": {
+     "samples": [
+      900,
+      900,
+      900,
+      770,
+      219,
+      175,
+      60,
+      20,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1008
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 900
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      0,
+      25,
+      117,
+      316,
+      -1
+     ],
+     "ms": 505
+    },
+    "empty": {
+     "found": false
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 6,
+    "transferBytes": 3261048,
+    "lazyImages": 14,
+    "deferredBackgrounds": 10,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 5725,
+   "title": "Система Ясности",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 5725,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Система Ясности 2.0 годовая программа потоков",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "#home",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "#home",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-2194603213-176310813087013300",
+     "initial": {
+      "paused": false,
+      "time": 2.333158,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.334757,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.037413,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "hscroll": {
+    "#rec1487844433": 150.123046875
+   },
+   "typewriter": 153,
+   "typewriterFull": true,
+   "popup": {
+    "opened": {
+     "samples": [
+      844,
+      844,
+      844,
+      722,
+      605,
+      498,
+      403,
+      323,
+      206,
+      165,
+      106,
+      86,
+      56,
+      45,
+      36,
+      24,
+      19,
+      12,
+      9,
+      7,
+      4,
+      3,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1008
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 843
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      1,
+      4,
+      8,
+      24,
+      35,
+      49,
+      86,
+      109,
+      169,
+      248,
+      297,
+      354,
+      497,
+      589,
+      -1
+     ],
+     "ms": 366
+    },
+    "empty": {
+     "found": false
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/taplink",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 9,
+    "transferBytes": 3268060,
+    "lazyImages": 4,
+    "deferredBackgrounds": 2,
+    "deferredVideos": 1
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 2444,
+   "title": "Система ясности — школа Тамары Поданёвой",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2444,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Система ясности — школа Тамары Поданёвой",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-1555825513-1763030714627",
+     "initial": {
+      "paused": false,
+      "time": 2.221536,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.222991,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 2.925398,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    },
+    {
+     "id": "html-video-1557093663-1763043211874",
+     "initial": {
+      "paused": false,
+      "time": 2.673081,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.674418,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.377969,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "popup": {
+    "opened": {
+     "samples": [
+      900,
+      900,
+      900,
+      770,
+      275,
+      91,
+      25,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1089
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 900
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      0,
+      25,
+      92,
+      316,
+      -1
+     ],
+     "ms": 510
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/taplink",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 9,
+    "transferBytes": 3268060,
+    "lazyImages": 4,
+    "deferredBackgrounds": 2,
+    "deferredVideos": 1
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 2898,
+   "title": "Система ясности — школа Тамары Поданёвой",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2898,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Система ясности — школа Тамары Поданёвой",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-1555825513-1763030714627",
+     "initial": {
+      "paused": false,
+      "time": 2.28222,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.283586,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 2.985818,
+      "loop": true,
+      "muted": true,
+      "width": 1348,
+      "poster": "/media/83eac514a510597e2ec7959f.jpg",
+      "error": "",
+      "position": "50% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    },
+    {
+     "id": "html-video-1557093663-1763043211874",
+     "initial": {
+      "paused": false,
+      "time": 2.771971,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.773377,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.475474,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "popup": {
+    "opened": {
+     "samples": [
+      844,
+      844,
+      844,
+      722,
+      497,
+      402,
+      323,
+      206,
+      132,
+      106,
+      69,
+      45,
+      29,
+      23,
+      15,
+      9,
+      5,
+      4,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1005
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 843
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      1,
+      8,
+      15,
+      35,
+      49,
+      86,
+      109,
+      168,
+      205,
+      297,
+      353,
+      497,
+      589,
+      703,
+      844,
+      -1
+     ],
+     "ms": 391
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/mini",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 7,
+    "transferBytes": 1581551,
+    "lazyImages": 8,
+    "deferredBackgrounds": 5,
+    "deferredVideos": 1
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 4304,
+   "title": "Мини-курсы",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 4304,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Мини-курсы",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/mini",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-1703875663-1766147559512000013",
+     "initial": {
+      "paused": false,
+      "time": 2.670483,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.67181,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.375058,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "blockintoview": {
+    "state": "running",
+    "distinct": 5
+   },
+   "popup": {
+    "opened": {
+     "samples": [
+      900,
+      900,
+      900,
+      771,
+      275,
+      220,
+      60,
+      20,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1075
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 900
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      0,
+      25,
+      146,
+      -1
+     ],
+     "ms": 583
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/mini",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 1542770,
+    "lazyImages": 8,
+    "deferredBackgrounds": 5,
+    "deferredVideos": 1
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 5743,
+   "title": "Мини-курсы",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 5743,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Мини-курсы",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/mini",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "videos": [
+    {
+     "id": "html-video-1703875663-1766147559512000013",
+     "initial": {
+      "paused": false,
+      "time": 2.668569,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "gestureFallback": false,
+     "first": {
+      "paused": false,
+      "time": 2.670228,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     },
+     "second": {
+      "paused": false,
+      "time": 3.373241,
+      "loop": true,
+      "muted": true,
+      "width": 1584,
+      "poster": "/media/aa9bf9eb87bbcf0bd9f3e02f.jpg",
+      "error": "",
+      "position": "36% 50%",
+      "src": "http://127.0.0.1:60257"
+     }
+    }
+   ],
+   "blockintoview": {
+    "state": "running",
+    "distinct": 4
+   },
+   "popup": {
+    "opened": {
+     "samples": [
+      844,
+      844,
+      844,
+      723,
+      606,
+      403,
+      258,
+      206,
+      132,
+      86,
+      56,
+      36,
+      29,
+      19,
+      12,
+      7,
+      5,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1009
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 5,
+     "height": 843
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      1,
+      4,
+      15,
+      24,
+      35,
+      66,
+      86,
+      137,
+      169,
+      248,
+      296,
+      420,
+      497,
+      702,
+      -1
+     ],
+     "ms": 386
+    }
+   },
+   "form": {
+    "errorsOnEmpty": 4,
+    "masked": "+7(900) 123-45-67",
+    "status": "Спасибо!",
+    "requests": 0
+   },
+   "overflow": false
+  },
+  {
+   "path": "/about",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 12,
+    "transferBytes": 2498770,
+    "lazyImages": 5,
+    "deferredBackgrounds": 3,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 2769,
+   "title": "О создателе курсов",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2769,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "о создателе курсов",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/about",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "hscroll": {
+    "#rec2098148563": 150
+   },
+   "popup": {
+    "opened": {
+     "samples": [
+      900,
+      900,
+      900,
+      769,
+      645,
+      175,
+      141,
+      113,
+      91,
+      25,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1017
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 25,
+     "height": 1135
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      0,
+      25,
+      117,
+      -1
+     ],
+     "ms": 361
+    }
+   },
+   "overflow": false
+  },
+  {
+   "path": "/about",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 12,
+    "transferBytes": 2509880,
+    "lazyImages": 5,
+    "deferredBackgrounds": 3,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 2602,
+   "title": "О создателе курсов",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2602,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "о создателе курсов",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/about",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "hscroll": {
+    "#rec2098148563": 150.123046875
+   },
+   "popup": {
+    "opened": {
+     "samples": [
+      844,
+      844,
+      722,
+      497,
+      403,
+      258,
+      206,
+      165,
+      106,
+      69,
+      56,
+      45,
+      36,
+      23,
+      15,
+      12,
+      7,
+      5,
+      3,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "ms": 1004
+    },
+    "state": {
+     "blur": "blur(4px)",
+     "overflow": "hidden",
+     "hash": "#zeropopup",
+     "nodes": 25,
+     "height": 835
+    },
+    "closing": {
+     "samples": [
+      0,
+      0,
+      0,
+      4,
+      8,
+      24,
+      35,
+      66,
+      109,
+      137,
+      205,
+      248,
+      353,
+      420,
+      590,
+      703,
+      -1
+     ],
+     "ms": 370
+    }
+   },
+   "overflow": false
+  },
+  {
+   "path": "/clarity",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 8,
+    "transferBytes": 3297821,
+    "lazyImages": 13,
+    "deferredBackgrounds": 36,
+    "deferredVideos": 0
+   },
+   "loadedBackgroundsAfterScroll": 20,
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 6717,
+   "title": "Тело как опора, а не доказательство",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 6717,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Тело как опора, а не доказательство",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/clarity",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "blockintoview": {
+    "state": "running",
+    "distinct": 16
+   },
+   "hscroll": {
+    "#rec2426973803": 150,
+    "#rec2426973763": 150
+   },
+   "autoscroll": {
+    "a": 170,
+    "b": 216
+   },
+   "programAnchor": {
+    "hash": "#program",
+    "scrollY": 3080
+   },
+   "overflow": false
+  },
+  {
+   "path": "/clarity",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 1587869,
+    "lazyImages": 13,
+    "deferredBackgrounds": 39,
+    "deferredVideos": 0
+   },
+   "loadedBackgroundsAfterScroll": 15,
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 9997,
+   "title": "Тело как опора, а не доказательство",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 9997,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Тело как опора, а не доказательство",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/clarity",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "blockintoview": {
+    "state": "running",
+    "distinct": 16
+   },
+   "scrollPin": {
+    "pinned": 4,
+    "released": 0
+   },
+   "hscroll": {
+    "#rec2426973803": 150.123046875,
+    "#rec2426973763": 150.123046875
+   },
+   "autoscroll": {
+    "a": 170,
+    "b": 216
+   },
+   "programAnchor": {
+    "hash": "#program",
+    "scrollY": 3986
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 7,
+    "transferBytes": 183046,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 5433,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 5422,
+   "delta": 0.002028771670970122,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/audio-club",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 47513,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s18xT",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 11,
+    "transferBytes": 330184,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 6582,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 6572,
+   "delta": 0.0015216068167985392,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "active": "/audio-club",
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 42253,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s18xT",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club-old",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [
+    "загрузка медиа прервана браузером после 206: http://127.0.0.1:60257/embeds/audio-club/shared/assets/audio/satie-gymnopedie-1.mp3"
+   ],
+   "problems": [],
+   "initialMedia": {
+    "requests": 12,
+    "transferBytes": 378092,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 4977,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 4977,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 42986,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s15wd",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club-old",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [
+    "загрузка медиа прервана браузером после 206: http://127.0.0.1:60257/embeds/audio-club/shared/assets/audio/satie-gymnopedie-1.mp3"
+   ],
+   "problems": [],
+   "initialMedia": {
+    "requests": 8,
+    "transferBytes": 230954,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 6333,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 6333,
+   "delta": 0,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 37723,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s15wd",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club-old-old",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 11,
+    "transferBytes": 310264,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 5266,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 5255,
+   "delta": 0.0020932445290199808,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 46949,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s18xT",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/audio-club-old-old",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 11,
+    "transferBytes": 310264,
+    "lazyImages": 10,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 6506,
+   "title": "Аудиоклуб EGOISTIC",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 6493,
+   "delta": 0.002002156168181118,
+   "h1": [
+    {
+     "text": "Аудиоклуб EGOISTIC",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "club": {
+    "size": 41689,
+    "placed": true,
+    "asset": "/embeds/audio-club/shared/"
+   },
+   "clubOffer": {
+    "href": "https://t.me/tribute/app?startapp=s18xT",
+    "label": "Перейти в бот и оформить подписку",
+    "visible": true,
+    "price": true
+   },
+   "clubPlayer": {
+    "playing": "true",
+    "paused": "false"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/oferta",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 3269,
+   "title": "Договор - оферта",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 4489,
+   "delta": -0.27177545110269546,
+   "h1": [
+    {
+     "text": "TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLIN",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 960,
+    "size": "16px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "visible",
+   "burgerVisible": false,
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/oferta",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 1,
+    "transferBytes": 3251,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 4794,
+   "title": "Договор - оферта",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 5071,
+   "delta": -0.05462433445079866,
+   "h1": [
+    {
+     "text": "TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLIN",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 350,
+    "size": "15px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "hidden",
+   "burgerVisible": true,
+   "openedMenu": {
+    "visibility": "visible",
+    "opacity": "0.944028",
+    "height": 320
+   },
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/privacy",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 1695,
+   "title": "Политика конфиденциальности",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2270,
+   "delta": -0.2533039647577093,
+   "h1": [
+    {
+     "text": "POLÍTICA DE PRIVACIDAD",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 960,
+    "size": "16px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "visible",
+   "burgerVisible": false,
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": false,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/privacy",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 2380,
+   "title": "Политика конфиденциальности",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2417,
+   "delta": -0.015308233347124535,
+   "h1": [
+    {
+     "text": "POLÍTICA DE PRIVACIDAD",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 350,
+    "size": "15px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "hidden",
+   "burgerVisible": true,
+   "openedMenu": {
+    "visibility": "visible",
+    "opacity": "0.943751",
+    "height": 320
+   },
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/consent",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 1362,
+   "title": "Правовое уведомление (Aviso Legal)",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 1805,
+   "delta": -0.24542936288088643,
+   "h1": [
+    {
+     "text": "AVISO LEGAL",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 960,
+    "size": "16px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "visible",
+   "burgerVisible": false,
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": false,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/consent",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 2008,
+   "title": "Правовое уведомление (Aviso Legal)",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 2116,
+   "delta": -0.05103969754253308,
+   "h1": [
+    {
+     "text": "AVISO LEGAL",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "doc": {
+    "width": 350,
+    "size": "15px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "hidden",
+   "burgerVisible": true,
+   "openedMenu": {
+    "visibility": "visible",
+    "opacity": "0.943844",
+    "height": 320
+   },
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "overflow": false
+  },
+  {
+   "path": "/cookie",
+   "view": "1440",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 1440,
+   "scrollWidth": 1440,
+   "height": 2098,
+   "title": "Политика использования файлов cookie",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 3024,
+   "delta": -0.3062169312169312,
+   "h1": [
+    {
+     "text": "POLITICA DE COOKIES",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "cookiePolicy": {
+    "href": "/cookie",
+    "consent": null
+   },
+   "doc": {
+    "width": 960,
+    "size": "16px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "visible",
+   "burgerVisible": false,
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "backTopClick": {
+    "before": 1198,
+    "after": 1
+   },
+   "cookieAfterReload": {
+    "hidden": true,
+    "dated": true
+   },
+   "overflow": false
+  },
+  {
+   "path": "/cookie",
+   "view": "390",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "browserWarnings": [],
+   "problems": [],
+   "initialMedia": {
+    "requests": 5,
+    "transferBytes": 11540,
+    "lazyImages": 4,
+    "deferredBackgrounds": 0,
+    "deferredVideos": 0
+   },
+   "width": 390,
+   "scrollWidth": 390,
+   "height": 3487,
+   "title": "Политика использования файлов cookie",
+   "broken": [],
+   "fonts": [
+    "Forum 400",
+    "Forum 400",
+    "Inter 100 900",
+    "Inter 100 900"
+   ],
+   "etalon": 3656,
+   "delta": -0.046225382932166305,
+   "h1": [
+    {
+     "text": "POLITICA DE COOKIES",
+     "visible": true
+    }
+   ],
+   "shell": {
+    "headers": 1,
+    "footers": 1,
+    "nav": [
+     "/",
+     "/clarity",
+     "/mini",
+     "/audio-club",
+     "/about"
+    ],
+    "logos": [
+     "/",
+     "/"
+    ],
+    "footer": [
+     "/consent",
+     "/oferta",
+     "/privacy",
+     "/cookie",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "https://lk.sistemayasnosti.com/login",
+     "/",
+     "/",
+     "/about",
+     "https://www.instagram.com/tamarapodanyova",
+     "mailto:tamarapodanova@gmail.com",
+     "https://www.youtube.com/@egotism_live",
+     "tg://resolve?domain=sistemayasnosti_bot",
+     "/clarity",
+     "/audio-club",
+     "/mini"
+    ],
+    "linkIssues": []
+   },
+   "cookiePolicy": {
+    "href": "/cookie",
+    "consent": null
+   },
+   "doc": {
+    "width": 350,
+    "size": "15px",
+    "title": "Forum, Inter, serif"
+   },
+   "cookie": true,
+   "footer": true,
+   "menuItems": 5,
+   "navVisible": "hidden",
+   "burgerVisible": true,
+   "openedMenu": {
+    "visibility": "visible",
+    "opacity": "0.943941",
+    "height": 320
+   },
+   "links": {
+    "doc": true,
+    "consent": true,
+    "lk": "https://lk.sistemayasnosti.com/"
+   },
+   "backTop": true,
+   "progress": 100,
+   "menuBg": "rgba(245, 244, 242, 0.5)",
+   "cookieAfterAccept": {
+    "display": "none",
+    "stored": "accepted"
+   },
+   "backTopClick": {
+    "before": 2343,
+    "after": 1
+   },
+   "cookieAfterReload": {
+    "hidden": true,
+    "dated": true
+   },
+   "overflow": false
+  },
+  {
+   "path": "/clarity+/",
+   "view": "reduced",
+   "errors": [],
+   "external": [],
+   "failed": [],
+   "problems": [],
+   "reduced": {
+    "items": 0,
+    "running": 0
+   },
+   "reducedVideo": {
+    "paused": true,
+    "poster": "/media/83eac514a510597e2ec7959f.jpg",
+    "src": null
+   },
+   "reducedPopupShift": 0
+  },
+  {
+   "path": "/?utm_…",
+   "view": "интеграции с заглушками",
+   "problems": [],
+   "external": [],
+   "errors": [],
+   "metrika": true,
+   "kommo": true,
+   "attribution": true,
+   "consentBeforeInit": null,
+   "intercepted": [
+    "https://mc.yandex.ru/metrika/tag.js?id=106581349",
+    "https://gso.kommo.com/js/button.js"
+   ]
+  }
+ ]
+}

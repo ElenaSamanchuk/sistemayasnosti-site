@@ -1,0 +1,1869 @@
+{
+ "generatedAt": "2026-11-10T11:04:02.990Z",
+ "live": "https://sistemayasnosti.com",
+ "widths": [
+  320,
+  360,
+  375,
+  390,
+  412,
+  430,
+  480,
+  600,
+  640
+ ],
+ "routes": [
+  "/",
+  "/taplink",
+  "/mini",
+  "/about",
+  "/clarity",
+  "/audio-club",
+  "/audio-club-old",
+  "/audio-club-old-old",
+  "/oferta",
+  "/privacy",
+  "/consent",
+  "/cookie"
+ ],
+ "totals": {
+  "pagesChecked": 2,
+  "pairs": 532,
+  "comparisons": 5596,
+  "diffs": 35,
+  "groupedDiffs": 30,
+  "unmatched": 26,
+  "failed": 106
+ },
+ "tributeProbe": [
+  {
+   "route": "/",
+   "width": 320,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "color": [
+    "rgb(146, 150, 112)",
+    "rgb(102, 106, 69)"
+   ],
+   "weight": [
+    "600",
+    "600"
+   ]
+  }
+ ],
+ "metas": [
+  {
+   "route": "/",
+   "width": 320,
+   "live": {
+    "recs": {
+     "rec2194603213": 735,
+     "rec1485551813": 156,
+     "rec2440038323": 755,
+     "rec2194603433": 507,
+     "rec1485558153": 1080,
+     "rec1486577043": 70,
+     "rec1487844433": 360,
+     "rec1572248783": 600,
+     "rec1580656743": 439
+    },
+    "hscroll": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "innerHeight": 693,
+    "clientWidth": 320,
+    "scrollbar": 0,
+    "scrollHeight": 4702,
+    "artboard": {
+     "left": 0,
+     "top": 15,
+     "width": 320,
+     "height": 720
+    }
+   },
+   "local": {
+    "recs": {
+     "rec2194603213": 735,
+     "rec1485551813": 156,
+     "rec2440038323": 755,
+     "rec2194603433": 507,
+     "rec1485558153": 1080,
+     "rec1486577043": 70,
+     "rec1487844433": 360,
+     "rec1572248783": 600,
+     "rec1580656743": 439,
+     "rec2019388833": 150
+    },
+    "hscroll": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "innerHeight": 693,
+    "clientWidth": 320,
+    "scrollbar": 0,
+    "scrollHeight": 4702,
+    "artboard": {
+     "left": 0,
+     "top": 15,
+     "width": 320,
+     "height": 720
+    }
+   }
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "live": {
+    "recs": {
+     "rec2194603213": 825,
+     "rec1485551813": 175,
+     "rec2440038323": 849,
+     "rec2194603433": 570,
+     "rec1485558153": 1215,
+     "rec1486577043": 78,
+     "rec1487844433": 405,
+     "rec1572248783": 675,
+     "rec1580656743": 493
+    },
+    "hscroll": false,
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "innerHeight": 780,
+    "clientWidth": 360,
+    "scrollbar": 0,
+    "scrollHeight": 5285,
+    "artboard": {
+     "left": 0,
+     "top": 15,
+     "width": 360,
+     "height": 810
+    }
+   },
+   "local": {
+    "recs": {
+     "rec2194603213": 825,
+     "rec1485551813": 175,
+     "rec2440038323": 849,
+     "rec2194603433": 570,
+     "rec1485558153": 1215,
+     "rec1486577043": 78,
+     "rec1487844433": 405,
+     "rec1572248783": 675,
+     "rec1580656743": 493,
+     "rec2019388833": 150
+    },
+    "hscroll": false,
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "innerHeight": 780,
+    "clientWidth": 360,
+    "scrollbar": 0,
+    "scrollHeight": 5285,
+    "artboard": {
+     "left": 0,
+     "top": 15,
+     "width": 360,
+     "height": 810
+    }
+   }
+  }
+ ],
+ "grouped": [
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "clipped-x",
+   "live": "true",
+   "local": "false",
+   "nth": "2/2",
+   "widths": [
+    320,
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "element": "span.scene-atom__button-text",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "nth": "1/3",
+   "widths": [
+    320,
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "element": "span.scene-atom__button-text",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "nth": "2/3",
+   "widths": [
+    320,
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "element": "span.scene-atom__button-text",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "nth": "3/3",
+   "widths": [
+    320,
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "text-align",
+   "live": "left",
+   "local": "center",
+   "nth": "2/2",
+   "widths": [
+    320,
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-left",
+   "live": "877px",
+   "local": "30px",
+   "nth": "2/2",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-top",
+   "live": "243px",
+   "local": "321px",
+   "nth": "2/2",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-width",
+   "live": "264px",
+   "local": "260px",
+   "nth": "2/2",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "element": "span.",
+   "prop": "pos-left",
+   "live": "25.6px",
+   "local": "30.3px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "element": "span.",
+   "prop": "pos-width",
+   "live": "269.9px",
+   "local": "260.4px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Правовое уведомление (Aviso Legal)",
+   "kind": "link",
+   "element": "a.",
+   "prop": "pos-top",
+   "live": "4599px",
+   "local": "4607px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Договор - оферта (TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLINE)",
+   "kind": "link",
+   "element": "p.",
+   "prop": "pos-top",
+   "live": "4633px",
+   "local": "4641px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-height",
+   "live": "48px",
+   "local": "36px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1580656743176164099688593680",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-top",
+   "live": "4599px",
+   "local": "4607px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1580656743176164099688994600",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-top",
+   "live": "4633px",
+   "local": "4641px",
+   "nth": "1/1",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-left",
+   "live": "986.6px",
+   "local": "33.8px",
+   "nth": "2/2",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-top",
+   "live": "271.5px",
+   "local": "359.3px",
+   "nth": "2/2",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "element": "p.",
+   "prop": "pos-width",
+   "live": "297px",
+   "local": "292.5px",
+   "nth": "2/2",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Мы ушли от формата «одна большая программа на всё сразу». Новая модель – это год",
+   "kind": "text",
+   "element": "div.scene-atom tn-atom",
+   "prop": "pos-height",
+   "live": "78.8px",
+   "local": "80.9px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "element": "span.",
+   "prop": "pos-left",
+   "live": "28.8px",
+   "local": "34.1px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "element": "span.",
+   "prop": "pos-width",
+   "live": "303.6px",
+   "local": "293px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Правовое уведомление (Aviso Legal)",
+   "kind": "link",
+   "element": "a.",
+   "prop": "pos-top",
+   "live": "5169px",
+   "local": "5178px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "Договор - оферта (TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLINE)",
+   "kind": "link",
+   "element": "p.",
+   "prop": "pos-top",
+   "live": "5208.3px",
+   "local": "5217.3px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-left",
+   "live": "20px",
+   "local": "22.5px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-top",
+   "live": "895px",
+   "local": "903.8px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-width",
+   "live": "280px",
+   "local": "315px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-height",
+   "live": "48px",
+   "local": "40.5px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "text #21946034331776863039630000001",
+   "kind": "text",
+   "element": "node",
+   "prop": "pos-height",
+   "live": "78.8px",
+   "local": "80.9px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1580656743176164099688593680",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-top",
+   "live": "5170px",
+   "local": "5179px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "route": "/",
+   "text": "shape #1580656743176164099688994600",
+   "kind": "shape",
+   "element": "node",
+   "prop": "pos-top",
+   "live": "5208.3px",
+   "local": "5217.3px",
+   "nth": "1/1",
+   "widths": [
+    360
+   ]
+  }
+ ],
+ "diffs": [
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "text-align",
+   "live": "left",
+   "local": "center",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "clipped-x",
+   "live": "true",
+   "local": "false",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-left",
+   "live": "877px",
+   "local": "30px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-top",
+   "live": "243px",
+   "local": "321px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-width",
+   "live": "264px",
+   "local": "260px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "href": "",
+   "nth": "1/1",
+   "prop": "pos-left",
+   "live": "25.6px",
+   "local": "30.3px",
+   "element": "span."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "href": "",
+   "nth": "1/1",
+   "prop": "pos-width",
+   "live": "269.9px",
+   "local": "260.4px",
+   "element": "span."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "1/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "2/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "3/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Правовое уведомление (Aviso Legal)",
+   "kind": "link",
+   "href": "https://sistemayasnosti.com/consent",
+   "nth": "1/1",
+   "prop": "pos-top",
+   "live": "4599px",
+   "local": "4607px",
+   "element": "a."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "Договор - оферта (TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLINE)",
+   "kind": "link",
+   "href": "https://sistemayasnosti.com/oferta",
+   "nth": "1/1",
+   "prop": "pos-top",
+   "live": "4633px",
+   "local": "4641px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-height",
+   "live": "48px",
+   "local": "36px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "shape #1580656743176164099688593680",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-top",
+   "live": "4599px",
+   "local": "4607px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "text": "shape #1580656743176164099688994600",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-top",
+   "live": "4633px",
+   "local": "4641px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "text-align",
+   "live": "left",
+   "local": "center",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "clipped-x",
+   "live": "true",
+   "local": "false",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-left",
+   "live": "986.6px",
+   "local": "33.8px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-top",
+   "live": "271.5px",
+   "local": "359.3px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text",
+   "href": "",
+   "nth": "2/2",
+   "prop": "pos-width",
+   "live": "297px",
+   "local": "292.5px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Мы ушли от формата «одна большая программа на всё сразу». Новая модель – это год",
+   "kind": "text",
+   "href": "",
+   "nth": "1/1",
+   "prop": "pos-height",
+   "live": "78.8px",
+   "local": "80.9px",
+   "element": "div.scene-atom tn-atom"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "href": "",
+   "nth": "1/1",
+   "prop": "pos-left",
+   "live": "28.8px",
+   "local": "34.1px",
+   "element": "span."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "в каждом потоке одна ключевая тема, глубокая проработка, практики и интеграция в",
+   "kind": "text",
+   "href": "",
+   "nth": "1/1",
+   "prop": "pos-width",
+   "live": "303.6px",
+   "local": "293px",
+   "element": "span."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "1/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "2/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Купить через Tribute",
+   "kind": "button",
+   "href": "https://t.me/sistemayasnostibot?start=start",
+   "nth": "3/3",
+   "prop": "color",
+   "live": "rgb(146, 150, 112)",
+   "local": "rgb(102, 106, 69)",
+   "element": "span.scene-atom__button-text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Правовое уведомление (Aviso Legal)",
+   "kind": "link",
+   "href": "https://sistemayasnosti.com/consent",
+   "nth": "1/1",
+   "prop": "pos-top",
+   "live": "5169px",
+   "local": "5178px",
+   "element": "a."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "Договор - оферта (TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CURSOS ONLINE)",
+   "kind": "link",
+   "href": "https://sistemayasnosti.com/oferta",
+   "nth": "1/1",
+   "prop": "pos-top",
+   "live": "5208.3px",
+   "local": "5217.3px",
+   "element": "p."
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-left",
+   "live": "20px",
+   "local": "22.5px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-top",
+   "live": "895px",
+   "local": "903.8px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-width",
+   "live": "280px",
+   "local": "315px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1485551813176157991652187570",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-height",
+   "live": "48px",
+   "local": "40.5px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "text #21946034331776863039630000001",
+   "kind": "text",
+   "first": false,
+   "prop": "pos-height",
+   "live": "78.8px",
+   "local": "80.9px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1580656743176164099688593680",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-top",
+   "live": "5170px",
+   "local": "5179px",
+   "nth": "1/1",
+   "element": "node"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "text": "shape #1580656743176164099688994600",
+   "kind": "shape",
+   "first": false,
+   "prop": "pos-top",
+   "live": "5208.3px",
+   "local": "5217.3px",
+   "nth": "1/1",
+   "element": "node"
+  }
+ ],
+ "unmatched": [
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только на живом",
+   "text": "Cтарт потоков, скидки, обновления, бонусы.",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только на живом",
+   "text": "Всё самое важное в одном месте, в твоём телефоне.",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только на живом",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только на живом",
+   "text": "Что изменилось?",
+   "kind": "link"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только в переносе",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только на живом",
+   "text": "Я не учу «жить правильно». Я помогаю создавать жизнь, в которой вам хочется оста",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только в переносе",
+   "text": "Cтарт потоков, скидки, обновления, бонусы",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только в переносе",
+   "text": "Всё самое важное в одном месте, в твоём телефоне",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "только в переносе",
+   "text": "Я не учу «жить правильно». Я помогаю создавать жизнь, в которой вам хочется оста",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "блок только в переносе",
+   "text": "#rec2019388833",
+   "note": "высота 150"
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "узел только на живом",
+   "text": "shape #21946032131776437814550000002",
+   "first": true
+  },
+  {
+   "route": "/",
+   "width": 320,
+   "side": "узел только на живом",
+   "text": "shape #21946032131776437814550000003",
+   "first": true
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только на живом",
+   "text": "Cтарт потоков, скидки, обновления, бонусы.",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только на живом",
+   "text": "Всё самое важное в одном месте, в твоём телефоне.",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только на живом",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только на живом",
+   "text": "Что изменилось?",
+   "kind": "link"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только в переносе",
+   "text": "Cтарт потоков, скидки, обновления, бонусы. Всё самое важное в одном месте, в тво",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только на живом",
+   "text": "Я не учу «жить правильно». Я помогаю создавать жизнь, в которой вам хочется оста",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только в переносе",
+   "text": "Cтарт потоков, скидки, обновления, бонусы",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только в переносе",
+   "text": "Всё самое важное в одном месте, в твоём телефоне",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "только в переносе",
+   "text": "Я не учу «жить правильно». Я помогаю создавать жизнь, в которой вам хочется оста",
+   "kind": "text"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "блок только в переносе",
+   "text": "#rec2019388833",
+   "note": "высота 150"
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "узел только на живом",
+   "text": "shape #2194603213176157401759260450",
+   "first": true
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "узел только на живом",
+   "text": "shape #21946032131776437814550000002",
+   "first": true
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "узел только на живом",
+   "text": "shape #21946032131776437814550000003",
+   "first": true
+  },
+  {
+   "route": "/",
+   "width": 360,
+   "side": "узел только на живом",
+   "text": "shape #1580656743176164099686499190",
+   "first": false
+  }
+ ],
+ "failed": [
+  {
+   "route": "/",
+   "width": 375,
+   "side": "live",
+   "error": "browserContext.close: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/taplink",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/mini",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/about",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/clarity",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/audio-club-old-old",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/oferta",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/privacy",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/consent",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 320,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 360,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 375,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 390,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 412,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 430,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 480,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 600,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  },
+  {
+   "route": "/cookie",
+   "width": 640,
+   "side": "live",
+   "error": "browser.newContext: Target page, context or browser has been closed"
+  }
+ ]
+}

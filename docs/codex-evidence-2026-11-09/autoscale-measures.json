@@ -1,0 +1,151 @@
+{
+  "at": "2026-11-09T17:14:06.924997+00:00",
+  "tolerancePercent": 1,
+  "results": [
+    {
+      "path": "/",
+      "width": 320,
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "reference": 4702,
+      "height": 4702,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/mini",
+      "width": 320,
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "reference": 4739,
+      "height": 4739,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/clarity",
+      "width": 320,
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "reference": 8239,
+      "height": 8239,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/about",
+      "width": 320,
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "reference": 2137,
+      "height": 2137,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/",
+      "width": 360,
+      "viewportWidth": 360,
+      "scrollWidth": 360,
+      "reference": 5285,
+      "height": 5285,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/mini",
+      "width": 360,
+      "viewportWidth": 360,
+      "scrollWidth": 360,
+      "reference": 5311,
+      "height": 5311,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/clarity",
+      "width": 360,
+      "viewportWidth": 360,
+      "scrollWidth": 360,
+      "reference": 9241,
+      "height": 9241,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/about",
+      "width": 360,
+      "viewportWidth": 360,
+      "scrollWidth": 360,
+      "reference": 2401,
+      "height": 2401,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/",
+      "width": 412,
+      "viewportWidth": 412,
+      "scrollWidth": 412,
+      "reference": 6048,
+      "height": 6048,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/mini",
+      "width": 412,
+      "viewportWidth": 412,
+      "scrollWidth": 412,
+      "reference": 6060,
+      "height": 6060,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/clarity",
+      "width": 412,
+      "viewportWidth": 412,
+      "scrollWidth": 412,
+      "reference": 10554,
+      "height": 10554,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/about",
+      "width": 412,
+      "viewportWidth": 412,
+      "scrollWidth": 412,
+      "reference": 2749,
+      "height": 2749,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/",
+      "width": 480,
+      "viewportWidth": 480,
+      "scrollWidth": 480,
+      "reference": 7203,
+      "height": 7203,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/mini",
+      "width": 480,
+      "viewportWidth": 480,
+      "scrollWidth": 480,
+      "reference": 6128,
+      "height": 6128,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/clarity",
+      "width": 480,
+      "viewportWidth": 480,
+      "scrollWidth": 480,
+      "reference": 11297,
+      "height": 11297,
+      "deltaPercent": 0.0
+    },
+    {
+      "path": "/about",
+      "width": 480,
+      "viewportWidth": 480,
+      "scrollWidth": 480,
+      "reference": 2733,
+      "height": 2733,
+      "deltaPercent": 0.0
+    }
+  ],
+  "failed": []
+}

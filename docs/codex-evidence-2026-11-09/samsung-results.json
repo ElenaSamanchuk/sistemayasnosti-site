@@ -1,0 +1,164 @@
+{
+  "browser": "Chrome/156.0.8078.79",
+  "results": [
+    {
+      "name": "Первый экран и устройство",
+      "ok": true,
+      "detail": {
+        "title": "Система Ясности",
+        "w": 360,
+        "h": 674,
+        "dpr": 3,
+        "touch": 5,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+        "h1": "СИСТЕМА ЯСНОСТИ 2.0\nГОДОВАЯ ПРОГРАММА ПОТОКОВ",
+        "media": true
+      }
+    },
+    {
+      "name": "Куки: ссылка, согласие, перезагрузка",
+      "ok": true,
+      "detail": {
+        "policy": "/cookie",
+        "acceptedAfterReload": true
+      }
+    },
+    {
+      "name": "Видео на главной",
+      "ok": true,
+      "detail": [
+        {
+          "t": 0.7,
+          "muted": true,
+          "poster": true
+        }
+      ]
+    },
+    {
+      "name": "Бургер и переход в курс",
+      "ok": true,
+      "detail": {
+        "route": "/clarity",
+        "menu": "false"
+      }
+    },
+    {
+      "name": "Якорь «Смотреть программу»",
+      "ok": true,
+      "detail": {
+        "hash": "#program",
+        "y": 3694
+      }
+    },
+    {
+      "name": "Футер и стрелка «Наверх»",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "name": "Попап и выбор страны телефона",
+      "ok": true,
+      "detail": {
+        "countries": 63,
+        "closed": true
+      }
+    },
+    {
+      "name": "Аудиоклуб: запуск и пауза",
+      "ok": true,
+      "detail": {
+        "paused": true,
+        "offer": "https://t.me/tribute/app?startapp=s18xT"
+      }
+    },
+    {
+      "name": "12 страниц и отсутствие горизонтального переполнения",
+      "ok": true,
+      "detail": [
+        {
+          "path": "/",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/taplink",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/mini",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/about",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/clarity",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/audio-club",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/audio-club-old",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/audio-club-old-old",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/oferta",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/privacy",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/consent",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        },
+        {
+          "path": "/cookie",
+          "w": 360,
+          "scrollW": 360,
+          "h1": 1
+        }
+      ]
+    },
+    {
+      "name": "Кнопка «Что изменилось?»",
+      "ok": true,
+      "detail": {
+        "tapAttempts": 2,
+        "opensContent": false,
+        "knownBeforeTest": true
+      }
+    }
+  ],
+  "blocked": [],
+  "failures": []
+}

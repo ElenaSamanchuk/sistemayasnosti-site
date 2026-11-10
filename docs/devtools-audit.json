@@ -1,0 +1,6590 @@
+{
+ "at": "2026-11-09T19:51:13.100Z",
+ "note": "локальная статика (dist), живой сайт не открывался; LCP/CLS без сетевых задержек и без метрики/Kommo, внешние запросы перехвачены и посчитаны",
+ "routes": [
+  "/",
+  "/taplink",
+  "/mini",
+  "/about",
+  "/clarity",
+  "/audio-club",
+  "/audio-club-old",
+  "/audio-club-old-old",
+  "/oferta",
+  "/privacy",
+  "/consent",
+  "/cookie"
+ ],
+ "results": [
+  {
+   "path": "/",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 5725
+   },
+   "initial": {
+    "requests": 24,
+    "bytes": 4026914
+   },
+   "vitals": {
+    "lcp": {
+     "time": 624,
+     "size": 323310,
+     "el": "video.scene-video-file",
+     "url": "media/83eac514a510597e2ec7959f.jpg"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 37,
+    "localBytes": 9790040,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 254309
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 505402
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 124032
+     },
+     {
+      "type": "image",
+      "bytes": 7120504
+     },
+     {
+      "type": "media",
+      "bytes": 1694757
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/78db92dafda00cf551870c18.mp4",
+      "bytes": 1694757,
+      "partial": true
+     },
+     {
+      "url": "/media/6b69d3d6afa2f12ec8a63414.webp",
+      "bytes": 1522238,
+      "partial": false
+     },
+     {
+      "url": "/media/ccf3dcd0829b3df6d2274f2b.webp",
+      "bytes": 1360390,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/media/32e4b6199d221c84fd09a3c7.jpg",
+      "bytes": 801688,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Система Ясности 2.0 годовая программа потоков"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 34,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Система Ясности",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Подробнее о курсе ➔",
+      "ratio": 1.1,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "ratio": 1.1,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Отправить форму",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 4806
+   },
+   "initial": {
+    "requests": 25,
+    "bytes": 5387304
+   },
+   "vitals": {
+    "lcp": {
+     "time": 380,
+     "size": 524160,
+     "el": "video.scene-video-file",
+     "url": "media/83eac514a510597e2ec7959f.jpg"
+    },
+    "clsFirstScreen": 0.0017,
+    "clsAfterFullScroll": 0.0017
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 38,
+    "localBytes": 10174206,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 254309
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 505402
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 124032
+     },
+     {
+      "type": "image",
+      "bytes": 7504670
+     },
+     {
+      "type": "media",
+      "bytes": 1694757
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/78db92dafda00cf551870c18.mp4",
+      "bytes": 1694757,
+      "partial": true
+     },
+     {
+      "url": "/media/6b69d3d6afa2f12ec8a63414.webp",
+      "bytes": 1522238,
+      "partial": false
+     },
+     {
+      "url": "/media/ccf3dcd0829b3df6d2274f2b.webp",
+      "bytes": 1360390,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/media/32e4b6199d221c84fd09a3c7.jpg",
+      "bytes": 801688,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "127.0.0.1:57254/media/a4c43e79d8ddb95077888389.webp",
+      "natural": [
+       255,
+       255
+      ],
+      "shown": [
+       73,
+       73
+      ],
+      "ratio": 3.49
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Система Ясности 2.0 годовая программа потоков"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 40,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Система Ясности",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Подробнее о курсе ➔",
+      "ratio": 1.1,
+      "size": 14,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "ratio": 2.99,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Отправить форму",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/taplink",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2898
+   },
+   "initial": {
+    "requests": 22,
+    "bytes": 3673987
+   },
+   "vitals": {
+    "lcp": {
+     "time": 404,
+     "size": 146400,
+     "el": "div.scene-atom",
+     "url": "media/6b69d3d6afa2f12ec8a63414.webp"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 27,
+    "localBytes": 6654918,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 82709
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 198742
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     },
+     {
+      "type": "image",
+      "bytes": 2505708
+     },
+     {
+      "type": "media",
+      "bytes": 3657874
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/ebf0759388c08071190bc240.mp4",
+      "bytes": 1963117,
+      "partial": true
+     },
+     {
+      "url": "/media/78db92dafda00cf551870c18.mp4",
+      "bytes": 1694757,
+      "partial": true
+     },
+     {
+      "url": "/media/6b69d3d6afa2f12ec8a63414.webp",
+      "bytes": 1522238,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 7,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Система ясности — школа Тамары Поданёвой"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 24,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Система ясности — школа Тамары Поданёвой",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Перейти на сайт ➔",
+      "ratio": 1.1,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Смотреть программу",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Бот предзаписи в Telegram",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Записаться на консультацию",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/taplink",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 2444
+   },
+   "initial": {
+    "requests": 22,
+    "bytes": 3673987
+   },
+   "vitals": {
+    "lcp": {
+     "time": 388,
+     "size": 110208,
+     "el": "div.scene-atom",
+     "url": "media/6b69d3d6afa2f12ec8a63414.webp"
+    },
+    "clsFirstScreen": 0.0006,
+    "clsAfterFullScroll": 0.0006
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 27,
+    "localBytes": 6654918,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 82709
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 198742
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     },
+     {
+      "type": "image",
+      "bytes": 2505708
+     },
+     {
+      "type": "media",
+      "bytes": 3657874
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/ebf0759388c08071190bc240.mp4",
+      "bytes": 1963117,
+      "partial": true
+     },
+     {
+      "url": "/media/78db92dafda00cf551870c18.mp4",
+      "bytes": 1694757,
+      "partial": true
+     },
+     {
+      "url": "/media/6b69d3d6afa2f12ec8a63414.webp",
+      "bytes": 1522238,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 7,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Система ясности — школа Тамары Поданёвой"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 30,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Система ясности — школа Тамары Поданёвой",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Перейти на сайт ➔",
+      "ratio": 1.1,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Смотреть программу",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Бот предзаписи в Telegram",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Записаться на консультацию",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/mini",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 5743
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 2141357
+   },
+   "vitals": {
+    "lcp": {
+     "time": 312,
+     "size": 130296,
+     "el": "div.scene-atom",
+     "url": "media/26ebcc4682f8a5f9a6d595a1.webp"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 32,
+    "localBytes": 6670527,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 250502
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 390202
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 3856821
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     },
+     {
+      "type": "media",
+      "bytes": 1963117
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/ebf0759388c08071190bc240.mp4",
+      "bytes": 1963117,
+      "partial": true
+     },
+     {
+      "url": "/media/26ebcc4682f8a5f9a6d595a1.webp",
+      "bytes": 1043200,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/media/960d0ffe127bfca1710a0a43.webp",
+      "bytes": 552556,
+      "partial": false
+     },
+     {
+      "url": "/media/c763fc69c8c110f1e664cd22.webp",
+      "bytes": 551672,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 10,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Мини-курсы"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 29,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Мини-курсы",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Отправить форму",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Перейти в бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/mini",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 4304
+   },
+   "initial": {
+    "requests": 20,
+    "bytes": 2179538
+   },
+   "vitals": {
+    "lcp": {
+     "time": 328,
+     "size": 252993,
+     "el": "div.scene-atom",
+     "url": "media/26ebcc4682f8a5f9a6d595a1.webp"
+    },
+    "clsFirstScreen": 0.0005,
+    "clsAfterFullScroll": 0.0005
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 32,
+    "localBytes": 6670527,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 250502
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 390202
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 3856821
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     },
+     {
+      "type": "media",
+      "bytes": 1963117
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/ebf0759388c08071190bc240.mp4",
+      "bytes": 1963117,
+      "partial": true
+     },
+     {
+      "url": "/media/26ebcc4682f8a5f9a6d595a1.webp",
+      "bytes": 1043200,
+      "partial": false
+     },
+     {
+      "url": "/media/70b1c519ba8f097c32a136da.webp",
+      "bytes": 874228,
+      "partial": false
+     },
+     {
+      "url": "/media/960d0ffe127bfca1710a0a43.webp",
+      "bytes": 552556,
+      "partial": false
+     },
+     {
+      "url": "/media/c763fc69c8c110f1e664cd22.webp",
+      "bytes": 551672,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 10,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Мини-курсы"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 35,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Мини-курсы",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Купить",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Купить через Tribute",
+      "ratio": 2.82,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Отправить форму",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Перейти в бот предзаписи",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [
+       {
+        "name": "name",
+        "type": "text",
+        "label": "Ваше имя и фамилия",
+        "placeholder": "Ваше имя и фамилия",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Phone",
+        "type": "tel",
+        "label": "Номер телефона для связи",
+        "placeholder": "+7(000) 000-00-00",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input",
+        "type": "text",
+        "label": "Ваш Telegram (@ник)",
+        "placeholder": "Ваш Telegram (@ник)",
+        "autocomplete": "off"
+       },
+       {
+        "name": "Input_2",
+        "type": "text",
+        "label": "В чём ваш запрос?",
+        "placeholder": "В чём ваш запрос?",
+        "autocomplete": "off"
+       }
+      ],
+      "buttons": [
+       {
+        "cls": "zero-form__country",
+        "name": "Страна: Россия, код +7",
+        "tag": "button"
+       },
+       {
+        "cls": "zero-form__submit",
+        "name": "Записаться",
+        "tag": "button"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "label": "Ваше имя и фамилия",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Страна: Россия, код +7",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Номер телефона для связи",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Ваш Telegram (@ник)",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "В чём ваш запрос?",
+       "ring": false,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Записаться",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": [],
+     "contrast": [
+      {
+       "text": "🇷🇺",
+       "ratio": 9.66,
+       "size": 16,
+       "large": false,
+       "ok": true
+      },
+      {
+       "text": "Записаться",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "focusTrapped": true
+    }
+   }
+  },
+  {
+   "path": "/about",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2602
+   },
+   "initial": {
+    "requests": 26,
+    "bytes": 3048735
+   },
+   "vitals": {
+    "lcp": {
+     "time": 296,
+     "size": 77226,
+     "el": "div.scene-atom",
+     "url": "media/fa531ae8c8696e99f74bb284.webp"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 28,
+    "localBytes": 3375171,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 188388
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 329519
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 2644328
+     },
+     {
+      "type": "script",
+      "bytes": 121900
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/e39ec2ce96087f409f3ddb61.webp",
+      "bytes": 679074,
+      "partial": false
+     },
+     {
+      "url": "/media/d31079af482e0939947b9845.webp",
+      "bytes": 535610,
+      "partial": false
+     },
+     {
+      "url": "/media/fc8f91701f6cb9c3af5625aa.webp",
+      "bytes": 463236,
+      "partial": false
+     },
+     {
+      "url": "/media/472609492d26bda41a107af2.webp",
+      "bytes": 355656,
+      "partial": false
+     },
+     {
+      "url": "/media/fa531ae8c8696e99f74bb284.webp",
+      "bytes": 240118,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 8,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "о создателе курсов"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 21,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "О создателе курсов",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [],
+      "buttons": []
+     },
+     "focus": [],
+     "noVisibleFocus": [],
+     "contrast": [],
+     "focusTrapped": false
+    }
+   }
+  },
+  {
+   "path": "/about",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 2769
+   },
+   "initial": {
+    "requests": 26,
+    "bytes": 3037625
+   },
+   "vitals": {
+    "lcp": {
+     "time": 360,
+     "size": 287844,
+     "el": "div.scene-atom",
+     "url": "media/fa531ae8c8696e99f74bb284.webp"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 30,
+    "localBytes": 4362907,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 188388
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 329519
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 121900
+     },
+     {
+      "type": "image",
+      "bytes": 3632064
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/e39ec2ce96087f409f3ddb61.webp",
+      "bytes": 679074,
+      "partial": false
+     },
+     {
+      "url": "/media/d31079af482e0939947b9845.webp",
+      "bytes": 535610,
+      "partial": false
+     },
+     {
+      "url": "/media/c6dade00a490c32ee11ea47d.webp",
+      "bytes": 520790,
+      "partial": false
+     },
+     {
+      "url": "/media/5bd79c0c3d6372bfa8d39cb2.webp",
+      "bytes": 466946,
+      "partial": false
+     },
+     {
+      "url": "/media/fc8f91701f6cb9c3af5625aa.webp",
+      "bytes": 463236,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 8,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "127.0.0.1:57254/media/a4c43e79d8ddb95077888389.webp",
+      "natural": [
+       255,
+       255
+      ],
+      "shown": [
+       73,
+       73
+      ],
+      "ratio": 3.49
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "о создателе курсов"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 27,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "О создателе курсов",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ],
+    "form": {
+     "dialog": {
+      "role": "dialog",
+      "ariaModal": "true",
+      "ariaLabel": "Форма",
+      "inputs": [],
+      "buttons": []
+     },
+     "focus": [],
+     "noVisibleFocus": [],
+     "contrast": [],
+     "focusTrapped": false
+    }
+   }
+  },
+  {
+   "path": "/clarity",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 9997
+   },
+   "initial": {
+    "requests": 20,
+    "bytes": 2896842
+   },
+   "vitals": {
+    "lcp": {
+     "time": 628,
+     "size": 124440,
+     "el": "div.scene-atom",
+     "url": "media/ccf3dcd0829b3df6d2274f2b.webp"
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 42,
+    "localBytes": 10623703,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 682634
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 1095098
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 8630596
+     },
+     {
+      "type": "script",
+      "bytes": 124339
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/0ae84536a93fa86027939992.webp",
+      "bytes": 1544236,
+      "partial": false
+     },
+     {
+      "url": "/media/ccf3dcd0829b3df6d2274f2b.webp",
+      "bytes": 1360390,
+      "partial": false
+     },
+     {
+      "url": "/media/6359b29b2c490ce3e12ad03e.webp",
+      "bytes": 1184488,
+      "partial": false
+     },
+     {
+      "url": "/content/151593133.css",
+      "bytes": 883757,
+      "partial": false
+     },
+     {
+      "url": "/clarity",
+      "bytes": 682634,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 15,
+    "hidden": 5,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/60ecffb0fd184b4c3cae7c4c.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/80d986a1f28d74e4f4b14914.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/13156a587e00e4ea957f778f.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/0d9945d5d0a1d77a807a59f5.webp",
+      "natural": [
+       836,
+       873
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Тело как опора, а не доказательство"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 28,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Тело как опора, а не доказательство",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Смотреть программу",
+      "ratio": 2.8,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Готовы начать свой путь?",
+      "ratio": 2.82,
+      "size": 10,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Рекомендуем",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Узнать подробнее",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/clarity",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 6717
+   },
+   "initial": {
+    "requests": 23,
+    "bytes": 4605894
+   },
+   "vitals": {
+    "lcp": {
+     "time": 588,
+     "size": 290500,
+     "el": "div.scene-atom",
+     "url": "media/ccf3dcd0829b3df6d2274f2b.webp"
+    },
+    "clsFirstScreen": 0.0009,
+    "clsAfterFullScroll": 0.0009
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 47,
+    "localBytes": 13338139,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 682634
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 1095098
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 11345032
+     },
+     {
+      "type": "script",
+      "bytes": 124339
+     }
+    ],
+    "largest": [
+     {
+      "url": "/media/86c958f3072e31a0b72d5edc.webp",
+      "bytes": 1634826,
+      "partial": false
+     },
+     {
+      "url": "/media/0ae84536a93fa86027939992.webp",
+      "bytes": 1544236,
+      "partial": false
+     },
+     {
+      "url": "/media/ccf3dcd0829b3df6d2274f2b.webp",
+      "bytes": 1360390,
+      "partial": false
+     },
+     {
+      "url": "/media/6359b29b2c490ce3e12ad03e.webp",
+      "bytes": 1184488,
+      "partial": false
+     },
+     {
+      "url": "/content/151593133.css",
+      "bytes": 883757,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 15,
+    "hidden": 5,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/60ecffb0fd184b4c3cae7c4c.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/80d986a1f28d74e4f4b14914.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/13156a587e00e4ea957f778f.webp",
+      "natural": [
+       836,
+       873
+      ]
+     },
+     {
+      "src": "127.0.0.1:57254/media/0d9945d5d0a1d77a807a59f5.webp",
+      "natural": [
+       836,
+       873
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "127.0.0.1:57254/media/a4c43e79d8ddb95077888389.webp",
+      "natural": [
+       255,
+       255
+      ],
+      "shown": [
+       73,
+       73
+      ],
+      "ratio": 3.49
+     },
+     {
+      "src": "127.0.0.1:57254/media/60ecffb0fd184b4c3cae7c4c.webp",
+      "natural": [
+       836,
+       873
+      ],
+      "shown": [
+       227,
+       243
+      ],
+      "ratio": 3.68
+     },
+     {
+      "src": "127.0.0.1:57254/media/80d986a1f28d74e4f4b14914.webp",
+      "natural": [
+       836,
+       873
+      ],
+      "shown": [
+       227,
+       243
+      ],
+      "ratio": 3.68
+     },
+     {
+      "src": "127.0.0.1:57254/media/13156a587e00e4ea957f778f.webp",
+      "natural": [
+       836,
+       873
+      ],
+      "shown": [
+       227,
+       243
+      ],
+      "ratio": 3.68
+     },
+     {
+      "src": "127.0.0.1:57254/media/0d9945d5d0a1d77a807a59f5.webp",
+      "natural": [
+       836,
+       873
+      ],
+      "shown": [
+       227,
+       243
+      ],
+      "ratio": 3.68
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Тело как опора, а не доказательство"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 34,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Тело как опора, а не доказательство",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Смотреть программу",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Готовы начать свой путь?",
+      "ratio": 2.82,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Рекомендуем",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Узнать подробнее",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 6582
+   },
+   "initial": {
+    "requests": 27,
+    "bytes": 822112
+   },
+   "vitals": {
+    "lcp": {
+     "time": 188,
+     "size": 20574,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 28,
+    "localBytes": 864665,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 42553
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 166647
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 326884
+     },
+     {
+      "type": "script",
+      "bytes": 237545
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/2026-11/club.js",
+      "bytes": 117634,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-4b2ff4db.webp",
+      "bytes": 106170,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 4,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков ноября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Деньги в паре»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    },
+    {
+     "level": 3,
+     "text": "Я уже в клубе, цена изменится?"
+    },
+    {
+     "level": 3,
+     "text": "Что будет, если оплата не пройдёт?"
+    },
+    {
+     "level": 3,
+     "text": "Засчитывается ли оплата клуба в курс?"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 35,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 14,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Я уже в клубе, цена изменится?",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Что будет, если оплата не прой",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Засчитывается ли оплата клуба ",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 5433
+   },
+   "initial": {
+    "requests": 27,
+    "bytes": 822112
+   },
+   "vitals": {
+    "lcp": {
+     "time": 176,
+     "size": 19250,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 30,
+    "localBytes": 889609,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 42553
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 166647
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 351828
+     },
+     {
+      "type": "script",
+      "bytes": 237545
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/2026-11/club.js",
+      "bytes": 117634,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-4b2ff4db.webp",
+      "bytes": 106170,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 2,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "assets/img/hero-player-4b2ff4db.webp",
+      "natural": [
+       1000,
+       559
+      ],
+      "shown": [
+       380,
+       276
+      ],
+      "ratio": 2.63
+     },
+     {
+      "src": "assets/img/recognition-band-86c5565f.webp",
+      "natural": [
+       1800,
+       379
+      ],
+      "shown": [
+       870,
+       183
+      ],
+      "ratio": 2.07
+     },
+     {
+      "src": "assets/img/author-1-ef5537f6.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-2-998a9a0e.webp",
+      "natural": [
+       600,
+       399
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-3-9787ff51.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/faq-photo-1-fb839ea2.webp",
+      "natural": [
+       480,
+       320
+      ],
+      "shown": [
+       181,
+       137
+      ],
+      "ratio": 2.65
+     },
+     {
+      "src": "assets/img/faq-photo-2-d74b9d6b.webp",
+      "natural": [
+       480,
+       231
+      ],
+      "shown": [
+       193,
+       116
+      ],
+      "ratio": 2.49
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков ноября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Деньги в паре»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    },
+    {
+     "level": 3,
+     "text": "Я уже в клубе, цена изменится?"
+    },
+    {
+     "level": 3,
+     "text": "Что будет, если оплата не пройдёт?"
+    },
+    {
+     "level": 3,
+     "text": "Засчитывается ли оплата клуба в курс?"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 41,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Я уже в клубе, цена изменится?",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Что будет, если оплата не прой",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Засчитывается ли оплата клуба ",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club-old",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 6333
+   },
+   "initial": {
+    "requests": 23,
+    "bytes": 702235
+   },
+   "vitals": {
+    "lcp": {
+     "time": 200,
+     "size": 20574,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 29,
+    "localBytes": 4237646,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 38939
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 148336
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 374492
+     },
+     {
+      "type": "script",
+      "bytes": 234309
+     },
+     {
+      "type": "media",
+      "bytes": 3350534
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/shared/assets/audio/satie-gymnopedie-1.mp3",
+      "bytes": 3350534,
+      "partial": true
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-ad60f206.webp",
+      "bytes": 153778,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/2026-09/club.js",
+      "bytes": 114398,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 4,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков сентября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Почему ты такой»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 30,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 14,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club-old",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 4977
+   },
+   "initial": {
+    "requests": 23,
+    "bytes": 702235
+   },
+   "vitals": {
+    "lcp": {
+     "time": 180,
+     "size": 19250,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 31,
+    "localBytes": 4262590,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 38939
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 148336
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 234309
+     },
+     {
+      "type": "image",
+      "bytes": 399436
+     },
+     {
+      "type": "media",
+      "bytes": 3350534
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/shared/assets/audio/satie-gymnopedie-1.mp3",
+      "bytes": 3350534,
+      "partial": true
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-ad60f206.webp",
+      "bytes": 153778,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/2026-09/club.js",
+      "bytes": 114398,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 2,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "assets/img/hero-player-ad60f206.webp",
+      "natural": [
+       1000,
+       747
+      ],
+      "shown": [
+       380,
+       276
+      ],
+      "ratio": 2.63
+     },
+     {
+      "src": "assets/img/recognition-band-86c5565f.webp",
+      "natural": [
+       1800,
+       379
+      ],
+      "shown": [
+       870,
+       183
+      ],
+      "ratio": 2.07
+     },
+     {
+      "src": "assets/img/author-1-ef5537f6.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-2-998a9a0e.webp",
+      "natural": [
+       600,
+       399
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-3-9787ff51.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/faq-photo-1-fb839ea2.webp",
+      "natural": [
+       480,
+       320
+      ],
+      "shown": [
+       181,
+       137
+      ],
+      "ratio": 2.65
+     },
+     {
+      "src": "assets/img/faq-photo-2-d74b9d6b.webp",
+      "natural": [
+       480,
+       231
+      ],
+      "shown": [
+       193,
+       116
+      ],
+      "ratio": 2.49
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков сентября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Почему ты такой»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 36,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club-old-old",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 6506
+   },
+   "initial": {
+    "requests": 27,
+    "bytes": 788668
+   },
+   "vitals": {
+    "lcp": {
+     "time": 172,
+     "size": 20574,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 28,
+    "localBytes": 827599,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 38931
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 153629
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 237039
+     },
+     {
+      "type": "image",
+      "bytes": 306964
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/2026-10/club.js",
+      "bytes": 117128,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-daca3c97.webp",
+      "bytes": 86250,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 4,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков октября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Что мы принимаем за химию»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    },
+    {
+     "level": 3,
+     "text": "Я уже в клубе, цена изменится?"
+    },
+    {
+     "level": 3,
+     "text": "Что будет, если оплата не пройдёт?"
+    },
+    {
+     "level": 3,
+     "text": "Засчитывается ли оплата клуба в курс?"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 33,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 14,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Я уже в клубе, цена изменится?",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Что будет, если оплата не прой",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Засчитывается ли оплата клуба ",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/audio-club-old-old",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 5266
+   },
+   "initial": {
+    "requests": 23,
+    "bytes": 642730
+   },
+   "vitals": {
+    "lcp": {
+     "time": 176,
+     "size": 19250,
+     "el": "div.scene-atom",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 30,
+    "localBytes": 852543,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 38931
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 153629
+     },
+     {
+      "type": "image",
+      "bytes": 331908
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 237039
+     }
+    ],
+    "largest": [
+     {
+      "url": "/embeds/audio-club/2026-10/club.js",
+      "bytes": 117128,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/hero-player-daca3c97.webp",
+      "bytes": 86250,
+      "partial": false
+     },
+     {
+      "url": "/embeds/audio-club/shared/assets/img/recognition-band-86c5565f.webp",
+      "bytes": 68162,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 17,
+    "hidden": 2,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     },
+     {
+      "src": "assets/img/vinyl-mark-fea66e47.webp",
+      "natural": [
+       440,
+       440
+      ]
+     }
+    ],
+    "oversized": [
+     {
+      "src": "assets/img/hero-player-daca3c97.webp",
+      "natural": [
+       1000,
+       750
+      ],
+      "shown": [
+       380,
+       276
+      ],
+      "ratio": 2.63
+     },
+     {
+      "src": "assets/img/recognition-band-86c5565f.webp",
+      "natural": [
+       1800,
+       379
+      ],
+      "shown": [
+       870,
+       183
+      ],
+      "ratio": 2.07
+     },
+     {
+      "src": "assets/img/author-1-ef5537f6.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-2-998a9a0e.webp",
+      "natural": [
+       600,
+       399
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/author-3-9787ff51.webp",
+      "natural": [
+       600,
+       400
+      ],
+      "shown": [
+       216,
+       144
+      ],
+      "ratio": 2.78
+     },
+     {
+      "src": "assets/img/faq-photo-1-fb839ea2.webp",
+      "natural": [
+       480,
+       320
+      ],
+      "shown": [
+       181,
+       137
+      ],
+      "ratio": 2.65
+     },
+     {
+      "src": "assets/img/faq-photo-2-d74b9d6b.webp",
+      "natural": [
+       480,
+       231
+      ],
+      "shown": [
+       193,
+       116
+      ],
+      "ratio": 2.49
+     }
+    ],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "Аудиоклуб EGOISTIC"
+    },
+    {
+     "level": 2,
+     "text": "Теперь будет иначе"
+    },
+    {
+     "level": 2,
+     "text": "Автор аудиоклуба"
+    },
+    {
+     "level": 2,
+     "text": "Как устроено"
+    },
+    {
+     "level": 2,
+     "text": "12 выпусков октября"
+    },
+    {
+     "level": 2,
+     "text": "Начни с темы «Что мы принимаем за химию»"
+    },
+    {
+     "level": 2,
+     "text": "Частые вопросы"
+    },
+    {
+     "level": 3,
+     "text": "Не будет времени слушать"
+    },
+    {
+     "level": 3,
+     "text": "А если формат не подойдёт"
+    },
+    {
+     "level": 3,
+     "text": "Это снова обучение с программой"
+    },
+    {
+     "level": 3,
+     "text": "Нужно ли писать в чат"
+    },
+    {
+     "level": 3,
+     "text": "Я уже в клубе, цена изменится?"
+    },
+    {
+     "level": 3,
+     "text": "Что будет, если оплата не пройдёт?"
+    },
+    {
+     "level": 3,
+     "text": "Засчитывается ли оплата клуба в курс?"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 39,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "ru",
+    "title": "Аудиоклуб EGOISTIC",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Переверни пластинку",
+      "ratio": 3.08,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Не будет времени слушать",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "А если формат не подойдёт",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Это снова обучение с программо",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Нужно ли писать в чат",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Я уже в клубе, цена изменится?",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Что будет, если оплата не прой",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Засчитывается ли оплата клуба ",
+      "ratio": 2.8,
+      "size": 16,
+      "large": false,
+      "ok": false
+     },
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/oferta",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 4794
+   },
+   "initial": {
+    "requests": 14,
+    "bytes": 325626
+   },
+   "vitals": {
+    "lcp": {
+     "time": 160,
+     "size": 225105,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 387446,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 54731
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/oferta",
+      "bytes": 54731,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CU"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 22,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Договор - оферта",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/oferta",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 3269
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 180,
+     "size": 680640,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0.0011,
+    "clsAfterFullScroll": 0.0011
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 387446,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 54731
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/oferta",
+      "bytes": 54731,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "TÉRMINOS Y CONDICIONES DE USO Y CONTRATACIÓN DE CU"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 28,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Договор - оферта",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/privacy",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2380
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 168,
+     "size": 253050,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 377204,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 44489
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     },
+     {
+      "url": "/privacy",
+      "bytes": 44489,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "POLÍTICA DE PRIVACIDAD"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 21,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Политика конфиденциальности",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/privacy",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1695
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 160,
+     "size": 726705,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 377204,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 44489
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     },
+     {
+      "url": "/privacy",
+      "bytes": 44489,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "POLÍTICA DE PRIVACIDAD"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 26,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Политика конфиденциальности",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/consent",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2008
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 172,
+     "size": 253050,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 376396,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 43681
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     },
+     {
+      "url": "/consent",
+      "bytes": 43681,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "AVISO LEGAL"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 20,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Правовое уведомление (Aviso Legal)",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/consent",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1362
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 164,
+     "size": 723900,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 376396,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 43681
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     },
+     {
+      "url": "/consent",
+      "bytes": 43681,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "AVISO LEGAL"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 25,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Правовое уведомление (Aviso Legal)",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/cookie",
+   "view": "390",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 3487
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 168,
+     "size": 252327,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 382820,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 50105
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/cookie",
+      "bytes": 50105,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "POLITICA DE COOKIES"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 20,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Политика использования файлов cookie",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "Навигационное меню",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  },
+  {
+   "path": "/cookie",
+   "view": "1440",
+   "problems": [],
+   "warnings": [],
+   "dims": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 2098
+   },
+   "initial": {
+    "requests": 18,
+    "bytes": 332715
+   },
+   "vitals": {
+    "lcp": {
+     "time": 172,
+     "size": 734395,
+     "el": "div.",
+     "url": null
+    },
+    "clsFirstScreen": 0,
+    "clsAfterFullScroll": 0
+   },
+   "storage": {
+    "localStorage": {},
+    "sessionStorage": {},
+    "cookieNames": []
+   },
+   "cookies": [],
+   "network": {
+    "localRequests": 19,
+    "localBytes": 382820,
+    "byType": [
+     {
+      "type": "document",
+      "bytes": 50105
+     },
+     {
+      "type": "stylesheet",
+      "bytes": 112790
+     },
+     {
+      "type": "font",
+      "bytes": 91036
+     },
+     {
+      "type": "image",
+      "bytes": 10040
+     },
+     {
+      "type": "script",
+      "bytes": 118849
+     }
+    ],
+    "largest": [
+     {
+      "url": "/assets/index-D_buEZaB.js",
+      "bytes": 116873,
+      "partial": false
+     },
+     {
+      "url": "/content/shared-layout.css",
+      "bytes": 66151,
+      "partial": false
+     },
+     {
+      "url": "/cookie",
+      "bytes": 50105,
+      "partial": false
+     },
+     {
+      "url": "/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "partial": false
+     },
+     {
+      "url": "/assets/index-C_C6w-4j.css",
+      "bytes": 45628,
+      "partial": false
+     }
+    ],
+    "failed": [],
+    "externalBlocked": 0
+   },
+   "externalHosts": [],
+   "console": [],
+   "images": {
+    "total": 6,
+    "hidden": 1,
+    "hiddenLoaded": [
+     {
+      "src": "127.0.0.1:57254/media/ddec8280177e76cb4fb7bb2d.svg",
+      "natural": [
+       41,
+       41
+      ]
+     }
+    ],
+    "oversized": [],
+    "noAlt": 0,
+    "broken": []
+   },
+   "security": {
+    "inlineScripts": 2,
+    "tokens": [],
+    "blankWithoutNoopener": [],
+    "httpAttrs": [],
+    "httpInText": [],
+    "forms": [],
+    "metaCsp": false
+   },
+   "headings": [
+    {
+     "level": 1,
+     "text": "POLITICA DE COOKIES"
+    }
+   ],
+   "headingIssues": [],
+   "a11y": {
+    "visibleLinksAndButtons": 26,
+    "noAccessibleName": [],
+    "fields": 0,
+    "fieldsWithoutLabel": [],
+    "lang": "es",
+    "title": "Политика использования файлов cookie",
+    "menu": {
+     "contrast": [
+      {
+       "text": "Личный кабинет",
+       "unknown": "фон-картинка"
+      }
+     ],
+     "contrastMin": 4.9,
+     "focus": [
+      {
+       "label": "На главную",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Главная",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Тело как опора, а не доказател",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Мини-курсы",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Аудиоклуб",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "О создателе курсов",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      },
+      {
+       "label": "Личный кабинет",
+       "ring": true,
+       "changed": true,
+       "focusVisible": true
+      }
+     ],
+     "noVisibleFocus": []
+    },
+    "buttonsContrast": [
+     {
+      "text": "Предзапись",
+      "unknown": "фон-картинка"
+     },
+     {
+      "text": "Согласен",
+      "unknown": "фон-картинка"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -33,6 +33,12 @@ npm test
 - `src/style.css`: общие правки
 - `src/block-spacing.css`: создаётся командой `node tools/block-spacing.mjs`, вручную не менять
 
+## Документы
+
+- `deploy/README.md` и `deploy/ADMIN-PREVIEW.md`: установка на сервер
+- `docs/DECISIONS.md`: принятые решения, `docs/PROGRESS.md`: история работ
+- `sources/live`: полный снимок сайта на Тильде
+
 ## Важно
 
 - `npm run normalize` не запускать: команда пересоберёт содержимое из снимка Тильды и сотрёт ручные правки и оптимизацию картинок.
