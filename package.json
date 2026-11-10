@@ -1,0 +1,25 @@
+{
+  "name": "sistemayasnosti-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "normalize": "python3 tools/normalize_export.py --all",
+    "build:site": "node tools/build-site.mjs",
+    "preview": "node tools/preview-static.mjs",
+    "smoke": "node tools/smoke.mjs",
+    "shots": "node tools/oferta-shots.mjs && python3 tools/pairs.py",
+    "test": "node --test tests/*.test.mjs",
+    "shots:pages": "node tools/page-shots.mjs"
+  },
+  "dependencies": {
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@vitejs/plugin-vue": "6.0.8",
+    "tailwindcss": "4.3.3",
+    "vite": "8.2.0"
+  }
+}

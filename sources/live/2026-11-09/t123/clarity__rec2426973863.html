@@ -1,0 +1,131 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <script>
+/* горизонтальный скролл блока */
+document.addEventListener('DOMContentLoaded', function () {
+    let arrowBlocks = ['#rec'];
+    let scrollableBlocks = ['#rec2426973803', '#rec2426973763'];
+    const isElementCenteredInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    const viewportCenter = window.innerHeight / 2;
+    const elementCenter = (rect.top + rect.bottom) / 2;
+    const threshold = window.innerHeight / 5;
+    return Math.abs(elementCenter - viewportCenter) < threshold;
+  };
+  scrollableBlocks.forEach((scrollSelector, index) => {
+    const elem = document.querySelector(scrollSelector + ' .t396__artboard');
+    if (!elem) return;
+    const img = elem.querySelector('img');
+    if (img) {
+      img.ondragstart = () => false;
+    }
+    let notTrueSafari = !(isSafari && window.innerWidth < 960)
+    if (notTrueSafari) elem.style.setProperty('overflow-x', 'auto', 'important');
+    elem.style.overflowY = 'hidden';
+    elem.style.webkitOverflowScrolling = 'touch';
+    const carrier = elem.querySelector('.t396__carrier');
+    if (carrier) {
+      carrier.style.position = 'sticky';
+    }
+    elem.style.cursor = 'grab';
+    let pos = { left: 0, x: 0 };
+    let targetScrollLeft = elem.scrollLeft;
+    let animationFrameId = null;
+    const mouseDownHandler = (e) => {
+      elem.style.cursor = 'grabbing';
+      elem.style.userSelect = 'none';
+      pos = {
+        left: elem.scrollLeft,
+        x: e.clientX
+      };
+      document.addEventListener('mousemove', mouseMoveHandler);
+      document.addEventListener('mouseup', mouseUpHandler);
+    };
+    const mouseMoveHandler = (e) => {
+      const dx = e.clientX - pos.x;
+      const newScrollLeft = pos.left - dx;
+      if (newScrollLeft >= 0 && newScrollLeft <= (elem.scrollWidth - elem.clientWidth)) {
+        elem.scrollLeft = newScrollLeft;
+      }
+    };
+    const mouseUpHandler = () => {
+      elem.style.cursor = 'grab';
+      elem.style.removeProperty('user-select');
+      document.removeEventListener('mousemove', mouseMoveHandler);
+      document.removeEventListener('mouseup', mouseUpHandler);
+    };
+    elem.addEventListener('mousedown', mouseDownHandler);
+    if (notTrueSafari) {
+    elem.addEventListener('touchstart', (e) => {
+      pos = {
+        left: elem.scrollLeft,
+        x: e.touches[0].clientX
+      };
+    }, { passive: true });
+    elem.addEventListener('touchmove', (e) => {
+      const dx = e.touches[0].clientX - pos.x;
+      const newScrollLeft = pos.left - dx;
+      if (newScrollLeft >= 0 && newScrollLeft <= (elem.scrollWidth - elem.clientWidth)) {
+        elem.scrollLeft = newScrollLeft;
+      }
+    }, { passive: true });
+   } 
+   else {
+       elem.style.overflowX = 'scroll';
+   }
+    const smoothScrollStep = () => {
+      const currentScrollLeft = elem.scrollLeft;
+      const distance = targetScrollLeft - currentScrollLeft;
+      if (Math.abs(distance) < 1) {
+        elem.scrollLeft = targetScrollLeft;
+        animationFrameId = null;
+        return;
+      }
+      const newScrollLeft = currentScrollLeft + distance * 0.1;
+      if (newScrollLeft >= 0 && newScrollLeft <= (elem.scrollWidth - elem.clientWidth)) {
+        elem.scrollLeft = newScrollLeft;
+      }
+      animationFrameId = requestAnimationFrame(smoothScrollStep);
+    };
+    const stopRunningAnimation = () => {
+  if (animationFrameId !== null) {
+    cancelAnimationFrame(animationFrameId);
+    animationFrameId = null;
+  }
+  elem.style.setProperty('scroll-behavior', 'auto', 'important');
+  elem.scrollLeft = elem.scrollLeft;
+  elem.style.scrollBehavior = '';
+};
+    const handleWheelScroll = (event) => {
+      if (!isElementCenteredInViewport(elem)) {
+        return; 
+      }
+      const visibleWidth = elem.offsetWidth;
+      const maxScrollLeft = elem.scrollWidth - visibleWidth;
+      if (maxScrollLeft <= 0) {
+        return; 
+      }
+      const delta = event.deltaY > 0 ? 1 : -1;
+      const nextPosition = elem.scrollLeft + delta * Math.max(20, Math.round(visibleWidth / 10));
+      const atLeftBoundary = elem.scrollLeft - 20 <= 0.5 && delta < 0;
+      const atRightBoundary = elem.scrollLeft + 20 >= (maxScrollLeft - 0.5) && delta > 0;
+      event.preventDefault();
+      targetScrollLeft = Math.min(Math.max(0, nextPosition), maxScrollLeft);
+      if (!animationFrameId) {
+        animationFrameId = requestAnimationFrame(smoothScrollStep);
+      }
+    };
+  });
+});
+</script> <style>
+   #rec2426973803 .t396__artboard::-webkit-scrollbar {
+      display: none;
+  }
+  #rec2426973803 .t396__artboard {
+      scrollbar-width: none;
+  }
+   #rec2426973763 .t396__artboard::-webkit-scrollbar {
+      display: none;
+  }
+  #rec2426973763 .t396__artboard {
+      scrollbar-width: none;
+  }
+</style> <!-- nominify end --> </div> </div> </div> </div> 

@@ -1,0 +1,180 @@
+@import "./fonts.css";
+@import "./tokens.css";
+@import "tailwindcss";
+@import "./block-spacing.css";
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-ui),Arial,sans-serif;color:#000}
+button,a{-webkit-tap-highlight-color:transparent}
+:focus:not(:focus-visible){outline:none}
+
+/* Zero-блоки */
+.scene-section{position:relative;width:100%;overflow:hidden}
+/* Настройка блока «overflow: visible» в Тильде: элементы выходят за верх и низ блока, например скрепка на /mini */
+.scene-section--overflow-visible{overflow-x:clip;overflow-y:visible}
+.scene-canvas{position:relative;transform-origin:top left;overflow:visible;scrollbar-width:none}
+.scene-canvas::-webkit-scrollbar{display:none}
+.scene-canvas--scrollable{overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+.scene-background,.scene-filter{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.scene-node{position:absolute;display:table;box-sizing:border-box}
+.scene-atom{display:table-cell;vertical-align:middle;box-sizing:border-box;width:100%;height:100%;text-decoration:none;line-height:normal;background-size:cover;background-repeat:no-repeat;transition:background-color var(--scene-speedhover,.2s) ease-in-out,color var(--scene-speedhover,.2s) ease-in-out,border-color var(--scene-speedhover,.2s) ease-in-out,box-shadow var(--scene-shadowshoverspeed,.2s) ease-in-out,opacity var(--scene-speedhover,.2s) ease-in-out,transform var(--scene-speedhover,.2s) ease-in-out,filter var(--scene-speedhover,.2s) ease-in-out}
+.scene-text .scene-atom{height:auto}
+.scene-node[data-background-ready]>.scene-atom{--sya-background-visible:var(--sya-background-url)}
+@media (scripting:none){.scene-node>.scene-atom{--sya-background-visible:var(--sya-background-url)}}
+/* h1 вместо div: тот же вид, сброс стилей тега */
+h1.scene-atom{margin:0;font-size:inherit;font-weight:inherit;letter-spacing:inherit}
+.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.scene-image{display:block;width:100%;height:auto}
+.scene-button{display:block}
+.scene-button .scene-atom{position:relative;isolation:isolate;display:flex;justify-content:center;align-items:center;background-image:var(--scene-bgcolor-image)!important;background-color:var(--scene-bgcolor-color)!important}
+.scene-button .scene-atom::before{content:"";position:absolute;inset:0;border-radius:inherit;background-image:var(--scene-bgcolor-hover-image,none);background-color:var(--scene-bgcolor-hover-color,transparent);opacity:0;transition:opacity var(--scene-speedhover,.2s) ease-in-out;z-index:0;pointer-events:none}
+@media (hover:hover){.scene-button .scene-atom:hover::before{opacity:1}}
+.scene-button .scene-atom__button-content{display:flex;align-items:center;justify-content:center;position:relative;z-index:1}
+.scene-atom__button-icon{display:block;flex-shrink:0;background:currentColor;mask-image:var(--icon);mask-size:contain;mask-repeat:no-repeat;mask-position:center}
+.scene-vector svg{display:block;width:100%;height:100%}
+.scene-vector .scene-atom{display:block}
+.scene-group{position:absolute}
+.scene-group-inner{position:relative;width:100%;height:100%}
+.scene-group-child{position:relative}
+.scene-flex>.scene-node{display:block;flex-shrink:0;top:0!important;left:0!important}
+.scene-flex>.scene-text>.scene-atom{display:block;width:auto}
+.scene-flex>.scene-shape>.scene-atom,.scene-flex>.scene-image>.scene-atom{display:block;width:100%;height:100%}
+.scene-atom ul{list-style:disc outside;padding-left:20px;margin:0}
+.scene-atom ol{list-style:decimal outside;padding-left:22px;margin:0}
+.scene-atom a{color:inherit}
+.scene-atom strong,.scene-atom b{font-weight:700}
+.scene-rec{scroll-margin-top:10px}
+
+/* Индикатор прокрутки T602 */
+.scroll-indicator{position:fixed;top:0;left:0;height:4px;z-index:9999;transition:width .6s ease;pointer-events:none}
+
+/* Документы T004. Решение Елены 09.11: колонка текста 960, кегль 16 на десктопе и 15 на телефоне, заголовки шрифтом сайта, текст не менять */
+.native-article{box-sizing:border-box}
+.native-article>div{box-sizing:border-box;max-width:1000px;margin:0 auto;padding:8px 20px 6px;font-family:var(--font-ui),Arial,sans-serif;font-weight:300;font-size:16px;line-height:1.6;color:#000;overflow-wrap:break-word}
+.native-article a{color:#ff8562;text-decoration:none}
+.native-article strong,.native-article b{font-weight:700}
+.native-article ul{list-style:disc;padding-left:20px;margin:0 0 10px}
+.native-article ol{list-style:decimal;padding-left:22px;margin:0 0 10px}
+.native-article img{max-width:100%;height:auto}
+.native-article h1,.native-article h2,.native-article h3,.native-article p[style*="center"]{font-family:var(--font-display),var(--font-ui),serif;font-weight:400;font-size:28px;line-height:1.25}
+.native-article h1.doc-h1{display:inline;margin:0;font:inherit;line-height:inherit}
+.native-article h1.doc-h1--block{display:block;font-family:var(--font-display),var(--font-ui),serif;font-weight:400;font-size:28px;line-height:1.25}
+.native-article .doc-title{display:inline-block;font-family:var(--font-display),var(--font-ui),serif;font-weight:400;font-size:28px;line-height:1.25}
+.native-article h1 strong,.native-article h2 strong,.native-article h3 strong,.native-article p[style*="center"] strong,.native-article p[style*="center"] b{font-weight:400}
+@media screen and (max-width:640px){.native-article h1.doc-h1--block{font-size:22px}.native-article>div{font-size:15px;line-height:1.55}.native-article h1,.native-article h2,.native-article h3,.native-article p[style*="center"],.native-article .doc-title{font-size:22px}}
+
+/* Плашка куки: начальное состояние скрыто, показывает компонент CookieConsent */
+/* Плашка куки выше стрелки «Наверх» (z-index 99990), правка заказчика 10.11 */
+.native-cookie{position:fixed;left:0;bottom:0;width:100%;z-index:99991;pointer-events:none}
+.native-cookie .scene-section{overflow:visible!important}
+.native-cookie .scene-canvas{transform-origin:bottom left!important;position:absolute!important;left:0;bottom:0}
+.native-cookie a,.native-cookie button,.native-cookie .cookieBanner{pointer-events:auto}
+.cookieBanner{display:none}
+
+/* Кнопка «наверх» T890 */
+.back-top{position:fixed;z-index:99990;width:50px;height:50px;padding:0;border:0;border-radius:53px;background:transparent;line-height:0;cursor:pointer;animation:back-top-in .5s both}
+.back-top svg{display:block;width:50px;height:50px}
+.back-top svg rect,.back-top svg path{transition:.2s ease-in}
+@media screen and (min-width:981px){.back-top:hover svg path,.back-top:focus-visible svg path{stroke:#fff}.back-top:hover svg rect,.back-top:focus-visible svg rect{fill:var(--back-top-hover);fill-opacity:1}}
+@media screen and (max-width:640px){.back-top{transform:scale(.8);animation:none;margin-bottom:4px}}
+@keyframes back-top-in{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+/* Попап Zero (T1093): выезжает снизу, фон размыт как на живом (blur 4px без затемнения) */
+.native-modal{position:fixed;inset:0;z-index:10000002;overflow-y:auto;overscroll-behavior:contain;cursor:pointer}
+.native-modal__bg{position:fixed;inset:0;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.native-dialog{position:relative;z-index:1;cursor:default}
+.native-dialog .scene-section{overflow:visible}
+.popup-close{position:fixed;top:10px;right:10px;width:43px;height:43px;padding:10px;border:0;background:transparent;cursor:pointer;line-height:0;transition:opacity .3s ease-in-out;z-index:2}
+.popup-close svg{display:block}
+@media (hover:hover){.popup-close:hover{opacity:.7}}
+.popup-rise-enter-active .native-dialog{transition:transform .6s cubic-bezier(.19,1,.22,1)}
+.popup-rise-enter-active .native-modal__bg,.popup-rise-enter-active .popup-close{transition:opacity .45s ease}
+.popup-rise-leave-active .native-dialog{transition:transform .35s cubic-bezier(.55,0,.85,.4)}
+.popup-rise-leave-active .native-modal__bg,.popup-rise-leave-active .popup-close{transition:opacity .3s ease}
+.popup-rise-enter-from .native-dialog,.popup-rise-leave-to .native-dialog{transform:translateY(100vh)}
+.popup-rise-enter-from .native-modal__bg,.popup-rise-leave-to .native-modal__bg,.popup-rise-enter-from .popup-close,.popup-rise-leave-to .popup-close{opacity:0}
+.popup-rise-leave-active{pointer-events:none}
+@media (prefers-reduced-motion:reduce){
+  .popup-rise-enter-from .native-dialog,.popup-rise-leave-to .native-dialog{transform:none}
+  .popup-rise-enter-from .native-modal__bg,.popup-rise-leave-to .native-modal__bg,.popup-rise-enter-from .popup-close,.popup-rise-leave-to .popup-close{opacity:1}
+}
+
+/* Видео Zero */
+.scene-video{display:block}
+.scene-video .scene-atom{display:block;overflow:hidden}
+.scene-video-file{display:block;width:100%;height:100%;object-position:50% 50%;pointer-events:none;background:transparent}
+#html-video-1703875663-1766147559512000013,#html-video-1557093663-1763043211874{object-position:36% 50%}
+
+/* Форма Zero. Значения размеров приходят из настроек элемента */
+.scene-form{display:block}
+.scene-form .scene-atom{display:block;height:auto}
+.zero-form{margin:0}
+.zero-form__row{position:relative}
+.zero-form__input{display:block;box-sizing:border-box;width:100%;margin:0;padding:0 20px;border:0;outline:none;line-height:1.33;-webkit-appearance:none;appearance:none;transition:box-shadow .2s ease}
+.zero-form__input::placeholder{color:inherit;opacity:.5}
+.zero-form__input:focus-visible{box-shadow:0 0 0 2px #929670}
+.zero-form__input[aria-invalid="true"]{box-shadow:0 0 0 1px #ff0000}
+.scene-node:has(.zero-form__countries){z-index:50!important}
+.zero-form__input--country{padding-left:68px}
+.zero-form__country{position:absolute;left:0;top:0;bottom:0;z-index:1;display:flex;align-items:center;gap:6px;width:62px;padding:0 0 0 18px;border:0;background:transparent;font:inherit;cursor:pointer;-webkit-appearance:none;appearance:none}
+.zero-form__country:focus-visible{outline:2px solid #929670;outline-offset:-2px;border-radius:inherit}
+.zero-form__flag{font-size:20px;line-height:1;font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+.zero-form__caret{width:0;height:0;border:4px solid transparent;border-top-color:currentColor;border-bottom:0;opacity:.6;transition:transform .2s ease}
+.zero-form__country[aria-expanded="true"] .zero-form__caret{transform:rotate(180deg)}
+.zero-form__countries{position:absolute;left:0;top:100%;z-index:30;box-sizing:border-box;width:max(100%,260px);max-width:calc(100vw - 40px);max-height:240px;margin:6px 0 0;padding:6px 0;overflow-y:auto;overscroll-behavior:contain;list-style:none;background:#fff;border-radius:12px;box-shadow:0 1px 20px rgba(0,0,0,.2);color:#1d1d1d;font-family:var(--font-ui),Arial,sans-serif;font-size:15px;line-height:1.3}
+.zero-form__option{display:flex;align-items:center;gap:10px;padding:8px 14px;cursor:pointer;outline:none}
+.zero-form__option:hover,.zero-form__option:focus-visible{background:#f0f1e6}
+.zero-form__option[aria-selected="true"]{font-weight:600}
+.zero-form__country-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.zero-form__code{color:#6b6b6b;font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){.zero-form__caret{transition:none}}
+.zero-form__error{position:absolute;left:0;top:100%;z-index:2;margin:5px 0 0;padding:8px 10px;background:#fff;border-radius:2px;box-shadow:0 1px 20px rgba(0,0,0,.2);color:#ff0000;font-size:13px;line-height:1.2;white-space:nowrap}
+.zero-form__error::after{content:"";position:absolute;left:15%;top:-12px;border:6px solid transparent;border-bottom-color:#fff}
+.zero-form__submit{position:relative;display:block;margin:0 auto;padding:0 20px;border:0;cursor:pointer;overflow:hidden;isolation:isolate}
+.zero-form__submit::after{content:"";position:absolute;inset:0;background:var(--form-hover,transparent);opacity:0;transition:opacity .2s ease-in-out;z-index:-1}
+@media (hover:hover){.zero-form__submit:hover::after{opacity:1}}
+.zero-form__submit:focus-visible{outline:2px solid #4b3c25;outline-offset:2px}
+.zero-form__summary{position:fixed;right:20px;bottom:20px;z-index:10000;max-width:min(400px,calc(100vw - 40px));min-width:260px;box-sizing:border-box;padding:10px;background:#f95d51;border-radius:3px;box-shadow:0 0 3px 1px rgba(0,0,0,.2);color:#fff;font-family:Arial,sans-serif;font-size:14px;line-height:1.3}
+.zero-form__done{box-sizing:border-box;padding:0 12%;border-radius:30px;background:#e8e9dc;line-height:1.35;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:.6em}
+.zero-form__done p{margin:0}
+/* Пока бандл аудиоклуба не дорисовался, подвал не должен стоять на первом экране и уезжать вниз */
+main:has(.embed-reserve):not(:has(#sya-club-app:not(:empty))){min-height:100vh;min-height:100svh}
+.zero-form__done-title{font-size:1.25em;font-weight:600}
+
+/* Косметика из T123: блик на кнопке (rec2098149513 /about, rec1559325923 /taplink) */
+.light{overflow:hidden;z-index:1;transition:1s ease-out}
+.light:hover{box-shadow:0 5px 20px rgba(0,0,0,.1);cursor:pointer;transition-delay:.1s;z-index:8}
+.light::before{content:"";background-color:rgba(255,255,255,.1);height:100%;width:3em;display:block;position:absolute;top:0;left:-4.5em;z-index:2;transform:skewX(-45deg) translateX(0);transition:none;pointer-events:none}
+.light:hover::before{transform:skewX(-45deg) translateX(25.5em);transition:all 1s ease-in-out}
+/* Косметика из T123: липкий блок /clarity (rec2426973843) */
+#rec2426973823{position:-webkit-sticky;position:sticky;top:25vh;z-index:0}
+/* Косметика из T123: текст печатной машинки на главной (rec1490588213) */
+.tn-elem__1485551813176157991652187570{font-family:var(--font-ui),Arial,sans-serif;font-size:18px;font-weight:400;color:#4b3c25;line-height:1.2}
+@media (max-width:640px){.tn-elem__1485551813176157991652187570{font-size:16px}}
+@media (max-width:480px){.tn-elem__1485551813176157991652187570{font-size:10px}}
+
+@media (prefers-reduced-motion:reduce){.popup-rise-enter-active .native-dialog,.popup-rise-leave-active .native-dialog,.popup-rise-enter-active .native-modal__bg,.popup-rise-leave-active .native-modal__bg,.popup-rise-enter-active .popup-close,.popup-rise-leave-active .popup-close,.light,.light::before,.light:hover::before,.zero-form__submit::after{transition:none}.scene-atom,.scroll-indicator,.back-top svg rect,.back-top svg path,.scene-button .scene-atom::before{transition:none}.back-top{animation:none}}
+
+/* Отступ подвала по решению Елены 09.11.2026. Затемнение меню и кнопок снято 10.11: цвета как на живом сайте */
+/* Первый экран /clarity на десктопе: содержимое по центру белой карточки (правка заказчика 10.11, на живом сайте смещено вверх) */
+@media screen and (min-width:1200px){[data-node="176174013491923420"]{translate:0 47px}}
+/* Даты временно скрыты (заказчик, 10.11): теги на /mini и /clarity. Вернуть: убрать правила ниже до метки «конец дат» */
+[data-node="1765973638810000005"],[data-node="1765973638810000006"],[data-node="1765973638810000008"],[data-node="1765973638810000009"],[data-node="1782812072450000001"]{display:none!important}
+:is([data-node="1765976461322000011"],[data-node="1765973513958"],[data-node="1765973513971"],[data-node="1765973513980"],[data-node="1765973513988"],[data-node="1765973514001"],[data-node="1765973513877"]){translate:0 -36px}
+@media screen and (max-width:639px){:is([data-node="1765976461322000011"],[data-node="1765973513958"],[data-node="1765973513971"],[data-node="1765973513980"],[data-node="1765973513988"],[data-node="1765973514001"],[data-node="1765973513877"]){translate:0 -16px}}
+@media screen and (max-width:479px){:is([data-node="1765976461322000011"],[data-node="1765973513958"],[data-node="1765973513971"],[data-node="1765973513980"],[data-node="1765973513988"],[data-node="1765973514001"],[data-node="1765973513877"]){translate:none}}
+[data-node="1782812199205000004"]{translate:0 17.5px}
+@media screen and (max-width:1199px){[data-node="1782812199205000004"]{translate:0 20.5px}}
+@media screen and (max-width:479px){[data-node="1782812199205000004"]{translate:0 14px}}
+/* конец дат */
+/* Теги чуть жирнее (правка заказчика 10.11) */
+[data-node="1761732562779"] .scene-atom,[data-node="1765973638810000006"] .scene-atom,[data-node="1765973638810000009"] .scene-atom,[data-node="1782812072450000003"] .scene-atom{font-weight:500}
+@media screen and (max-width:639px){[data-node="176164099688593680"],[data-node="176164099688994600"]{translate:0 8px}}
+/* Safari на iPhone приближает страницу при фокусе, если шрифт поля меньше 16 px */
+@media (pointer:coarse){.zero-form__input{font-size:16px!important}}
+/* Плавное появление и исчезновение: стрелка «Наверх», список стран, подсказки формы, смена формы на сообщение */
+.soft-fade-enter-active,.soft-fade-leave-active{transition:opacity .2s ease}
+.soft-fade-enter-from,.soft-fade-leave-to{opacity:0}
+.scene-atom[href*="sistemayasnostibot"] .scene-atom__button-text{transition:color .2s ease-in-out,border-color .2s ease-in-out}
+.zero-form__option{transition:background-color .15s ease}
+@media (prefers-reduced-motion:reduce){.soft-fade-enter-active,.soft-fade-leave-active,.zero-form__option,.scene-atom[href*="sistemayasnostibot"] .scene-atom__button-text{transition:none}}
+/* Анимация появления с заполнением иначе удерживает прозрачность и не даёт стрелке плавно исчезнуть */
+.back-top.soft-fade-leave-active{animation:none}

@@ -1,0 +1,20 @@
+:root {
+  --c-ink: #4b3c25;
+  --c-ink-alt: #4c3c26;
+  --c-muted: #938c83;
+  --c-muted-alt: #938d84;
+  --c-olive: #929670;
+  --c-olive-alt: #919670;
+  --c-olive-dark: #8e926b;
+  --c-olive-soft: #e7e9db;
+  --c-bg: #f5f4f2;
+  --c-neutral: #f5f5f5;
+  --c-white: #ffffff;
+  --c-footer: #373430;
+  --font-display: 'Forum';
+  --font-ui: 'Inter';
+  --r-card: 30px;
+  --r-pill: 100px;
+  --r-tag: 38px;
+  --r-xs: 5px;
+}

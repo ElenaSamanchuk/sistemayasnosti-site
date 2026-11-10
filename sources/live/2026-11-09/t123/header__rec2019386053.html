@@ -1,0 +1,83 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <style>
+  .cookie-banner-btn {
+    cursor: pointer;
+  }
+  .cookieBanner.hidden {
+    opacity: 0 !important;
+    transform: translateY(20px) !important;
+    pointer-events: none !important;
+    transition: opacity 0.4s ease, transform 0.4s ease !important;
+  }
+  .cookieBanner.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+</style> <script>
+(function() {
+  'use strict';
+  var STORAGE_KEY = 'cookieConsent';
+  var STORAGE_DATE_KEY = 'cookieConsentDate';
+  var isInitialized = false;
+  function checkConsent() {
+    return localStorage.getItem(STORAGE_KEY) === 'accepted';
+  }
+  function saveConsent() {
+    localStorage.setItem(STORAGE_KEY, 'accepted');
+    localStorage.setItem(STORAGE_DATE_KEY, new Date().toISOString());
+  }
+  function hideBanner() {
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    banner.classList.remove('visible');
+    banner.classList.add('hidden');
+    document.removeEventListener('click', handleGlobalClick, true);
+    setTimeout(function() {
+      banner.style.display = 'none';
+    }, 400);
+  }
+  function showBanner() {
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    banner.style.display = 'block';
+    setTimeout(function() {
+      banner.classList.add('visible');
+    }, 10);
+  }
+  function isPolicyLinkClick(element) {
+    var current = element;
+    while (current && current !== document.body) {
+      if (current.classList && current.classList.contains('cookie-banner-link')) {
+        return true;
+      }
+      current = current.parentElement;
+    }
+    return false;
+  }
+  function handleGlobalClick(event) {
+    if (isPolicyLinkClick(event.target)) {
+      return;
+    }
+    saveConsent();
+    hideBanner();
+  }
+  function init() {
+    if (isInitialized) return;
+    isInitialized = true;
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    if (checkConsent()) {
+      banner.style.display = 'none';
+    } else {
+      showBanner();
+      document.addEventListener('click', handleGlobalClick, true);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    setTimeout(init, 100);
+  }
+})();
+</script> <!-- nominify end --> </div> </div> </div> </div> </div> <!--/allrecords--> <!-- Stat --> <!-- Yandex.Metrika counter 106581349 --> <script type="text/javascript" data-tilda-cookie-type="analytics">setTimeout(function(){(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");window.mainMetrikaId='106581349';ym(window.mainMetrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true,params:{__ym:{"ymCms":{"cms":"tilda","cmsVersion":"1.0"}}},ecommerce:"dataLayer"});},2000);</script> <noscript><div><img src="https://mc.yandex.ru/watch/106581349" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --> <script type="text/javascript">if(!window.mainTracker) {window.mainTracker='tilda';}
+window.tildastatcookie='no';setTimeout(function(){(function(d,w,k,o,g) {var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);};s.type="text/javascript";s.async=true;s.key=k;s.id="tildastatscript";s.src=g;if(w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded",f,false);} else {f();}})(document,window,'e5c326306b383388621df369b51b555d','script','https://static.tildacdn.net/js/tilda-stat-1.0.min.js');},2000);</script> </body> </html>

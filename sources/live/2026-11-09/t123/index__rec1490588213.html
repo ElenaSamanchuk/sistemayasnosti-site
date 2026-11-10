@@ -1,0 +1,65 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <style>
+/* эффект печатной машинки для текста */
+    .tn-elem.tn-elem__1485551813176157991652187570 {
+        font-family: 'Inter' !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: #4B3C25 !important;
+        line-height: 1.2 !important;
+    }
+    @media (max-width: 640px) {
+        .tn-elem.tn-elem__1485551813176157991652187570 {
+       font-size: 16px !important;
+    }
+    }
+    @media (max-width: 480px) {
+        .tn-elem.tn-elem__1485551813176157991652187570 {
+      font-size: 10px !important;
+    }
+    }
+    .typewriter-cursor {
+        border-right: 2px solid #4B3C25;
+        animation: blink 0.7s infinite;
+    }
+    @keyframes blink {
+        0%, 50% { border-color: transparent; }
+        51%, 100% { border-color: #4B3C25; }
+    }
+</style> <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.tn-elem.tn-elem__1485551813176157991652187570');
+    elements.forEach(element => {
+        element.setAttribute('data-original-text', element.textContent);
+        element.textContent = '';
+    });
+    function startTypewriter(element) {
+        const originalText = element.getAttribute('data-original-text');
+        let i = 0;
+        
+        function type() {
+            if (i < originalText.length) {
+                element.textContent += originalText[i];
+                i++;
+                setTimeout(type, 50);
+            } else {
+                element.classList.remove('typewriter-cursor');
+            }
+        }
+        type();
+    }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                startTypewriter(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.5, 
+        rootMargin: '0px 0px -50px 0px' 
+    });
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+});
+</script> <!-- nominify end --> </div> </div> </div> </div> 

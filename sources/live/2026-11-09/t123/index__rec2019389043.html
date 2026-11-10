@@ -1,0 +1,82 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <style>
+  .cookie-banner-btn {
+    cursor: pointer;
+  }
+  .cookieBanner.hidden {
+    opacity: 0 !important;
+    transform: translateY(20px) !important;
+    pointer-events: none !important;
+    transition: opacity 0.4s ease, transform 0.4s ease !important;
+  }
+  .cookieBanner.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+</style> <script>
+(function() {
+  'use strict';
+  var STORAGE_KEY = 'cookieConsent';
+  var STORAGE_DATE_KEY = 'cookieConsentDate';
+  var isInitialized = false;
+  function checkConsent() {
+    return localStorage.getItem(STORAGE_KEY) === 'accepted';
+  }
+  function saveConsent() {
+    localStorage.setItem(STORAGE_KEY, 'accepted');
+    localStorage.setItem(STORAGE_DATE_KEY, new Date().toISOString());
+  }
+  function hideBanner() {
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    banner.classList.remove('visible');
+    banner.classList.add('hidden');
+    document.removeEventListener('click', handleGlobalClick, true);
+    setTimeout(function() {
+      banner.style.display = 'none';
+    }, 400);
+  }
+  function showBanner() {
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    banner.style.display = 'block';
+    setTimeout(function() {
+      banner.classList.add('visible');
+    }, 10);
+  }
+  function isPolicyLinkClick(element) {
+    var current = element;
+    while (current && current !== document.body) {
+      if (current.classList && current.classList.contains('cookie-banner-link')) {
+        return true;
+      }
+      current = current.parentElement;
+    }
+    return false;
+  }
+  function handleGlobalClick(event) {
+    if (isPolicyLinkClick(event.target)) {
+      return;
+    }
+    saveConsent();
+    hideBanner();
+  }
+  function init() {
+    if (isInitialized) return;
+    isInitialized = true;
+    var banner = document.querySelector('.cookieBanner');
+    if (!banner) return;
+    if (checkConsent()) {
+      banner.style.display = 'none';
+    } else {
+      showBanner();
+      document.addEventListener('click', handleGlobalClick, true);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    setTimeout(init, 100);
+  }
+})();
+</script> <!-- nominify end --> </div> </div> </div> </div> 

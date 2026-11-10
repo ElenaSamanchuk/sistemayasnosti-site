@@ -1,0 +1,170 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <style>
+.snitch {
+    opacity: 0;
+}
+    .snitch-magic-wrapper {
+        position: relative !important;
+        display: inline-block !important;
+    }
+    
+    @keyframes fadeIn {
+        0% { 
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        100% { 
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes smoothFloat {
+        0%, 100% { 
+            transform: translateY(0px) rotate(0deg);
+            filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.4));
+        }
+        25% { 
+            transform: translateY(-10px) rotate(2deg);
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+        }
+        50% { 
+            transform: translateY(-5px) rotate(-1deg);
+            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.7));
+        }
+        75% { 
+            transform: translateY(-12px) rotate(1deg);
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6));
+        }
+    }
+    
+    @keyframes sparkleFadeIn {
+        0% { 
+            opacity: 0;
+            transform: scale(0);
+        }
+        100% { 
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes sparkleAnim0 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim1 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes sparkleAnim2 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim3 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes sparkleAnim4 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim5 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes sparkleAnim6 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim7 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes sparkleAnim8 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim9 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+    @keyframes sparkleAnim10 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes sparkleAnim11 { 0%, 100% { opacity: 0; transform: scale(0); } 50% { opacity: 1; transform: scale(1.2); } }
+</style> <script>
+(function() {
+    let animationStarted = false;
+    
+    function makeItMagic() {
+        if (animationStarted) return;
+        
+        let img = document.querySelector('.snitch');
+        if (!img) return;
+        
+        animationStarted = true;
+        
+        const parent = img.parentElement;
+        
+        const parentPos = window.getComputedStyle(parent).position;
+        if (parentPos === 'static') {
+            parent.style.position = 'relative';
+        }
+        
+        img.style.opacity = '0';
+        img.style.position = 'relative';
+        img.style.display = 'inline-block';
+        
+        setTimeout(() => {
+            img.style.animation = 'fadeIn 1.5s ease-out forwards, smoothFloat 10s ease-in-out 1.5s infinite';
+        }, 100);
+        /*
+        setTimeout(() => {
+            createSparkles(img, parent);
+        }, 1000);
+        */
+    }
+    
+    function createSparkles(img, parent) {
+        const sparkleData = [
+            { x: -25, y: -25, delay: 0, size: 4 },
+            { x: 50, y: -30, delay: 0.3, size: 5 },
+            { x: -10, y: 30, delay: 0.6, size: 6 },
+            { x: 40, y: 30, delay: 0.9, size: 4 },
+            { x: -35, y: 5, delay: 1.2, size: 5 },
+            { x: 20, y: -40, delay: 1.5, size: 4 },
+            { x: 55, y: 10, delay: 1.8, size: 6 },
+            { x: 0, y: -35, delay: 2.1, size: 5 },
+            { x: -15, y: 15, delay: 2.4, size: 4 },
+            { x: 35, y: -15, delay: 2.7, size: 5 },
+            { x: 10, y: 30, delay: 3.0, size: 6 },
+            { x: -30, y: -40, delay: 3.3, size: 4 }
+        ];
+        
+        const imgLeft = img.offsetLeft;
+        const imgTop = img.offsetTop;
+        const imgWidth = img.offsetWidth || img.width;
+        const imgHeight = img.offsetHeight || img.height;
+        
+        sparkleData.forEach((data, i) => {
+            const sparkle = document.createElement('div');
+            sparkle.style.position = 'absolute';
+            sparkle.style.width = data.size + 'px';
+            sparkle.style.height = data.size + 'px';
+            sparkle.style.background = '#FEF08A';
+            sparkle.style.borderRadius = '50%';
+            sparkle.style.boxShadow = '0 0 10px #FBBF24';
+            sparkle.style.pointerEvents = 'none';
+            sparkle.style.zIndex = '1000';
+            sparkle.style.opacity = '0';
+            
+            const centerX = imgLeft + imgWidth / 2;
+            const centerY = imgTop + imgHeight / 2;
+            
+            sparkle.style.left = (centerX + data.x) + 'px';
+            sparkle.style.top = (centerY + data.y) + 'px';
+            sparkle.style.transform = 'translate(-50%, -50%)';
+            
+            sparkle.style.animation = `sparkleFadeIn 3s ease-out ${data.delay}s forwards, sparkleAnim${i} 3s ease-in-out ${data.delay + 1}s infinite`;
+            
+            parent.appendChild(sparkle);
+        });
+        
+    }
+    
+    function observeSnitch() {
+        const img = document.querySelector('.snitch');
+        if (!img) {
+            setTimeout(observeSnitch, 500);
+            return;
+        }
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    makeItMagic();
+                    observer.disconnect(); 
+                }
+            });
+        }, {
+            threshold: 0.3
+        });
+        
+        observer.observe(img);
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', observeSnitch);
+    } else {
+        observeSnitch();
+    }
+})();
+</script> <!-- nominify end --> </div> </div> </div> </div> 

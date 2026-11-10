@@ -1,0 +1,26 @@
+{
+  "name": "2026-11",
+  "cssSource": "audio-club__rec5543946903.html",
+  "jsSource": "audio-club__rec5543947103.html",
+  "cssSha": "73e680d3ba4f2387",
+  "jsSha": "1f63bbe32072e88e",
+  "assets": [
+    "audio/satie-gymnopedie-1.mp3",
+    "img/author-1-ef5537f6.webp",
+    "img/author-2-998a9a0e.webp",
+    "img/author-3-9787ff51.webp",
+    "img/faq-photo-1-fb839ea2.webp",
+    "img/faq-photo-2-d74b9d6b.webp",
+    "img/hero-player-4b2ff4db.webp",
+    "img/recognition-band-86c5565f.webp",
+    "img/vinyl-mark-fea66e47.webp"
+  ],
+  "droppedLinks": [
+    "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+    "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+    "<link href=\"https://fonts.googleapis.com/css2?family=Forum&family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap\" rel=\"stylesheet\">",
+    "<link rel=\"preload\" as=\"image\" href=\"https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-4b2ff4db.webp\" fetchpriority=\"high\">",
+    "<link rel=\"preload\" as=\"image\" href=\"https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp\" fetchpriority=\"high\">"
+  ],
+  "assetBase": "/embeds/audio-club/shared/"
+}

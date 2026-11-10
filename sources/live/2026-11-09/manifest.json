@@ -1,0 +1,1641 @@
+{
+ "site": "https://sistemayasnosti.com",
+ "pages": {
+  "/": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 699767,
+   "sha256": "1357f3ed48fa1369f888609215ff80fc262368300277d04f2ec9e776e252ca5a"
+  },
+  "/taplink": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 277585,
+   "sha256": "9aab9bd1dfa33f80461bdeb92935a03bf1617b767fac32e7b74ca8ebf734f5ef"
+  },
+  "/mini": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 643076,
+   "sha256": "f7187705d4dba69b65b63d704a2550e05ed95133a3f683fe2feb658c5a5e2b0a"
+  },
+  "/about": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 556185,
+   "sha256": "3e332d6e63a9f0e45947af30d98ed82996fb435326b855fe072d057434032c0a"
+  },
+  "/clarity": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 1833862,
+   "sha256": "0c409834143ed9b8adc53627f3a7c53db57f7eef46164d44242b8f3697c1fd01"
+  },
+  "/pred": {
+   "status": 404,
+   "inSitemap": false
+  },
+  "/pred_fl": {
+   "status": 404,
+   "inSitemap": false
+  },
+  "/audio-club": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 299096,
+   "sha256": "e91b4d01f6bdac8454a1a3980c8f3aff013cbb30e9be7489f36fec9827db3396"
+  },
+  "/audio-club-old": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 290350,
+   "sha256": "f559b07866000e77f79e81a859f5b051eb05677e47af5248310977f4752d964a"
+  },
+  "/audio-club-old-old": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 298361,
+   "sha256": "f7af2f82f7deaeb5f4ef6765907ca9ddbce25858f07da45f42d4484d63be02d0"
+  },
+  "/header": {
+   "status": 200,
+   "inSitemap": false,
+   "bytes": 48425,
+   "sha256": "babad235c30383d255a14b7108055bd162595d6bbc08e2c0b56e69a46d3e87e8"
+  },
+  "/footer": {
+   "status": 200,
+   "inSitemap": false,
+   "bytes": 97127,
+   "sha256": "1e9f06d443213386b0f1a1d5bcdd2cccaf70fa0c6f590d3aff78844cb1c1f8ec"
+  },
+  "/oferta": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 147070,
+   "sha256": "7096cd20d8609fb971ed71dd34273363512e6f126df6d9385216652567feafbb"
+  },
+  "/privacy": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 141497,
+   "sha256": "10635180050cea7194b3310673280658088247f9960a8ce46e4b48b749b86f34"
+  },
+  "/consent": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 141052,
+   "sha256": "411e4887f5deb0d85d5509d87e171bed3e0d5e3974e12e54646ad148a4764fc9"
+  },
+  "/cookie": {
+   "status": 200,
+   "inSitemap": true,
+   "bytes": 144600,
+   "sha256": "fdb4ea3fe3540d4d19fc540b361aa341dcb2fa23f65adc26fdfa911d440a2278"
+  }
+ },
+ "assets": {
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-4b2ff4db.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-4b2ff4db.webp",
+   "bytes": 106170,
+   "type": "image/webp",
+   "sha256": "c8348a34b1558198f22e260f55bc344e146cd111608fadc846b5f735cccb501f"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-ad60f206.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-ad60f206.webp",
+   "bytes": 153778,
+   "type": "image/webp",
+   "sha256": "fec459239d37a98e21a786bf82943fb300d1330cfc30fbee452bf5ec226afb66"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-daca3c97.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-daca3c97.webp",
+   "bytes": 86250,
+   "type": "image/webp",
+   "sha256": "a91949d641f8419aefa481268fd3c2a851f8d60d83657f90656830e1a3954bfc"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp",
+   "bytes": 64736,
+   "type": "image/webp",
+   "sha256": "7c7b3e4470fb591b4acf16b4c4fbf11142ca431dc69487d009e1f634a89d69f5"
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js": {
+   "status": 200,
+   "file": "cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js",
+   "bytes": 7433,
+   "type": "application/javascript; charset=utf-8",
+   "sha256": "86e5bbc9697bb4d7cfee51a4e3a5c4f92a749c2a2d8f362876154a97068d79ca"
+  },
+  "https://fonts.googleapis.com/css2?family=Forum&family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap": {
+   "status": 200,
+   "file": "fonts.googleapis.com/css2__1426003f.css",
+   "bytes": 14014,
+   "type": "text/css; charset=utf-8",
+   "sha256": "df9a24589d0ad70c7e609c161dcbc094ba84b956752de233ec5911550216fb71"
+  },
+  "https://fonts.googleapis.com/css2?family=Forum:wght@400&family=Inter:wght@100;200;300;400;500;600;700;800;900": {
+   "status": 200,
+   "file": "fonts.googleapis.com/css2__ee203a6f.css",
+   "bytes": 22528,
+   "type": "text/css; charset=utf-8",
+   "sha256": "96ca1aa9d138f3ab12d8eac8ec5bb01f0731c59dbc49c70aaa89fea3324e5146"
+  },
+  "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&subset=latin,cyrillic": {
+   "status": 200,
+   "file": "fonts.googleapis.com/css2__9ae07705.css",
+   "bytes": 11765,
+   "type": "text/css; charset=utf-8",
+   "sha256": "0134c153ff6f60192fe7d53730dfcfb019de91c15ab776254d69f46f017575b1"
+  },
+  "https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js": {
+   "status": 200,
+   "file": "neo.tildacdn.com/js/tilda-fallback-1.0.min.js",
+   "bytes": 1918,
+   "type": "application/javascript",
+   "sha256": "cdf65e26b905a653bce60df182886b032b606940391badb1e3a655f434ca446c"
+  },
+  "https://static.tildacdn.net/css/tilda-animation-2.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-animation-2.0.min.css",
+   "bytes": 11520,
+   "type": "text/css",
+   "sha256": "083b154f5b1ce02d089667c91fc485831426d58ba5a3a9a172cc24f9596b6e18"
+  },
+  "https://static.tildacdn.net/css/tilda-date-picker-1.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-date-picker-1.0.min.css",
+   "bytes": 1125,
+   "type": "text/css",
+   "sha256": "521e55c8266efbf67c9a84489a0db65378284d90b81f0e6af63b90a57a2d8539"
+  },
+  "https://static.tildacdn.net/css/tilda-forms-1.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-forms-1.0.min.css",
+   "bytes": 56944,
+   "type": "text/css",
+   "sha256": "cda8c6d22c5cb885634a62370343bfb96122a37372b18d1a40f25ce922fffad7"
+  },
+  "https://static.tildacdn.net/css/tilda-grid-3.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-grid-3.0.min.css",
+   "bytes": 4514,
+   "type": "text/css",
+   "sha256": "0b5f664c528f466606c93195975f671fc46c3a9c10fee54426c2cd1cf89b1fec"
+  },
+  "https://static.tildacdn.net/css/tilda-img-select-1.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-img-select-1.0.min.css",
+   "bytes": 2065,
+   "type": "text/css",
+   "sha256": "68e69add5168b1c8b7a4622ced233c247dd54559c070c6d610b8542715a94d13"
+  },
+  "https://static.tildacdn.net/css/tilda-popup-1.1.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-popup-1.1.min.css",
+   "bytes": 1724,
+   "type": "text/css",
+   "sha256": "6f284e1ae65f2f2b636e361febafaa49d1aa0a3322c713be9238725b39948101"
+  },
+  "https://static.tildacdn.net/css/tilda-range-1.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-range-1.0.min.css",
+   "bytes": 574,
+   "type": "text/css",
+   "sha256": "fb30ce6253f06b17a3c1fb666422e6bb32cdbfa9dc53f55032247af830b53fda"
+  },
+  "https://static.tildacdn.net/css/tilda-zero-form-errorbox.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-zero-form-errorbox.min.css",
+   "bytes": 1855,
+   "type": "text/css",
+   "sha256": "9d601ed7bacae057f1a2480b0f8329838ccc85c58a34de9168aaf20c409131cc"
+  },
+  "https://static.tildacdn.net/css/tilda-zero-form-horizontal.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-zero-form-horizontal.min.css",
+   "bytes": 2006,
+   "type": "text/css",
+   "sha256": "0c26c6324230eace0b0072930fecf3a2e086727898d8d7fb9c6e2a4682b93037"
+  },
+  "https://static.tildacdn.net/css/tilda-zero-video-1.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-zero-video-1.0.min.css",
+   "bytes": 226,
+   "type": "text/css",
+   "sha256": "497cb5a8ba9a265050b691ebe9068b3244eef30a525145adcd4280c1b1785440"
+  },
+  "https://static.tildacdn.net/css/tilda-zoom-2.0.min.css": {
+   "status": 200,
+   "file": "static.tildacdn.net/css/tilda-zoom-2.0.min.css",
+   "bytes": 9389,
+   "type": "text/css",
+   "sha256": "61656404db44ab0ff122aee53fe5fb879a482af55180df26f2b389f24043d683"
+  },
+  "https://static.tildacdn.net/js/hammer.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/hammer.min.js",
+   "bytes": 20726,
+   "type": "application/javascript",
+   "sha256": "090a7068a2209545279f858c6f41ff7ae42815e11c3d69463a2a2ea835282bd9"
+  },
+  "https://static.tildacdn.net/js/jquery-1.10.2.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/jquery-1.10.2.min.js",
+   "bytes": 93064,
+   "type": "application/javascript",
+   "sha256": "c73b004ebf31b395cf237c3d2b13c1e576f385e04660ceb5f7be163ff3c201dc"
+  },
+  "https://static.tildacdn.net/js/tilda-animation-2.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-animation-2.0.min.js",
+   "bytes": 104390,
+   "type": "application/javascript",
+   "sha256": "fcb1fd8dd944802dca096d04a0a26bdadc6f28e759390b822930835595512c15"
+  },
+  "https://static.tildacdn.net/js/tilda-animation-sbs-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-animation-sbs-1.0.min.js",
+   "bytes": 116179,
+   "type": "application/javascript",
+   "sha256": "3cebf9c85d9e6790b39700d9a73560aeab49876653fba29435ff5bedfc350427"
+  },
+  "https://static.tildacdn.net/js/tilda-calc-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-calc-1.0.min.js",
+   "bytes": 5793,
+   "type": "application/javascript",
+   "sha256": "2d8504ddf5555989e6a59394c290935cf7dbf16bbd37f3ec2f4236e00c803c55"
+  },
+  "https://static.tildacdn.net/js/tilda-conditional-form-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-conditional-form-1.0.min.js",
+   "bytes": 20017,
+   "type": "application/javascript",
+   "sha256": "c5d3ee61916fd56ac86ed14a498a89fa55d279f676c2b6c3ef4b37f78479090d"
+  },
+  "https://static.tildacdn.net/js/tilda-date-picker-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-date-picker-1.0.min.js",
+   "bytes": 5224,
+   "type": "application/javascript",
+   "sha256": "18510b65d86a464ccb1340a951b42cbcb4dde0bce7ea6fdb6c5b770b32c2193a"
+  },
+  "https://static.tildacdn.net/js/tilda-events-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-events-1.0.min.js",
+   "bytes": 13439,
+   "type": "application/javascript",
+   "sha256": "5ef75137fa784d916c1731eb5c3700fdadaf7babc8c55a933cb52910249ce576"
+  },
+  "https://static.tildacdn.net/js/tilda-forms-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-forms-1.0.min.js",
+   "bytes": 102755,
+   "type": "application/javascript",
+   "sha256": "279f73efd5a31d75f51f53330e4d25a3f7a993c06599cea7580690cf4fbf2356"
+  },
+  "https://static.tildacdn.net/js/tilda-img-select-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-img-select-1.0.min.js",
+   "bytes": 2921,
+   "type": "application/javascript",
+   "sha256": "1776eb187b7080b9d0b04d0cec27729cb71d0008a55de0c007e93c5f53cfae5b"
+  },
+  "https://static.tildacdn.net/js/tilda-lazyload-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-lazyload-1.0.min.js",
+   "bytes": 20315,
+   "type": "application/javascript",
+   "sha256": "2f718826160d39cd3a9b9e23b5044ea7143c1413dce1779c4e68b750745193c0"
+  },
+  "https://static.tildacdn.net/js/tilda-menu-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-menu-1.0.min.js",
+   "bytes": 11414,
+   "type": "application/javascript",
+   "sha256": "ec950b2112e31f39f0be799da2b0ed68dc816fa78c24bbeccc3b858111743fb3"
+  },
+  "https://static.tildacdn.net/js/tilda-phone-mask-1.1.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-phone-mask-1.1.min.js",
+   "bytes": 39022,
+   "type": "application/javascript",
+   "sha256": "300d078fe177ad3785bf9391588e54f2bb93fb628c766c407de82c662ecbcb85"
+  },
+  "https://static.tildacdn.net/js/tilda-polyfill-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-polyfill-1.0.min.js",
+   "bytes": 78003,
+   "type": "application/javascript",
+   "sha256": "694df41252e026448f151ef13bd9e1ceb72314d6514fd0622c303eec07a9ecb1"
+  },
+  "https://static.tildacdn.net/js/tilda-popup-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-popup-1.0.min.js",
+   "bytes": 3366,
+   "type": "application/javascript",
+   "sha256": "22dd5ef26241412d3a0872d24e45000751ea3414fcf0b8d331413f6be6e5eb1c"
+  },
+  "https://static.tildacdn.net/js/tilda-range-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-range-1.0.min.js",
+   "bytes": 2461,
+   "type": "application/javascript",
+   "sha256": "375d8209e45cd344a5daa03ae4a276f022cb46b2d7aaccc9f0da93239b221772"
+  },
+  "https://static.tildacdn.net/js/tilda-scripts-3.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-scripts-3.0.min.js",
+   "bytes": 23377,
+   "type": "application/javascript",
+   "sha256": "281e510be7f632bcfe59f6cb465764cd050a73e2a63d091d52e23fef37bdbb68"
+  },
+  "https://static.tildacdn.net/js/tilda-skiplink-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-skiplink-1.0.min.js",
+   "bytes": 1879,
+   "type": "application/javascript",
+   "sha256": "e30be28d85f8db5566078029d843d227687fd73ccfd6757d37b69b2fc06bf48d"
+  },
+  "https://static.tildacdn.net/js/tilda-stat-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-stat-1.0.min.js",
+   "bytes": 9690,
+   "type": "application/javascript",
+   "sha256": "30299b6ef1aff24831fb728ee4edaf4fc02c8c7dd0806bfa90f3e3ea7fe2bb80"
+  },
+  "https://static.tildacdn.net/js/tilda-upwidget-1.1.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-upwidget-1.1.min.js",
+   "bytes": 10818,
+   "type": "application/javascript",
+   "sha256": "2eaf043bb07374e911a47fae6115e22c422f64891f56d75acc1b07a9681a3024"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-1.2.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-1.2.min.js",
+   "bytes": 49105,
+   "type": "application/javascript",
+   "sha256": "2db27f88a6326fab29717f129a5dd21a6977bbcb1070bf63e3880f66686edae4"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-fixed-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-fixed-1.0.min.js",
+   "bytes": 3006,
+   "type": "application/javascript",
+   "sha256": "e5d2ffc4650e6410fea1edff4f60959e2ccd4daf5dd24daeaeabc5f684c434ae"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-forms-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-forms-1.0.min.js",
+   "bytes": 79683,
+   "type": "application/javascript",
+   "sha256": "f0afbf9d31abe593170280ceb6968a51651adc44ce209ce848484c159b23ca95"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-scale-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-scale-1.0.min.js",
+   "bytes": 8858,
+   "type": "application/javascript",
+   "sha256": "4ff397959519c5a449f79091945867d141030378d3bb65137ce919b2c61e3240"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-slider-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-slider-1.0.min.js",
+   "bytes": 61419,
+   "type": "application/javascript",
+   "sha256": "842a821f873b745c18d06ef17170668db8c5aaad80e7003345a8485c752fd5f5"
+  },
+  "https://static.tildacdn.net/js/tilda-zero-video-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zero-video-1.0.min.js",
+   "bytes": 16235,
+   "type": "application/javascript",
+   "sha256": "b492b8972658d3d5baceac7dadb9165619d8ae3ba74541ccd54902f4f4b144f0"
+  },
+  "https://static.tildacdn.net/js/tilda-zoom-2.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/tilda-zoom-2.0.min.js",
+   "bytes": 35319,
+   "type": "application/javascript",
+   "sha256": "f2f1aa3edbec52b0b040c225268dfd4b9164a7932125df97760fb3517528ac0f"
+  },
+  "https://static.tildacdn.net/js/uploadcare-3.x.full.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/uploadcare-3.x.full.min.js",
+   "bytes": 142996,
+   "type": "application/javascript",
+   "sha256": "53d7722f1dee3ab01fc32a98518a23c9acd1601d4c2a3765aa330374b0ca9ab2"
+  },
+  "https://static.tildacdn.net/js/uploadcare-3.x.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.net/js/uploadcare-3.x.min.js",
+   "bytes": 108257,
+   "type": "application/javascript",
+   "sha256": "0d8c1d78764e8e04fc666cd443d87c2c53bea9fa1374f2e4880c8d7892f4438d"
+  },
+  "https://static.tildacdn.net/tild3030-3563-4132-a133-616264326566/d93552ac-7b8d-4cf8-8.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3030-3563-4132-a133-616264326566/d93552ac-7b8d-4cf8-8.png",
+   "bytes": 422,
+   "type": "image/png",
+   "sha256": "a614000c205143e27c5e7dd3c88268177718aa2bc94b275b133d6fe0f080af4f"
+  },
+  "https://static.tildacdn.net/tild3063-3565-4637-b061-333530656166/Frame_1321319624.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3063-3565-4637-b061-333530656166/Frame_1321319624.png",
+   "bytes": 78662,
+   "type": "image/png",
+   "sha256": "317817c141514c3b4bd24fcdf89b280552d6dfa238018c2dcc5b9977c434ba7a"
+  },
+  "https://static.tildacdn.net/tild3165-6264-4738-a230-636435326564/Rectangle_29495.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3165-6264-4738-a230-636435326564/Rectangle_29495.png",
+   "bytes": 803557,
+   "type": "image/png",
+   "sha256": "bd38dc5e3de9bba8b2bb1e4af37d91b519c3a1c471ec2b77f276200af6d0fec5"
+  },
+  "https://static.tildacdn.net/tild3166-3131-4762-b433-363263643231/Frame_2085661769.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3166-3131-4762-b433-363263643231/Frame_2085661769.png",
+   "bytes": 622311,
+   "type": "image/png",
+   "sha256": "bf50b96e2060697d50c41306a2a0aba7877df19bb0a74e4b504d9d30c20f95a7"
+  },
+  "https://static.tildacdn.net/tild3235-3264-4466-b662-333335366332/hf_20260623_193814_0.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3235-3264-4466-b662-333335366332/hf_20260623_193814_0.png",
+   "bytes": 119441,
+   "type": "image/png",
+   "sha256": "baab1a2393214e83f09eee717d84c1d32e04ab6c359acaf49eae53f1dcda85ad"
+  },
+  "https://static.tildacdn.net/tild3236-3834-4933-a139-333138633465/IMG_8533_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3236-3834-4933-a139-333138633465/IMG_8533_3.png",
+   "bytes": 151188,
+   "type": "image/png",
+   "sha256": "da44248043d1c93f084ca6e60fa57b3fa1e2aa21a6996247b261ef7c3a9632c0"
+  },
+  "https://static.tildacdn.net/tild3236-6664-4730-a335-633839356336/IMG_8536_4.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3236-6664-4730-a335-633839356336/IMG_8536_4.png",
+   "bytes": 141945,
+   "type": "image/png",
+   "sha256": "540654d6a2c9786c0bc1feeac7dd64720c9ca3394994a2bcd89c38819a731c28"
+  },
+  "https://static.tildacdn.net/tild3261-3334-4230-a633-613966326435/IMG_8536_5.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3261-3334-4230-a633-613966326435/IMG_8536_5.png",
+   "bytes": 141188,
+   "type": "image/png",
+   "sha256": "fde13a58222d35f9c102f800407c6c3bf78b1f9e6974cbfc23946294accec360"
+  },
+  "https://static.tildacdn.net/tild3262-3666-4935-b264-376434383531/hf_20260623_195041_7.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3262-3666-4935-b264-376434383531/hf_20260623_195041_7.png",
+   "bytes": 87645,
+   "type": "image/png",
+   "sha256": "3f65b59f542b0a21f441adf262eab0a334d26ae53f2b262f44d833049f4def36"
+  },
+  "https://static.tildacdn.net/tild3263-3664-4163-a632-316130376636/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3263-3664-4163-a632-316130376636/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild3263-3831-4135-a636-353766626562/svg_1763386525230.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3263-3831-4135-a636-353766626562/svg_1763386525230.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild3265-3630-4432-a362-623632396630/Frame_2085661656_2_1.webp": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3265-3630-4432-a362-623632396630/Frame_2085661656_2_1.webp",
+   "bytes": 138048,
+   "type": "image/webp",
+   "sha256": "bb310222647a0cbf762d0d71ecf142318adbdc5de54932303d3d77db16ace562"
+  },
+  "https://static.tildacdn.net/tild3266-6132-4438-a535-633763313439/image_2151.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3266-6132-4438-a535-633763313439/image_2151.png",
+   "bytes": 661332,
+   "type": "image/png",
+   "sha256": "dcced776402dfc16853c9d085fe4e32330e3ca25fbfa3fea2028f38b2978dd83"
+  },
+  "https://static.tildacdn.net/tild3333-3637-4066-a338-633564656639/hf_20260623_193814_0.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3333-3637-4066-a338-633564656639/hf_20260623_193814_0.png",
+   "bytes": 143108,
+   "type": "image/png",
+   "sha256": "4386e9e94db5407eb35b8684d9802774c19183ec5f907be2ba9be273c2e6fffd"
+  },
+  "https://static.tildacdn.net/tild3333-3937-4664-a232-373066623733/Group_2085661457_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3333-3937-4664-a232-373066623733/Group_2085661457_1.png",
+   "bytes": 2551853,
+   "type": "image/png",
+   "sha256": "0ce4c954d46fabcb30d030123d1ab5bfe79093d3597555dfbef000ffd491dbda"
+  },
+  "https://static.tildacdn.net/tild3334-3036-4261-b833-356235323535/Rectangle_240650059.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3334-3036-4261-b833-356235323535/Rectangle_240650059.png",
+   "bytes": 2191407,
+   "type": "image/png",
+   "sha256": "b7a21466af23b45e2a454c9ca24a8181fe4c5ec04e455a7f297a0b603444f3ca"
+  },
+  "https://static.tildacdn.net/tild3338-3062-4166-a463-656332353965/--_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3338-3062-4166-a463-656332353965/--_1.png",
+   "bytes": 85818,
+   "type": "image/png",
+   "sha256": "04a1b66f8a01ac2383e5bc4ca5e776a4fc49b65be2319037eeee7a1a918da14b"
+  },
+  "https://static.tildacdn.net/tild3339-3961-4335-b835-383134303565/image_2225.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3339-3961-4335-b835-383134303565/image_2225.png",
+   "bytes": 756349,
+   "type": "image/png",
+   "sha256": "bf1ccbc8880c7eb434829f70cf6e2ee94ac6564e37b3351a55bb9678723b26ec"
+  },
+  "https://static.tildacdn.net/tild3361-3632-4165-a230-316634616633/hf_20260623_192626_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3361-3632-4165-a230-316634616633/hf_20260623_192626_1.png",
+   "bytes": 101303,
+   "type": "image/png",
+   "sha256": "a1cbc81a753e5265b3a7bcf7f0d268446d19ac618f9d62ff02532d66108479c7"
+  },
+  "https://static.tildacdn.net/tild3361-3863-4633-a638-316533633261/Rectangle_29495.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3361-3863-4633-a638-316533633261/Rectangle_29495.png",
+   "bytes": 802207,
+   "type": "image/png",
+   "sha256": "25e2ca6f2e3551dc7ae838eed0b121e63520b7b180b28e9c5e1ae86291165a11"
+  },
+  "https://static.tildacdn.net/tild3365-3065-4335-b530-393334376665/Tamara-Podanyova_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3365-3065-4335-b530-393334376665/Tamara-Podanyova_1.png",
+   "bytes": 80490,
+   "type": "image/png",
+   "sha256": "46f509622c6ae7df97be6a4dc4de622ab12bde64cd0024d65b6cd0300b9cdfdb"
+  },
+  "https://static.tildacdn.net/tild3430-3334-4561-b265-383938356638/efb09680-2e49-4716-9.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3430-3334-4561-b265-383938356638/efb09680-2e49-4716-9.png",
+   "bytes": 2313184,
+   "type": "image/png",
+   "sha256": "9f94ae551db63358d246374ce9a57f7994d39cd825bb0956838569278854f397"
+  },
+  "https://static.tildacdn.net/tild3431-3661-4066-a264-663839363362/d2c1f56b-677c-4142-a.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3431-3661-4066-a264-663839363362/d2c1f56b-677c-4142-a.png",
+   "bytes": 1424353,
+   "type": "image/png",
+   "sha256": "46275de74769645e74562b56499182a811d61c3fcf3e9cc7f1f565e16109f95d"
+  },
+  "https://static.tildacdn.net/tild3431-6639-4638-a463-393931336130/Group_2085661465_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3431-6639-4638-a463-393931336130/Group_2085661465_1.png",
+   "bytes": 794163,
+   "type": "image/png",
+   "sha256": "8904aa9d09ebab59831276ae78d0c4d6d4ff76d937524e48211edaf6802253dd"
+  },
+  "https://static.tildacdn.net/tild3432-6231-4961-a565-306565666437/Rectangle_29495_6.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3432-6231-4961-a565-306565666437/Rectangle_29495_6.png",
+   "bytes": 1008274,
+   "type": "image/png",
+   "sha256": "ffe108251a00d15642471690402ff9b9e0c05ca4bcca42c32bdbc6787110ae2d"
+  },
+  "https://static.tildacdn.net/tild3432-6434-4262-b337-323637663130/Frame_2085661770.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3432-6434-4262-b337-323637663130/Frame_2085661770.png",
+   "bytes": 608903,
+   "type": "image/png",
+   "sha256": "cd6dcb1d26fc4d59d9e3c4ad3fd886e1891cddca517cb222bc566cdd23abffba"
+  },
+  "https://static.tildacdn.net/tild3434-3164-4537-b364-666337343762/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3434-3164-4537-b364-666337343762/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild3435-6334-4231-b732-353939346630/DSCF9664_resized_2.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3435-6334-4231-b732-353939346630/DSCF9664_resized_2.png",
+   "bytes": 2174949,
+   "type": "image/png",
+   "sha256": "449452d78909c736b44e765e882a444bbec7602299724c2504eabf237890ee14"
+  },
+  "https://static.tildacdn.net/tild3461-3634-4165-b165-376264653964/Rectangle_29419_2.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3461-3634-4165-b165-376264653964/Rectangle_29419_2.png",
+   "bytes": 1041449,
+   "type": "image/png",
+   "sha256": "f4d2627017b2bbe7c512df56d7a431ca9b1f8bced22342afd224be0ce38a1165"
+  },
+  "https://static.tildacdn.net/tild3462-3062-4236-a261-303830343866/hf_20260623_193349_6.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3462-3062-4236-a261-303830343866/hf_20260623_193349_6.png",
+   "bytes": 178918,
+   "type": "image/png",
+   "sha256": "a9832b4381a0e651abbc141373378a7ff171e1a6d7901f4f33327bc4b70de3c1"
+  },
+  "https://static.tildacdn.net/tild3462-3137-4132-b566-626635313036/svg_1761598625370.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3462-3137-4132-b566-626635313036/svg_1761598625370.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild3463-6236-4561-a365-656364356431/Group_2085665813.jpg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3463-6236-4561-a365-656364356431/Group_2085665813.jpg",
+   "bytes": 801688,
+   "type": "image/jpeg",
+   "sha256": "32e4b6199d221c84fd09a3c7358cd475f9393722bb511edd37dc512eea136c80"
+  },
+  "https://static.tildacdn.net/tild3466-3639-4433-b065-356634396535/precision_nutrition_.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3466-3639-4433-b065-356634396535/precision_nutrition_.png",
+   "bytes": 213933,
+   "type": "image/png",
+   "sha256": "19c3934e8322d2b378237b615e68d140f01c8f98b21b4bd63d2c5a954a886b43"
+  },
+  "https://static.tildacdn.net/tild3530-3166-4135-b430-323531383934/Rectangle_29495_7.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3530-3166-4135-b430-323531383934/Rectangle_29495_7.png",
+   "bytes": 594943,
+   "type": "image/png",
+   "sha256": "594db07b461f0ed9e2594df84cd8152e2eff66d6730620060939f6a7e9459031"
+  },
+  "https://static.tildacdn.net/tild3532-3335-4535-b134-376338633730/png.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3532-3335-4535-b134-376338633730/png.png",
+   "bytes": 157443,
+   "type": "image/png",
+   "sha256": "ec66910abef196b6478e3bcdee500b45750f7cb709676bf21c523507a9a2d0d9"
+  },
+  "https://static.tildacdn.net/tild3533-3431-4763-a539-646563663966/DSCF9334.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3533-3431-4763-a539-646563663966/DSCF9334.png",
+   "bytes": 79277,
+   "type": "image/png",
+   "sha256": "dacc3dbf0c768c8e1dae305100d91480c38f0ed1eb63f2dc8bd1672bfed9f7cc"
+  },
+  "https://static.tildacdn.net/tild3535-3563-4231-a135-313435663063/hf_20260623_195041_7.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3535-3563-4231-a135-313435663063/hf_20260623_195041_7.png",
+   "bytes": 157434,
+   "type": "image/png",
+   "sha256": "398bd6e3afc95f61e45e71e5feb7ff89a8bb8e6883ef7b5b5cc9729368181eac"
+  },
+  "https://static.tildacdn.net/tild3535-3665-4530-b739-623265613233/svg_1761598640121.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3535-3665-4530-b739-623265613233/svg_1761598640121.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild3537-3238-4266-b833-663461653665/-__.webp": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3537-3238-4266-b833-663461653665/-__.webp",
+   "bytes": 223406,
+   "type": "image/webp",
+   "sha256": "06a23633c61d9a075e0813c401eacb402e9c37ce693fe9640d894ca07b8aa990"
+  },
+  "https://static.tildacdn.net/tild3537-6262-4735-b236-663366656634/Tamara_Podanova_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3537-6262-4735-b236-663366656634/Tamara_Podanova_3.png",
+   "bytes": 149279,
+   "type": "image/png",
+   "sha256": "d3bea834b9e29542fff2c9edfba2eedbd30baf48a4e670840dd2d9aebf6de31a"
+  },
+  "https://static.tildacdn.net/tild3538-6636-4637-a633-333862396161/DSCF9664_resized_1_2.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3538-6636-4637-a633-333862396161/DSCF9664_resized_1_2.png",
+   "bytes": 602744,
+   "type": "image/png",
+   "sha256": "ea63fccf7afb267e4504cee2aaacbaa87a5205e72dad224eaad8f2039943501a"
+  },
+  "https://static.tildacdn.net/tild3561-3336-4132-a632-346330373632/_.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3561-3336-4132-a632-346330373632/_.png",
+   "bytes": 704802,
+   "type": "image/png",
+   "sha256": "e962efaa20bb3218f502a86992a6995e0a2ee040cab289fa258a2cc8cec6501b"
+  },
+  "https://static.tildacdn.net/tild3565-3966-4533-a232-316435316632/Frame_2085661768.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3565-3966-4533-a232-316435316632/Frame_2085661768.png",
+   "bytes": 508560,
+   "type": "image/png",
+   "sha256": "35308a53d0ed92c065669d9e445fd91e9d018a21f5ad17e5c777b41a19be67b0"
+  },
+  "https://static.tildacdn.net/tild3632-6665-4163-b563-383662643036/hf_20260623_195041_7.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3632-6665-4163-b563-383662643036/hf_20260623_195041_7.png",
+   "bytes": 71282,
+   "type": "image/png",
+   "sha256": "4570b9e29c21af497e5832775dd514ff9bff454d80020f4ac6ada59bcd017922"
+  },
+  "https://static.tildacdn.net/tild3635-3465-4134-a338-643939623436/Group_2085661523.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3635-3465-4134-a338-643939623436/Group_2085661523.svg",
+   "bytes": 1693,
+   "type": "image/svg+xml",
+   "sha256": "e7ec0fb3cb1a954c04e7518a8389198daac02d57854fb467b4b8759caeb11659"
+  },
+  "https://static.tildacdn.net/tild3637-6366-4230-b661-323532373836/Group_2085661508.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3637-6366-4230-b661-323532373836/Group_2085661508.svg",
+   "bytes": 618,
+   "type": "image/svg+xml",
+   "sha256": "807c86417dffb27b69bbc957ae9cd356e193e0b0543e2769bf5d353fbca19dfe"
+  },
+  "https://static.tildacdn.net/tild3666-3066-4032-b130-313932313833/DSCF9334.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3666-3066-4032-b130-313932313833/DSCF9334.png",
+   "bytes": 41352,
+   "type": "image/png",
+   "sha256": "6b62c506c926d3b8bfc52d8e2dac966888e78f2e7e56eb601ac99bb7eac00775"
+  },
+  "https://static.tildacdn.net/tild3731-3563-4238-b663-646531646565/IMG_8540_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3731-3563-4238-b663-646531646565/IMG_8540_3.png",
+   "bytes": 471244,
+   "type": "image/png",
+   "sha256": "d9dbff750167f831c78c168675483e15c38ff85b78841d6132d6c94ec6c68160"
+  },
+  "https://static.tildacdn.net/tild3736-6232-4534-b734-356630316236/Rectangle_29495_5.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3736-6232-4534-b734-356630316236/Rectangle_29495_5.png",
+   "bytes": 623981,
+   "type": "image/png",
+   "sha256": "5ead23b13b518b8750fd756f1b381abd2f079a5a9f132f33dc75bb85d1f700e2"
+  },
+  "https://static.tildacdn.net/tild3761-3862-4536-b139-306638356639/Vector.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3761-3862-4536-b139-306638356639/Vector.svg",
+   "bytes": 1251,
+   "type": "image/svg+xml",
+   "sha256": "60c0f56aea842c74603b19c55c48d44e0931988a610b84fdf9590bdcf8810673"
+  },
+  "https://static.tildacdn.net/tild3761-6437-4934-b262-613333353861/Rectangle_29495_4.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3761-6437-4934-b262-613333353861/Rectangle_29495_4.png",
+   "bytes": 855836,
+   "type": "image/png",
+   "sha256": "1e828188789921baae8e76058307e6534903e3ed04199a2649bfa22d5c5c33f5"
+  },
+  "https://static.tildacdn.net/tild3762-3739-4166-b930-643535373666/Certificate26_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3762-3739-4166-b930-643535373666/Certificate26_3.png",
+   "bytes": 87476,
+   "type": "image/png",
+   "sha256": "99937fc7a24d9bc1b6d89c2b1954143b61434850aa20fd519870a1eeba50fa00"
+  },
+  "https://static.tildacdn.net/tild3766-3866-4566-a436-333133336163/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3766-3866-4566-a436-333133336163/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild3830-3233-4531-a630-626363306664/svg_1763386519721.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3830-3233-4531-a630-626363306664/svg_1763386519721.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild3830-3837-4963-b963-633762303436/SERTIFICATE22_5.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3830-3837-4963-b963-633762303436/SERTIFICATE22_5.png",
+   "bytes": 89975,
+   "type": "image/png",
+   "sha256": "87e8c642f9997676f9be41806c257543a5945dec5182cb07494e94718bd5e324"
+  },
+  "https://static.tildacdn.net/tild3831-3465-4839-a336-386232373165/-1300_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3831-3465-4839-a336-386232373165/-1300_3.png",
+   "bytes": 160228,
+   "type": "image/png",
+   "sha256": "c1aa4a205e9d237f29c477bae56f335b6a572a0747cea958869db6c68b71fe6d"
+  },
+  "https://static.tildacdn.net/tild3832-3165-4339-b131-356232393835/photo.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3832-3165-4339-b131-356232393835/photo.svg",
+   "bytes": 2897,
+   "type": "image/svg+xml",
+   "sha256": "ec63b84f73b2f28c8c5fadbfbf184dac43faa3256777416fbcd3650efd760927"
+  },
+  "https://static.tildacdn.net/tild3837-3533-4932-b163-373833356631/Frame_2085661673_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3837-3533-4932-b163-373833356631/Frame_2085661673_1.png",
+   "bytes": 864916,
+   "type": "image/png",
+   "sha256": "c648bb4ab1d5f336c49fc269d1e9dabd20329cde54f491dd25d152ce175b1952"
+  },
+  "https://static.tildacdn.net/tild3839-6562-4664-b365-633233306263/photo.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3839-6562-4664-b365-633233306263/photo.svg",
+   "bytes": 2951,
+   "type": "image/svg+xml",
+   "sha256": "ddec8280177e76cb4fb7bb2dd560fb5a3a1093d2de09905779648a97fa8b8f0a"
+  },
+  "https://static.tildacdn.net/tild3863-6461-4563-a631-666663313865/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3863-6461-4563-a631-666663313865/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild3864-6561-4564-b665-643866346539/IMG_8535_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3864-6561-4564-b665-643866346539/IMG_8535_3.png",
+   "bytes": 404521,
+   "type": "image/png",
+   "sha256": "e836a54d47524120f8210d178b0d238a90837ce1376beb8142daa26ed0daad3e"
+  },
+  "https://static.tildacdn.net/tild3934-6639-4636-b164-343362323534/telegram_logo_icon_1.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3934-6639-4636-b164-343362323534/telegram_logo_icon_1.svg",
+   "bytes": 1103,
+   "type": "image/svg+xml",
+   "sha256": "4b0eaa25819535522abdb6f74ca06426cc334676e090a1e14481543d57e8d5e7"
+  },
+  "https://static.tildacdn.net/tild3964-3061-4537-b963-326333343463/Tamara-Podanova--_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3964-3061-4537-b963-326333343463/Tamara-Podanova--_3.png",
+   "bytes": 114433,
+   "type": "image/png",
+   "sha256": "d92d406541ecf601a99e64bc8f454326885ec971439a8249e570c547be0d5b11"
+  },
+  "https://static.tildacdn.net/tild3964-3235-4336-b664-613535366463/Group_2085661508.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3964-3235-4336-b664-613535366463/Group_2085661508.svg",
+   "bytes": 1061,
+   "type": "image/svg+xml",
+   "sha256": "1d7a965d1c175daa3ebed6f4b372bd62b794b3d23733d1607b874dafcafad389"
+  },
+  "https://static.tildacdn.net/tild3965-3133-4333-a235-393962316661/svg_1761598599276.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3965-3133-4333-a235-393962316661/svg_1761598599276.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild3965-3766-4661-b839-646332353762/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild3965-3766-4661-b839-646332353762/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild6139-3565-4838-b038-396261353334/svg_1761598618963.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6139-3565-4838-b038-396261353334/svg_1761598618963.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild6161-3366-4630-b564-346239333961/IMG_8537_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6161-3366-4630-b564-346239333961/IMG_8537_3.png",
+   "bytes": 207888,
+   "type": "image/png",
+   "sha256": "b1d36f4a7fcffdd21b9dc06e74f326a62e6ad205c0c181cb1257af44195dc766"
+  },
+  "https://static.tildacdn.net/tild6165-3036-4235-b033-646633363634/Rectangle_240650033-.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6165-3036-4235-b033-646633363634/Rectangle_240650033-.png",
+   "bytes": 613594,
+   "type": "image/png",
+   "sha256": "ccbadfc0313a1865aa70723fa5d39ddd3c7972375aaac8da99b6bdb4ab6ff9da"
+  },
+  "https://static.tildacdn.net/tild6166-6335-4338-a637-643739663364/--2023__28_4_2023-89.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6166-6335-4338-a637-643739663364/--2023__28_4_2023-89.png",
+   "bytes": 276676,
+   "type": "image/png",
+   "sha256": "fd4977bf47dfdf27817fa797f94efed3dcc0125cbe42ff5f164acc2f5749f4c6"
+  },
+  "https://static.tildacdn.net/tild6238-6130-4261-b262-666531663337/Rectangle_29498-min.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6238-6130-4261-b262-666531663337/Rectangle_29498-min.png",
+   "bytes": 509350,
+   "type": "image/png",
+   "sha256": "eccdd8058fc7f31ca3df6e906a23081fdd9ac22a38a3273bf8e373e84c455c21"
+  },
+  "https://static.tildacdn.net/tild6264-3461-4432-a335-666537346238/d2c1f56b-677c-4142-a.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6264-3461-4432-a335-666537346238/d2c1f56b-677c-4142-a.png",
+   "bytes": 1424353,
+   "type": "image/png",
+   "sha256": "46275de74769645e74562b56499182a811d61c3fcf3e9cc7f1f565e16109f95d"
+  },
+  "https://static.tildacdn.net/tild6266-3533-4530-b032-303430633235/_____-__1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6266-3533-4530-b032-303430633235/_____-__1.png",
+   "bytes": 81641,
+   "type": "image/png",
+   "sha256": "41b3ee853e4739d1eaa5469cb1026358912f547473d120f2c4bc839becd596e0"
+  },
+  "https://static.tildacdn.net/tild6330-3661-4133-a565-323836623766/Frame_2085661752.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6330-3661-4133-a565-323836623766/Frame_2085661752.png",
+   "bytes": 612679,
+   "type": "image/png",
+   "sha256": "2a17ff76b58fe988302fce038fe7fc028758cc6e3796dc43ea2d719bc0177028"
+  },
+  "https://static.tildacdn.net/tild6331-3039-4839-b333-386533653562/documento--0_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6331-3039-4839-b333-386533653562/documento--0_3.png",
+   "bytes": 64086,
+   "type": "image/png",
+   "sha256": "79c79d45547a03971a4449fa26859c6117f4334bfb55ea49c3985de84c443bc7"
+  },
+  "https://static.tildacdn.net/tild6331-3564-4732-b837-303637666438/svg_1761598632777.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6331-3564-4732-b837-303637666438/svg_1761598632777.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild6331-3835-4261-a637-663132376331/Rectangle_240650057.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6331-3835-4261-a637-663132376331/Rectangle_240650057.png",
+   "bytes": 687127,
+   "type": "image/png",
+   "sha256": "ab810e545f311490ba376b8a9e1f3e34167cd2c5644a7858d0006a53af13bf84"
+  },
+  "https://static.tildacdn.net/tild6331-6137-4262-a539-356233666562/SERTIFICATE22_4.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6331-6137-4262-a539-356233666562/SERTIFICATE22_4.png",
+   "bytes": 84023,
+   "type": "image/png",
+   "sha256": "90e85edf2fc3ac83821e51e7d16c288c8ce02a57f42f63d9a30bf1bf5beaa65a"
+  },
+  "https://static.tildacdn.net/tild6332-3566-4233-a365-616436366561/Rectangle_29495_2.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6332-3566-4233-a365-616436366561/Rectangle_29495_2.png",
+   "bytes": 917507,
+   "type": "image/png",
+   "sha256": "aaa6e11466b28bfad51eba4ba963a590a9ae22574ca9c5a1ac3da9035353b485"
+  },
+  "https://static.tildacdn.net/tild6332-6535-4635-b330-393566396630/Rectangle_29495_2.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6332-6535-4635-b330-393566396630/Rectangle_29495_2.png",
+   "bytes": 215646,
+   "type": "image/png",
+   "sha256": "a03faf8d393d51dbffb4faeed67ae0a73b48f6cd03c9c730f29bcc5a94e1b299"
+  },
+  "https://static.tildacdn.net/tild6334-3864-4363-a534-376633346230/precision_nutrition_.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6334-3864-4363-a534-376633346230/precision_nutrition_.png",
+   "bytes": 227572,
+   "type": "image/png",
+   "sha256": "4afc925108ff9acee36d884ed0ead3c3c73f40756437b342187fa894cd87da58"
+  },
+  "https://static.tildacdn.net/tild6338-3664-4563-b266-316136303339/Rectangle_29495_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6338-3664-4563-b266-316136303339/Rectangle_29495_1.png",
+   "bytes": 836594,
+   "type": "image/png",
+   "sha256": "218e5ef8680d0484fa534b88113437f2450f6f91c5db4cf2f871dee185cd0ab0"
+  },
+  "https://static.tildacdn.net/tild6362-3937-4064-b664-373036393531/iconfinder-youtube-4.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6362-3937-4064-b664-373036393531/iconfinder-youtube-4.svg",
+   "bytes": 1433,
+   "type": "image/svg+xml",
+   "sha256": "216f3c6fb8c599b65979c39a7285514bfdc05dda7718bbc205e15570d95c4196"
+  },
+  "https://static.tildacdn.net/tild6363-3035-4030-b563-326266386132/Rectangle_29657-min.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6363-3035-4030-b563-326266386132/Rectangle_29657-min.png",
+   "bytes": 605919,
+   "type": "image/png",
+   "sha256": "7b0defe1d7ff3050abd6141148087f2b4e4a0b16bc70a58fd40f2247489844cb"
+  },
+  "https://static.tildacdn.net/tild6363-3265-4638-b136-303738386333/IMG_8532_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6363-3265-4638-b136-303738386333/IMG_8532_3.png",
+   "bytes": 301880,
+   "type": "image/png",
+   "sha256": "bb32a25a1ba6132e88845ccd4547078f9b8bb0120954aeb4a6b6eb33829ed16a"
+  },
+  "https://static.tildacdn.net/tild6363-3837-4263-b863-636232383564/Rectangle_240650038.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6363-3837-4263-b863-636232383564/Rectangle_240650038.png",
+   "bytes": 533419,
+   "type": "image/png",
+   "sha256": "476a11ffc54c7374a11e952cf7db99271993829e9756f7f4de298a4fbf294ca1"
+  },
+  "https://static.tildacdn.net/tild6365-6361-4531-b663-383830653236/Rectangle_29493.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6365-6361-4531-b663-383830653236/Rectangle_29493.png",
+   "bytes": 267517,
+   "type": "image/png",
+   "sha256": "a835e38686302a0cee54d68f1059cc6fac8d402409fb2ccd2b81c1af096c8cf9"
+  },
+  "https://static.tildacdn.net/tild6432-3136-4635-a533-643634666234/svg_1763386529235.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6432-3136-4635-a533-643634666234/svg_1763386529235.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild6464-3832-4362-b232-343066663765/instagram_black_logo.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6464-3832-4362-b232-343066663765/instagram_black_logo.svg",
+   "bytes": 3726,
+   "type": "image/svg+xml",
+   "sha256": "9f10de666784b6be75e5741969bf5f2ea6e2aabba56062e968f5ceb4b84490fd"
+  },
+  "https://static.tildacdn.net/tild6464-3864-4461-b737-663930336531/____3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6464-3864-4461-b737-663930336531/____3.png",
+   "bytes": 170205,
+   "type": "image/png",
+   "sha256": "6756b1df18143626e16ee7b15ec56672b75dbf9c5e5fdeed6c743e2f16bbbd07"
+  },
+  "https://static.tildacdn.net/tild6465-3862-4930-b736-646139323764/Rectangle_29417.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6465-3862-4930-b736-646139323764/Rectangle_29417.png",
+   "bytes": 714513,
+   "type": "image/png",
+   "sha256": "1593758cfd40c27ecff36dfbc407d8a934c865d3631bd6db10d1fd7c6e7ccfdb"
+  },
+  "https://static.tildacdn.net/tild6466-3062-4666-b739-393866613238/DSCF9334.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6466-3062-4666-b739-393866613238/DSCF9334.png",
+   "bytes": 38659,
+   "type": "image/png",
+   "sha256": "ac94e33f65e3472cf35f05af0b5e0fea8cb1098fbdbe4defd57ee568fdb875ee"
+  },
+  "https://static.tildacdn.net/tild6466-3835-4565-a336-353635363232/Group_2085661569_1.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6466-3835-4565-a336-353635363232/Group_2085661569_1.png",
+   "bytes": 55036,
+   "type": "image/png",
+   "sha256": "c553254bf65447ad3cc900d3c4d23eb0520250427f03c7d637c8edf499865926"
+  },
+  "https://static.tildacdn.net/tild6466-6230-4236-a631-633933363861/IMG_3703_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6466-6230-4236-a631-633933363861/IMG_3703_3.png",
+   "bytes": 357507,
+   "type": "image/png",
+   "sha256": "b7a2d29d026060a4460f54884fde09928d3b16fc7567feb6e25197c25b7eb875"
+  },
+  "https://static.tildacdn.net/tild6533-3334-4638-b563-343930336536/Frame_2085661655.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6533-3334-4638-b563-343930336536/Frame_2085661655.png",
+   "bytes": 892306,
+   "type": "image/png",
+   "sha256": "6cb535b6e601fef0f08518b3800f3c8172c1fee6534afe86f2a610a0c42e74f4"
+  },
+  "https://static.tildacdn.net/tild6533-3931-4432-a530-653339323731/hf_20260623_193349_6.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6533-3931-4432-a530-653339323731/hf_20260623_193349_6.png",
+   "bytes": 81331,
+   "type": "image/png",
+   "sha256": "6799e70aef83de1bb45108828496ca75c536d456a7d873b32dd50f862cad7a08"
+  },
+  "https://static.tildacdn.net/tild6533-6533-4632-a365-333165343839/IMG_8542_3.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6533-6533-4632-a365-333165343839/IMG_8542_3.png",
+   "bytes": 459587,
+   "type": "image/png",
+   "sha256": "d29a8f08cfae615ad198138cc9050c335294f2bfa4a65326fbb4f241fa21edc2"
+  },
+  "https://static.tildacdn.net/tild6565-3330-4437-a632-646165353632/Group_1321319909.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6565-3330-4437-a632-646165353632/Group_1321319909.svg",
+   "bytes": 827,
+   "type": "image/svg+xml",
+   "sha256": "6556fb4d88036ec0d8adb9673ddc93378730b1e94a8e7d9d849d12bc9c336ab8"
+  },
+  "https://static.tildacdn.net/tild6565-3366-4031-b836-383362326632/image_2229.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6565-3366-4031-b836-383362326632/image_2229.png",
+   "bytes": 175350,
+   "type": "image/png",
+   "sha256": "9b813c7a37f0498e7cda0447dad80d7cc952576fc76f2477e743f75e71a8d4cc"
+  },
+  "https://static.tildacdn.net/tild6566-6337-4137-a430-383839653537/svg_1761598612199.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6566-6337-4137-a430-383839653537/svg_1761598612199.svg",
+   "bytes": 1001,
+   "type": "image/svg+xml",
+   "sha256": "00eae0eb0bce8b5553aa711ba19f35abeaae9bff9f8a6aa20079c8003ff99756"
+  },
+  "https://static.tildacdn.net/tild6630-3333-4033-b032-623163303739/DSCF9334.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6630-3333-4033-b032-623163303739/DSCF9334.png",
+   "bytes": 1855374,
+   "type": "image/png",
+   "sha256": "edd63e9fdb6c6f064cee17f8062aa578ec1275f298c277b7fe87cecfe4ae083b"
+  },
+  "https://static.tildacdn.net/tild6630-6531-4263-b531-653764646638/_1.svg": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6630-6531-4263-b531-653764646638/_1.svg",
+   "bytes": 2873,
+   "type": "image/svg+xml",
+   "sha256": "34603e9d2936dffb30260acd3be47469ff223f2bfde002548219979601369c6a"
+  },
+  "https://static.tildacdn.net/tild6631-3139-4739-b131-383531376563/image_2157.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6631-3139-4739-b131-383531376563/image_2157.png",
+   "bytes": 405661,
+   "type": "image/png",
+   "sha256": "083e42ecb81f967f58de5699525360d5ae7486093f9e44822fb9afd84edf1774"
+  },
+  "https://static.tildacdn.net/tild6661-3331-4362-a161-353230343266/Rectangle_29426.png": {
+   "status": 200,
+   "file": "static.tildacdn.net/tild6661-3331-4362-a161-353230343266/Rectangle_29426.png",
+   "bytes": 1586793,
+   "type": "image/png",
+   "sha256": "9b0af5674722c1e0577883ff507c64db0ec025b1d9e19406358d3c39038b53fe"
+  },
+  "https://static.tildacdn.net/vide3838-3336-4465-b963-336364636631/66bbf76e-bfec-47df-8.mp4": {
+   "status": 200,
+   "file": "static.tildacdn.net/vide3838-3336-4465-b963-336364636631/66bbf76e-bfec-47df-8.mp4",
+   "bytes": 1694758,
+   "type": "video/mp4",
+   "sha256": "18af7fbe673555a71c02da102e22529528673c9d53a7a93ea2ceab4ccdabc348"
+  },
+  "https://static.tildacdn.net/vide6336-3232-4039-a335-353165303331/61ac4144-3f7c-4a07-9.mp4": {
+   "status": 200,
+   "file": "static.tildacdn.net/vide6336-3232-4039-a335-353165303331/61ac4144-3f7c-4a07-9.mp4",
+   "bytes": 1963118,
+   "type": "video/mp4",
+   "sha256": "f5ab54982c30020c435c8a2e960bd575f47753dd9f0da37a626afc66b05c627c"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page104485186.min.css?t=1788781975": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page104485186.min__7f67e749.css",
+   "bytes": 36069,
+   "type": "text/css",
+   "sha256": "20e435bf38d49b1c3f6f28e4334175d7e4e4a1affdf8cd1e44ac250970ae2e22"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page104485186.min.js?t=1788781975": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page104485186.min__7f67e749.js",
+   "bytes": 37166,
+   "type": "application/javascript",
+   "sha256": "e6fbcc3a937bd161e3bb371cc17341b0fc41549b6ba497857f5a99f4f5a6c6ec"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page130735473.min.css?t=1788781979": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page130735473.min__317d8cc7.css",
+   "bytes": 34887,
+   "type": "text/css",
+   "sha256": "df59c557e8f5784a8511a6bf7ea2905d08561a30fff0e1838a53bc2f815a4874"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page130735473.min.js?t=1788781979": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page130735473.min__317d8cc7.js",
+   "bytes": 37166,
+   "type": "application/javascript",
+   "sha256": "518c7ad1ff75ac1c26308aaeb49b146368616215a05e42200ebbb8af4d5ca98b"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page151593133.min.css?t=1788781983": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page151593133.min__c4447cc8.css",
+   "bytes": 31707,
+   "type": "text/css",
+   "sha256": "4647b1d5eaf246b67f93a47fe31dae8d1849dd1973dd515d0c49147e6eaf7783"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page151593133.min.js?t=1788781983": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page151593133.min__c4447cc8.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page224354503.min.css?t=1791462176": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page224354503.min__c83d45ab.css",
+   "bytes": 30974,
+   "type": "text/css",
+   "sha256": "c050056c87e11157c59622a6f557fc6821591a1cab02033a1c8c19bf5f5ad6d0"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page224354503.min.js?t=1791462176": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page224354503.min__c83d45ab.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page291755603.min.css?t=1791468705": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page291755603.min__6565ba78.css",
+   "bytes": 30974,
+   "type": "text/css",
+   "sha256": "c050056c87e11157c59622a6f557fc6821591a1cab02033a1c8c19bf5f5ad6d0"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page291755603.min.js?t=1791468705": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page291755603.min__6565ba78.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page365504003.min.css?t=1793974199": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page365504003.min__76da7727.css",
+   "bytes": 31154,
+   "type": "text/css",
+   "sha256": "1aa8c79175eb59519de4d3ef81a3e9b6f54f1fe2f06b3352aa6ced97ea808a46"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page365504003.min.js?t=1793974199": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page365504003.min__76da7727.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page89930006.min.css?t=1788782173": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page89930006.min__7c288db3.css",
+   "bytes": 35913,
+   "type": "text/css",
+   "sha256": "f13b0d709b728ae99f04da2786596a450df90d7fd120592b813d9949e910bdfd"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page89930006.min.js?t=1788782173": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page89930006.min__7c288db3.js",
+   "bytes": 37166,
+   "type": "application/javascript",
+   "sha256": "521b53a37cc281fcda0615c3eee2737bead3d07e6cfd900fd8366a6d83a5c52e"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page90088596.min.css?t=1788781826": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page90088596.min__1e76505f.css",
+   "bytes": 29168,
+   "type": "text/css",
+   "sha256": "1b620878f3eea6671985dad48be3824e848dc18be16e21301fee95d03aa3db59"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page90088596.min.js?t=1788781826": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page90088596.min__1e76505f.js",
+   "bytes": 7062,
+   "type": "application/javascript",
+   "sha256": "9d3f88976f6ed3bbff02b4189834d2b50864cb911255aa7961c3ccf63cf9c5f5"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page90089266.min.css?t=1788781960": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page90089266.min__81068efc.css",
+   "bytes": 10826,
+   "type": "text/css",
+   "sha256": "66230dcacd2c78905011bf1dc14fa9d330febfde5964cd3726872aedf734635e"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page90089266.min.js?t=1788781960": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page90089266.min__81068efc.js",
+   "bytes": 6713,
+   "type": "application/javascript",
+   "sha256": "65518be0cdfc70c22cbffd6d6fc8fb1ffb47e19155946173706e03c426d2b02d"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page94778886.min.css?t=1788781971": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page94778886.min__6069e9a8.css",
+   "bytes": 35700,
+   "type": "text/css",
+   "sha256": "cbd7d4192e67ccf2645d873318ad87c2ecfba0b13a532e5fda0492c36b82098d"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page94778886.min.js?t=1788781971": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page94778886.min__6069e9a8.js",
+   "bytes": 37166,
+   "type": "application/javascript",
+   "sha256": "e6fbcc3a937bd161e3bb371cc17341b0fc41549b6ba497857f5a99f4f5a6c6ec"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96251136.min.css?t=1788781999": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96251136.min__51f40c03.css",
+   "bytes": 32345,
+   "type": "text/css",
+   "sha256": "0d6f9afcb946fc2766f44cb60664890bab2d51f3eec648e8c2ac5cb4240e643b"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96251136.min.js?t=1788781999": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96251136.min__51f40c03.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96252076.min.css?t=1788782001": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96252076.min__74b1dfe9.css",
+   "bytes": 32345,
+   "type": "text/css",
+   "sha256": "0d6f9afcb946fc2766f44cb60664890bab2d51f3eec648e8c2ac5cb4240e643b"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96252076.min.js?t=1788782001": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96252076.min__74b1dfe9.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96259526.min.css?t=1788782002": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96259526.min__84f3693e.css",
+   "bytes": 32345,
+   "type": "text/css",
+   "sha256": "0d6f9afcb946fc2766f44cb60664890bab2d51f3eec648e8c2ac5cb4240e643b"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96259526.min.js?t=1788782002": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96259526.min__84f3693e.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96264136.min.css?t=1788782003": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96264136.min__7c87a26d.css",
+   "bytes": 32345,
+   "type": "text/css",
+   "sha256": "0d6f9afcb946fc2766f44cb60664890bab2d51f3eec648e8c2ac5cb4240e643b"
+  },
+  "https://static.tildacdn.net/ws/project16817076/tilda-blocks-page96264136.min.js?t=1788782003": {
+   "status": 200,
+   "file": "static.tildacdn.net/ws/project16817076/tilda-blocks-page96264136.min__7c87a26d.js",
+   "bytes": 12943,
+   "type": "application/javascript",
+   "sha256": "b2f1852d7c0f230fe7044bed1f149a8d5db5ebda5554b5b54f4eef6385c25e04"
+  },
+  "https://thb.tildacdn.net/tild3166-3131-4762-b433-363263643231/-/resize/20x/Frame_2085661769.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild3166-3131-4762-b433-363263643231/-/resize/20x/Frame_2085661769.png",
+   "bytes": 1524,
+   "type": "image/png",
+   "sha256": "817f6a96f8859286d465eb5204503d5c808e7dd3c278cd1ab9c8ac5f633c818c"
+  },
+  "https://thb.tildacdn.net/tild3432-6434-4262-b337-323637663130/-/resize/20x/Frame_2085661770.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild3432-6434-4262-b337-323637663130/-/resize/20x/Frame_2085661770.png",
+   "bytes": 1529,
+   "type": "image/png",
+   "sha256": "3da0ff0ec2a3efb9cc405081887337a036ba872f4fea6f1fa4c40a30bc6b254f"
+  },
+  "https://thb.tildacdn.net/tild3533-3431-4763-a539-646563663966/-/resize/20x/DSCF9334.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild3533-3431-4763-a539-646563663966/-/resize/20x/DSCF9334.png",
+   "bytes": 1511,
+   "type": "image/png",
+   "sha256": "5cfeb12410aa2ee7f08dc85226f2fc3e6f0cc185f478850adedb2c2e35884e30"
+  },
+  "https://thb.tildacdn.net/tild3565-3966-4533-a232-316435316632/-/resize/20x/Frame_2085661768.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild3565-3966-4533-a232-316435316632/-/resize/20x/Frame_2085661768.png",
+   "bytes": 1524,
+   "type": "image/png",
+   "sha256": "207f507627910d3f038f2d362fb378a40284af395be51e9d060f6d8263e65487"
+  },
+  "https://thb.tildacdn.net/tild6330-3661-4133-a565-323836623766/-/resize/20x/Frame_2085661752.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild6330-3661-4133-a565-323836623766/-/resize/20x/Frame_2085661752.png",
+   "bytes": 1531,
+   "type": "image/png",
+   "sha256": "b11cfbdd3223ddfecfc130d7ac31135761cb5f16b74351e101fcd4be02698650"
+  },
+  "https://thb.tildacdn.net/tild6466-3835-4565-a336-353635363232/-/resize/20x/Group_2085661569_1.png": {
+   "status": 200,
+   "file": "thb.tildacdn.net/tild6466-3835-4565-a336-353635363232/-/resize/20x/Group_2085661569_1.png",
+   "bytes": 886,
+   "type": "image/png",
+   "sha256": "3f8e04a59ca956c60163d2fb675ecce03756d357ef8c56f65c92689eb7b12801"
+  },
+  "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IcOpI43XnSBTM.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IcOpI43XnSBTM.woff2",
+   "bytes": 7776,
+   "type": "font/woff2",
+   "sha256": "d2566bbc3b19c9003ac9f570d0bb9151c3cc087177d1da3c8e3747331fa0785e"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2",
+   "bytes": 18744,
+   "type": "font/woff2",
+   "sha256": "aebf2ab4a4ce6810d73c1ac7be7cafb4e5ec4cee2d6db5fb3e09691747ec4bd6"
+  },
+  "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IfOpI43XnSBTM.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IfOpI43XnSBTM.woff2",
+   "bytes": 9892,
+   "type": "font/woff2",
+   "sha256": "ccd544ba0ae2edc1f9fbc7d9b71453d9c76717b876277237b586ded76307c81d"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2",
+   "bytes": 25844,
+   "type": "font/woff2",
+   "sha256": "fccca918fea40089dacadc7045861314d1a6bc91f1f323cc1eeb22ebcdb321b5"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "bytes": 48432,
+   "type": "font/woff2",
+   "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L1UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L1UUMbndwVgHU.woff2",
+   "bytes": 12036,
+   "type": "font/woff2",
+   "sha256": "2625be35a2119d2661e5f8545b23f335796601b2a0341569eea1f73cad3c3934"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L2UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L2UUMbndwVgHU.woff2",
+   "bytes": 10648,
+   "type": "font/woff2",
+   "sha256": "43c8ceb4cbc3853077673d90f044b79d6aea27e0fc8f6fde73e581fb4eab8a99"
+  },
+  "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IVOpI43XnSBTM.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IVOpI43XnSBTM.woff2",
+   "bytes": 10176,
+   "type": "font/woff2",
+   "sha256": "46084df3df38e3d465573b0c5c1cd28dd33da60963ca8642057de8ef801eb9f4"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L3UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L3UUMbndwVgHU.woff2",
+   "bytes": 91836,
+   "type": "font/woff2",
+   "sha256": "e3f94a6c4b2177643513bf5e2317b8458183d064e40031fa04c074136be205e8"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L5UUMbndwV.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L5UUMbndwV.woff2",
+   "bytes": 51636,
+   "type": "font/woff2",
+   "sha256": "7ddd9658a57d7c5811b4f6aa43625433d72c05ac83c46a231ef3dfd88813c8a1"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2",
+   "bytes": 19044,
+   "type": "font/woff2",
+   "sha256": "46dd4cdca58c26ae87cc6927657bf83b2e8abfc39ffd0ab176e301a8d28d22bf"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L6UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L6UUMbndwVgHU.woff2",
+   "bytes": 20612,
+   "type": "font/woff2",
+   "sha256": "9f1ed4fb9c23ce2edd414e57b3845cd7b4891ae6d66ce954abca02b6796941d4"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L0UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L0UUMbndwVgHU.woff2",
+   "bytes": 27388,
+   "type": "font/woff2",
+   "sha256": "0f92203a358b4662692225df10fe0248c46f1739ec2ff6cf0a3179efe7427edd"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L9UUMbndwVgHU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L9UUMbndwVgHU.woff2",
+   "bytes": 20016,
+   "type": "font/woff2",
+   "sha256": "d597da1979fa0117693401dfe465deef70518b035556a2c022d34ed37430a1c7"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2",
+   "bytes": 11272,
+   "type": "font/woff2",
+   "sha256": "a2e2c783ca6f9c20486e81e72a279203e86730bbf8f01ff6a5ee9dbd09e1c271"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+   "bytes": 85272,
+   "type": "font/woff2",
+   "sha256": "a28eb6d3ccb534ae0c94ca999371df024aab60b08c3c8a5720ee9e32fa0faaa2"
+  },
+  "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IROpI43XnS.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IROpI43XnS.woff2",
+   "bytes": 13684,
+   "type": "font/woff2",
+   "sha256": "678331fb318a613e6f7e4db9e608545b7ab57c192d215882caee23d4d787264d"
+  },
+  "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2": {
+   "status": 200,
+   "file": "fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2",
+   "bytes": 10280,
+   "type": "font/woff2",
+   "sha256": "8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/audio/satie-gymnopedie-1.mp3": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/audio/satie-gymnopedie-1.mp3",
+   "bytes": 3350534,
+   "type": "audio/mpeg",
+   "sha256": "ae1297787d0eefb179f652fa41147fbdc55ccc87fc8fbbcc1013e8196a113d4f"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-1-ef5537f6.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-1-ef5537f6.webp",
+   "bytes": 17474,
+   "type": "image/webp",
+   "sha256": "31f5638a5769a3b622ab156807905a0261885d6983a87d0c2f7e4ff6ef9190ce"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-2-998a9a0e.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-2-998a9a0e.webp",
+   "bytes": 41588,
+   "type": "image/webp",
+   "sha256": "92043b241f982ef9e27104f7d5110a460aa02fd35a9c7b5332f07dd991471664"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-3-9787ff51.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/author-3-9787ff51.webp",
+   "bytes": 18714,
+   "type": "image/webp",
+   "sha256": "7d75e34ce13c9a5723b5da77a98a9844376dcd8cc8095c47dedebaa423029ebf"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/faq-photo-1-fb839ea2.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/faq-photo-1-fb839ea2.webp",
+   "bytes": 14650,
+   "type": "image/webp",
+   "sha256": "9006985099d6976fbeaf9de312a05af43c3e92f9c3f8337dafe84bca86cec7ea"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/faq-photo-2-d74b9d6b.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/faq-photo-2-d74b9d6b.webp",
+   "bytes": 10294,
+   "type": "image/webp",
+   "sha256": "e136da26c3ce4919343e67cb38b5bfab5ace5cbfa937cec646220b32163bddff"
+  },
+  "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/recognition-band-86c5565f.webp": {
+   "status": 200,
+   "file": "cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/recognition-band-86c5565f.webp",
+   "bytes": 68162,
+   "type": "image/webp",
+   "sha256": "d192e57f9c322a16a09d892c29c54c5968460f5ff33c6eeebbc3e0b53a86c8b8"
+  },
+  "https://fonts.gstatic.com/l/font?kit=UcCB3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfU5NJeWUdIOjBeTGbXZdJD2MVsiEu&skey=c491285d6722e4fa&v=v20": {
+   "status": 200,
+   "file": "fonts.gstatic.com/l/font__12c45fc8.css",
+   "bytes": 46024,
+   "type": "text/html; charset=utf-8",
+   "sha256": "1434184841aa303754c3720bf07ce115a1374924b7da0fa66c913d46eb202a1f"
+  },
+  "https://fonts.gstatic.com/l/font?kit=UcCB3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfU5NJeWUdIOjBeTGbXZdND2MVsiEu&skey=c491285d6722e4fa&v=v20": {
+   "status": 200,
+   "file": "fonts.gstatic.com/l/font__592ee263.css",
+   "bytes": 37496,
+   "type": "text/html; charset=utf-8",
+   "sha256": "5400fa9987a754182737201efbabc9d7e0a2c2cf8547a64611c917bba4b0ea63"
+  },
+  "https://fonts.gstatic.com/l/font?kit=UcCf3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dsDhr10S3JvfiSNGX0JP2EftQMscPU&skey=e5dfd0c3910c7ec9&v=v20": {
+   "status": 200,
+   "file": "fonts.gstatic.com/l/font__fce2255e.css",
+   "bytes": 38336,
+   "type": "font/woff2",
+   "sha256": "b65815df5f69cdf1ab51635c1a7ded7bab33864389de4b9a63ecde3240338121"
+  },
+  "https://fonts.gstatic.com/l/font?kit=UcCf3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dsDhr10S3JvfiSNGX0JP2UftQMscPU&skey=e5dfd0c3910c7ec9&v=v20": {
+   "status": 200,
+   "file": "fonts.gstatic.com/l/font__303b53ce.css",
+   "bytes": 47020,
+   "type": "font/woff2",
+   "sha256": "be830070c2eeb267915ea90502d50cea7ddc61e855cf4efbe6193714fde79c02"
+  },
+  "https://neo.tildacdn.com/js/tilda-fallback-advanced-1.0.min.js": {
+   "status": 200,
+   "file": "neo.tildacdn.com/js/tilda-fallback-advanced-1.0.min.js",
+   "bytes": 1777,
+   "type": "application/javascript",
+   "sha256": "7338e4c3d1460ecc436bd2f9670e4c2e45b3a77cd65b16b484e3778774d309f9"
+  },
+  "https://static.tildacdn.one/js/tilda-performance-1.0.min.js": {
+   "status": 200,
+   "file": "static.tildacdn.one/js/tilda-performance-1.0.min.js",
+   "bytes": 3312,
+   "type": "application/javascript",
+   "sha256": "15cb1cffa887ec74a9ae3dad3c5c539e2b24c0c2e8e66f82fa536406e0c95db1"
+  }
+ },
+ "capturedAt": "2026-11-09T07:16:04+00:00",
+ "errors": []
+}

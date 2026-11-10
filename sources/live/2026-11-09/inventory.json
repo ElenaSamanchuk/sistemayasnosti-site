@@ -1,0 +1,2326 @@
+[
+ {
+  "path": "/",
+  "pageId": "89930006",
+  "projectId": "16817076",
+  "title": "Система Ясности",
+  "description": "Ваш путеводитель к устойчивости: ясность, доход, жизнь без тревоги.",
+  "ogTitle": "Система Ясности",
+  "ogDescription": "Ваш путеводитель к устойчивости: ясность, доход, жизнь без тревоги.",
+  "ogImage": "https://static.tildacdn.net/tild3561-3336-4132-a632-346330373632/_.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com",
+  "records": [
+   {
+    "id": "1488864933",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1488865053",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1493359333",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1569556213",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1569556213.html",
+    "hasScript": true
+   },
+   {
+    "id": "1488865513",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2194603213",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 288,
+    "artboardResolutions": [
+     "320",
+     "640"
+    ]
+   },
+   {
+    "id": "2194603233",
+    "type": "1093",
+    "label": "t1093"
+   },
+   {
+    "id": "1485551813",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 22,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1493359983",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "2440038323",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 281,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2194603433",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 111,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1493359793",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1485558153",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 509,
+    "artboardResolutions": [
+     "320",
+     "960"
+    ]
+   },
+   {
+    "id": "1493360823",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1486577043",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 22,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1487844433",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 277,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1572248783",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 171,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1572267873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 47,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2188243113",
+    "type": "1093",
+    "label": "t1093"
+   },
+   {
+    "id": "1580656743",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2019388833",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019389043",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec2019389043.html",
+    "hasScript": true
+   },
+   {
+    "id": "1559313953",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1559313953.html",
+    "hasScript": false
+   },
+   {
+    "id": "1795637143",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1795637143.html",
+    "hasScript": true
+   },
+   {
+    "id": "1488870633",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1488870653",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1488870793",
+    "type": "270",
+    "label": null
+   },
+   {
+    "id": "1488865263",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1488865263.html",
+    "hasScript": false
+   },
+   {
+    "id": "1490588213",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1490588213.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491040633",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1491040633.html",
+    "hasScript": true
+   },
+   {
+    "id": "1488855793",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1488855793.html",
+    "hasScript": true
+   },
+   {
+    "id": "1493369823",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/index__rec1493369823.html",
+    "hasScript": true
+   }
+  ],
+  "popupHooks": [
+   "#zeropopup",
+   "#zeropopupmain"
+  ],
+  "anchors": [
+   "#about-me",
+   "#home",
+   "#zeropopup",
+   "#zeropopupmain"
+  ],
+  "forms": [],
+  "videos": [
+   "https://static.tildacdn.net/vide3838-3336-4465-b963-336364636631/66bbf76e-bfec-47df-8.mp4"
+  ],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://lk.sistemayasnosti.com/payments/tariff_rOjAZQ/checkout",
+   "https://lk.sistemayasnosti.com/payments/tariff_wO4vRP/checkout",
+   "https://lk.sistemayasnosti.com/payments/tariff_wZ2zZ1/checkout",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/mini/#anxiety",
+   "https://sistemayasnosti.com/mini/#life",
+   "https://sistemayasnosti.com/mini/#myself",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://t.me/sistemayasnosti_bot",
+   "https://t.me/sistemayasnostibot?start=start",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/taplink",
+  "pageId": "94778886",
+  "projectId": "16817076",
+  "title": "Система ясности  — школа Тамары Поданёвой",
+  "description": "Психология, мышление и жизненная система, в которой есть место вам, доходу и внутреннему спокойствию.",
+  "ogTitle": "Система ясности  — школа Тамары Поданёвой",
+  "ogDescription": "Психология, мышление и жизненная система, в которой есть место вам, доходу и внутреннему спокойствию.",
+  "ogImage": "https://static.tildacdn.net/tild3263-3664-4163-a632-316130376636/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/taplink",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1555825513",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 140,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1557091733",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 82,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1557093663",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 105,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1557097383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 89,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1577117793",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 47,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1577117813",
+    "type": "1093",
+    "label": "t1093"
+   },
+   {
+    "id": "1557141233",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec1557141233.html",
+    "hasScript": false
+   },
+   {
+    "id": "1559325923",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec1559325923.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/taplink__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [
+   "#zeropopup"
+  ],
+  "anchors": [
+   "#zeropopup"
+  ],
+  "forms": [],
+  "videos": [
+   "https://static.tildacdn.net/vide3838-3336-4465-b963-336364636631/66bbf76e-bfec-47df-8.mp4",
+   "https://static.tildacdn.net/vide6336-3232-4039-a335-353165303331/61ac4144-3f7c-4a07-9.mp4"
+  ],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/taplink",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/mini",
+  "pageId": "104485186",
+  "projectId": "16817076",
+  "title": "Мини-курсы",
+  "description": "Выберите ваш старт — и двигайтесь в комфортном ритме",
+  "ogTitle": "Мини-курсы",
+  "ogDescription": "Выберите ваш старт — и двигайтесь в комфортном ритме",
+  "ogImage": "https://static.tildacdn.net/tild3863-6461-4563-a631-666663313865/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/mini",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1699756153",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 210,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703506743",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 11,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1714688333",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1700529763",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 297,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1714197223",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1714688483",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1703000063",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 297,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703531743",
+    "type": "113",
+    "label": null
+   },
+   {
+    "id": "1714688423",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "1702980233",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 316,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703867853",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 182,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703868833",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 47,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "1703868843",
+    "type": "1093",
+    "label": "t1093"
+   },
+   {
+    "id": "1703875463",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 11,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703875663",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 169,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "1703533583",
+    "type": "113",
+    "label": null
+   },
+   {
+    "id": "1713786233",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec1713786233.html",
+    "hasScript": false
+   },
+   {
+    "id": "1714199963",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec1714199963.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/mini__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [
+   "#zeropopup"
+  ],
+  "anchors": [
+   "#zeropopup"
+  ],
+  "forms": [],
+  "videos": [
+   "https://static.tildacdn.net/vide6336-3232-4039-a335-353165303331/61ac4144-3f7c-4a07-9.mp4"
+  ],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/mini",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://lk.sistemayasnosti.com/payments/tariff_rOjAZQ/checkout",
+   "https://lk.sistemayasnosti.com/payments/tariff_wO4vRP/checkout",
+   "https://lk.sistemayasnosti.com/payments/tariff_wZ2zZ1/checkout",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://t.me/sistemayasnosti_bot",
+   "https://t.me/sistemayasnostibot?start=start",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/about",
+  "pageId": "130735473",
+  "projectId": "16817076",
+  "title": "О создателе курсов",
+  "description": "Моя работа — это не мотивация и не просто помочь «разобраться в себе на уровне слов». Это системный подход, основанный на доказательной психологии и понимании того, как связаны психика, тело, поведение",
+  "ogTitle": "О создателе курсов",
+  "ogDescription": "Моя работа — это не мотивация и не просто помочь «разобраться в себе на уровне слов». Это системный подход, основанный на доказательной психологии и понимании того, как связаны психика, тело, поведение",
+  "ogImage": "https://static.tildacdn.net/tild3766-3866-4566-a436-333133336163/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/about",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "2098148593",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "2098148633",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "2098087683",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 91,
+    "artboardResolutions": [
+     "320",
+     "480"
+    ]
+   },
+   {
+    "id": "2098148483",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 22,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2098148563",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 230,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2098101413",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 62,
+    "artboardResolutions": [
+     "320",
+     "480"
+    ]
+   },
+   {
+    "id": "2098115143",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 248,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2098196813",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 182,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2098197003",
+    "type": "1093",
+    "label": "t1093"
+   },
+   {
+    "id": "2098148903",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "2098148953",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "2098148973",
+    "type": "270",
+    "label": null
+   },
+   {
+    "id": "2098149263",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec2098149263.html",
+    "hasScript": true
+   },
+   {
+    "id": "2098149283",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec2098149283.html",
+    "hasScript": true
+   },
+   {
+    "id": "2098149513",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec2098149513.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/about__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [
+   "#zeropopup"
+  ],
+  "anchors": [
+   "#zeropopup"
+  ],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/about",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/clarity",
+  "pageId": "151593133",
+  "projectId": "16817076",
+  "title": "Тело как опора, а не доказательство",
+  "description": "Как перестать строить самооценку через фигуру и собрать устойчивость без контроля тела",
+  "ogTitle": "Тело как опора, а не доказательство",
+  "ogDescription": "Как перестать строить самооценку через фигуру и собрать устойчивость без контроля тела",
+  "ogImage": "https://static.tildacdn.net/tild3965-3766-4661-b839-646332353762/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/clarity",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "2426973683",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 160,
+    "artboardResolutions": [
+     "320",
+     "640"
+    ]
+   },
+   {
+    "id": "2426973703",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 432,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2426974553",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 230,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2426973713",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 224,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2426973723",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 80,
+    "artboardResolutions": [
+     "320",
+     "640"
+    ]
+   },
+   {
+    "id": "2426973733",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 212,
+    "artboardResolutions": [
+     "320",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2426973743",
+    "type": "215",
+    "label": null
+   },
+   {
+    "id": "2426973753",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 22,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2426973763",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 507,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2440039273",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 637,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2426973793",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 59,
+    "artboardResolutions": [
+     "320"
+    ]
+   },
+   {
+    "id": "2426973803",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 277,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "2426973813",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 245,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2426973823",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 115,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2426973833",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 126,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2426973843",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec2426973843.html",
+    "hasScript": false
+   },
+   {
+    "id": "2426973863",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec2426973863.html",
+    "hasScript": true
+   },
+   {
+    "id": "2426973883",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec2426973883.html",
+    "hasScript": true
+   },
+   {
+    "id": "2426973893",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec2426973893.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/clarity__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [
+   "#program"
+  ],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/clarity",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://t.me/sistemayasnosti_bot",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/audio-club",
+  "pageId": "365504003",
+  "projectId": "16817076",
+  "title": "Аудиоклуб EGOISTIC",
+  "description": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogTitle": "Аудиоклуб EGOISTIC",
+  "ogDescription": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogImage": "https://static.tildacdn.net/tild3434-3164-4537-b364-666337343762/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/audio-club",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "5543946903",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec5543946903.html",
+    "hasScript": false
+   },
+   {
+    "id": "5543947003",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec5543947003.html",
+    "hasScript": false
+   },
+   {
+    "id": "5543947103",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec5543947103.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/audio-club",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-4b2ff4db.webp",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/audio-club-old",
+  "pageId": "224354503",
+  "projectId": "16817076",
+  "title": "Аудиоклуб EGOISTIC",
+  "description": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogTitle": "Аудиоклуб EGOISTIC",
+  "ogDescription": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogImage": "https://static.tildacdn.net/tild3434-3164-4537-b364-666337343762/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/audio-club-old",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "3602643503",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec3602643503.html",
+    "hasScript": false
+   },
+   {
+    "id": "3603226603",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec3603226603.html",
+    "hasScript": false
+   },
+   {
+    "id": "3603229603",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec3603229603.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/audio-club-old",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-ad60f206.webp",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/audio-club-old-old",
+  "pageId": "291755603",
+  "projectId": "16817076",
+  "title": "Аудиоклуб EGOISTIC",
+  "description": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogTitle": "Аудиоклуб EGOISTIC",
+  "ogDescription": "Каждый месяц разбираем 1 тему в коротких подкастах",
+  "ogImage": "https://static.tildacdn.net/tild3434-3164-4537-b364-666337343762/image_2229.png",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/audio-club",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "4600632003",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec4600632003.html",
+    "hasScript": false
+   },
+   {
+    "id": "4600632103",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec4600632103.html",
+    "hasScript": false
+   },
+   {
+    "id": "4600632203",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec4600632203.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/audio-club-old-old__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/audio-club",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/hero-player-daca3c97.webp",
+   "https://cdn.jsdelivr.net/gh/ElenaSamanchuk/sistema-yasnosti-club@main/assets/img/vinyl-mark-fea66e47.webp",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/header",
+  "pageId": "90088596",
+  "projectId": "16817076",
+  "title": "Header",
+  "description": "Header ",
+  "ogTitle": "Header ",
+  "ogDescription": "Header ",
+  "ogImage": "https://static.tildacdn.net/tild3839-6562-4664-b365-633233306263/photo.svg",
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/header",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/header__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/header__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/header__rec2019386053.html",
+    "hasScript": true
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/header",
+   "https://lk.sistemayasnosti.com/",
+   "https://sistemayasnosti.com/cookie"
+  ]
+ },
+ {
+  "path": "/footer",
+  "pageId": "90089266",
+  "projectId": "16817076",
+  "title": "Footer",
+  "description": "Footer",
+  "ogTitle": "Footer",
+  "ogDescription": "Footer",
+  "ogImage": null,
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/footer",
+  "records": [
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/footer__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/footer",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/oferta",
+  "pageId": "96251136",
+  "projectId": "16817076",
+  "title": "Договор - оферта",
+  "description": null,
+  "ogTitle": "Договор - оферта",
+  "ogDescription": "",
+  "ogImage": null,
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/oferta",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/oferta__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/oferta__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/oferta__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1577764463",
+    "type": "106",
+    "label": "T004"
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/oferta__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/oferta",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/privacy",
+  "pageId": "96252076",
+  "projectId": "16817076",
+  "title": "Политика конфиденциальности",
+  "description": null,
+  "ogTitle": "Политика конфиденциальности",
+  "ogDescription": "",
+  "ogImage": null,
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/privacy",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/privacy__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/privacy__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/privacy__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1577765003",
+    "type": "106",
+    "label": "T004"
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/privacy__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/privacy",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/consent",
+  "pageId": "96259526",
+  "projectId": "16817076",
+  "title": "Правовое уведомление (Aviso Legal)",
+  "description": null,
+  "ogTitle": "Правовое уведомление (Aviso Legal)",
+  "ogDescription": "",
+  "ogImage": null,
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/consent",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/consent__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/consent__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/consent__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1577866443",
+    "type": "106",
+    "label": "T004"
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/consent__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/consent",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ },
+ {
+  "path": "/cookie",
+  "pageId": "96264136",
+  "projectId": "16817076",
+  "title": "Политика использования файлов cookie",
+  "description": null,
+  "ogTitle": "Политика использования файлов cookie",
+  "ogDescription": "",
+  "ogImage": null,
+  "robots": null,
+  "canonical": "http://sistemayasnosti.com/cookie",
+  "records": [
+   {
+    "id": "1486555173",
+    "type": "360",
+    "label": "T360"
+   },
+   {
+    "id": "1486555263",
+    "type": "602",
+    "label": "T602"
+   },
+   {
+    "id": "1862707833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/cookie__rec1862707833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1491047173",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/cookie__rec1491047173.html",
+    "hasScript": false
+   },
+   {
+    "id": "1486554413",
+    "type": "257",
+    "label": "T228"
+   },
+   {
+    "id": "2019385873",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 53,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640",
+     "960"
+    ]
+   },
+   {
+    "id": "2019386053",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/cookie__rec2019386053.html",
+    "hasScript": true
+   },
+   {
+    "id": "1577870003",
+    "type": "106",
+    "label": "T004"
+   },
+   {
+    "id": "1491047383",
+    "type": "396",
+    "label": "T396",
+    "zeroElements": 290,
+    "artboardResolutions": [
+     "320",
+     "480",
+     "640"
+    ]
+   },
+   {
+    "id": "1486556013",
+    "type": "890",
+    "label": "t890"
+   },
+   {
+    "id": "1569554833",
+    "type": "131",
+    "label": "T123",
+    "t123File": "t123/cookie__rec1569554833.html",
+    "hasScript": true
+   },
+   {
+    "id": "1486556033",
+    "type": "674",
+    "label": "T674"
+   },
+   {
+    "id": "1486556043",
+    "type": "270",
+    "label": null
+   }
+  ],
+  "popupHooks": [],
+  "anchors": [],
+  "forms": [],
+  "videos": [],
+  "yandexMetrika": [
+   "106581349"
+  ],
+  "outboundLinks": [
+   "http://sistemayasnosti.com/cookie",
+   "https://lk.sistemayasnosti.com/",
+   "https://lk.sistemayasnosti.com/login",
+   "https://sistemayasnosti.com/consent",
+   "https://sistemayasnosti.com/cookie",
+   "https://sistemayasnosti.com/oferta",
+   "https://sistemayasnosti.com/privacy",
+   "https://www.instagram.com/tamarapodanyova",
+   "https://www.youtube.com/@egotism_live",
+   "mailto:tamarapodanova@gmail.com",
+   "tg://resolve?domain=sistemayasnosti_bot"
+  ]
+ }
+]

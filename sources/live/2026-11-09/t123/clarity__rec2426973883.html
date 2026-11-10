@@ -1,0 +1,68 @@
+ <!-- T123 --> <div class="t123"> <div class="t-container_100 "> <div class="t-width t-width_100 "> <!-- nominify begin --> <script>
+/* горизонтальный автоскролл блока */
+document.addEventListener('DOMContentLoaded', function () {
+    let blocks = ['#rec2426973703'];
+    blocks.forEach((blockId) => {
+        const elem = document.querySelector(blockId + " .t396__artboard");
+        if (!elem) return;
+        const images = elem.querySelectorAll("img");
+        images.forEach(img => {
+            img.ondragstart = function() { return false; };
+            img.style.webkitTouchCallout = 'none';
+        });
+        elem.style.overflowX = 'auto';
+        elem.style.overflowY = 'hidden';
+        elem.style.webkitOverflowScrolling = 'touch';
+        let autoScrollEnabled = true;
+        let scrollInterval;
+        let scrollDirection = 1;
+        function startAutoScroll() {
+            if (!autoScrollEnabled) return;
+            const maxScroll = elem.scrollWidth - elem.clientWidth;
+            const currentScroll = elem.scrollLeft;
+            if (currentScroll >= maxScroll - 5 && scrollDirection === 1) {
+                scrollDirection = -1;
+            } else if (currentScroll <= 5 && scrollDirection === -1) {
+                scrollDirection = 1;
+            }
+            elem.scrollLeft += scrollDirection * 2;
+        }
+        function startAutoPlay() {
+            stopAutoPlay();
+            scrollInterval = setInterval(startAutoScroll, 35);
+        }
+        function stopAutoPlay() {
+            if (scrollInterval) {
+                clearInterval(scrollInterval);
+                scrollInterval = null;
+            }
+        }
+        function toggleAutoPlay(e) {
+            e.preventDefault();
+            autoScrollEnabled = !autoScrollEnabled;
+            if (autoScrollEnabled) {
+                startAutoPlay();
+               
+            } else {
+                stopAutoPlay();
+              
+            }
+        }
+        setTimeout(function() {
+            startAutoPlay();
+        }, 1500);
+        window.addEventListener('resize', function() {
+            if (autoScrollEnabled) {
+                setTimeout(startAutoPlay, 200);
+            }
+        });
+    });
+});
+</script> <style>
+   #rec2426973703 .t396__artboard::-webkit-scrollbar {
+      display: none;
+  }
+  #rec2426973703 .t396__artboard {
+      scrollbar-width: none;
+  }
+</style> <!-- nominify end --> </div> </div> </div> </div> 
