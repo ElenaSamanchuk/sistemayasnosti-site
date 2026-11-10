@@ -1,0 +1,949 @@
+{
+ "date": "2026-11-10",
+ "method": "GET only, curl-like python requests, no browser; live <=2 req/s",
+ "pages_status": {
+  "live": {
+   "/": {
+    "status": 200,
+    "location": null,
+    "bytes": 699767
+   },
+   "/taplink": {
+    "status": 200,
+    "location": null,
+    "bytes": 277585
+   },
+   "/mini": {
+    "status": 200,
+    "location": null,
+    "bytes": 643076
+   },
+   "/about": {
+    "status": 200,
+    "location": null,
+    "bytes": 556185
+   },
+   "/clarity": {
+    "status": 200,
+    "location": null,
+    "bytes": 1833862
+   },
+   "/audio-club": {
+    "status": 200,
+    "location": null,
+    "bytes": 299096
+   },
+   "/audio-club-old": {
+    "status": 200,
+    "location": null,
+    "bytes": 290350
+   },
+   "/audio-club-old-old": {
+    "status": 200,
+    "location": null,
+    "bytes": 298361
+   },
+   "/oferta": {
+    "status": 200,
+    "location": null,
+    "bytes": 147070
+   },
+   "/privacy": {
+    "status": 200,
+    "location": null,
+    "bytes": 141497
+   },
+   "/consent": {
+    "status": 200,
+    "location": null,
+    "bytes": 141052
+   },
+   "/cookie": {
+    "status": 200,
+    "location": null,
+    "bytes": 144600
+   },
+   "/pred": {
+    "status": 404,
+    "location": null,
+    "bytes": 574
+   },
+   "/pred_fl": {
+    "status": 404,
+    "location": null,
+    "bytes": 574
+   },
+   "/header": {
+    "status": 200,
+    "location": null,
+    "bytes": 48425
+   },
+   "/footer": {
+    "status": 200,
+    "location": null,
+    "bytes": 97127
+   }
+  },
+  "preview": {
+   "/": {
+    "status": 200,
+    "location": null,
+    "bytes": 254348
+   },
+   "/taplink": {
+    "status": 200,
+    "location": null,
+    "bytes": 82747
+   },
+   "/mini": {
+    "status": 200,
+    "location": null,
+    "bytes": 250498
+   },
+   "/about": {
+    "status": 200,
+    "location": null,
+    "bytes": 188408
+   },
+   "/clarity": {
+    "status": 200,
+    "location": null,
+    "bytes": 682654
+   },
+   "/audio-club": {
+    "status": 200,
+    "location": null,
+    "bytes": 42573
+   },
+   "/audio-club-old": {
+    "status": 200,
+    "location": null,
+    "bytes": 38959
+   },
+   "/audio-club-old-old": {
+    "status": 200,
+    "location": null,
+    "bytes": 38951
+   },
+   "/oferta": {
+    "status": 200,
+    "location": null,
+    "bytes": 54751
+   },
+   "/privacy": {
+    "status": 200,
+    "location": null,
+    "bytes": 44509
+   },
+   "/consent": {
+    "status": 200,
+    "location": null,
+    "bytes": 43701
+   },
+   "/cookie": {
+    "status": 200,
+    "location": null,
+    "bytes": 50125
+   },
+   "/pred": {
+    "status": 200,
+    "location": null,
+    "bytes": 436
+   },
+   "/pred_fl": {
+    "status": 200,
+    "location": null,
+    "bytes": 436
+   },
+   "/header": {
+    "status": 404,
+    "location": null,
+    "bytes": 39771
+   },
+   "/footer": {
+    "status": 404,
+    "location": null,
+    "bytes": 39771
+   }
+  }
+ },
+ "sitemap_live": [
+  "/",
+  "/taplink",
+  "/mini",
+  "/about",
+  "/oferta",
+  "/privacy",
+  "/consent",
+  "/cookie",
+  "/clarity",
+  "/audio-club-old",
+  "/audio-club-old-old",
+  "/audio-club"
+ ],
+ "preview_sitemap_missing": [
+  "/audio-club-old-old (intentional, DECISIONS 09.11)"
+ ],
+ "internal_resources_checked": 164,
+ "internal_resources_non200": [
+  {
+   "path": "/embeds/audio-club/",
+   "status": 404,
+   "ctype": "text/html",
+   "bytes": 39771,
+   "loc": null,
+   "src": [
+    "js:/assets/AudioClub-CWXt5uLm.js"
+   ],
+   "note": "directory prefix built from JS string, not a real link"
+  },
+  {
+   "path": "/embeds/audio-club/shared/",
+   "status": 404,
+   "ctype": "text/html",
+   "bytes": 39771,
+   "loc": null,
+   "src": [
+    "js:/embeds/audio-club/2026-09/build.json",
+    "js:/embeds/audio-club/2026-09/club.js",
+    "js:/embeds/audio-club/2026-10/build.json"
+   ],
+   "note": "directory prefix built from JS string, not a real link"
+  }
+ ],
+ "anchors": [
+  {
+   "page": "/",
+   "id": "about-me",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/",
+   "id": "about-me",
+   "src": "json:html-attr"
+  },
+  {
+   "page": "/",
+   "id": "home",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/",
+   "id": "home",
+   "src": "json:href"
+  },
+  {
+   "page": "/",
+   "id": "zeropopup",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/",
+   "id": "zeropopup",
+   "src": "json:href"
+  },
+  {
+   "page": "/about",
+   "id": "zeropopup",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/about",
+   "id": "zeropopup",
+   "src": "json:href"
+  },
+  {
+   "page": "/clarity",
+   "id": "program",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/clarity",
+   "id": "program",
+   "src": "json:href"
+  },
+  {
+   "page": "/mini",
+   "id": "anxiety",
+   "src": "html:a.href(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "anxiety",
+   "src": "json:html-attr(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "life",
+   "src": "html:a.href(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "life",
+   "src": "json:html-attr(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "myself",
+   "src": "html:a.href(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "myself",
+   "src": "json:html-attr(cross)"
+  },
+  {
+   "page": "/mini",
+   "id": "zeropopup",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/mini",
+   "id": "zeropopup",
+   "src": "json:href"
+  },
+  {
+   "page": "/taplink",
+   "id": "zeropopup",
+   "src": "html:a.href"
+  },
+  {
+   "page": "/taplink",
+   "id": "zeropopup",
+   "src": "json:href"
+  }
+ ],
+ "external_urls_preview": {
+  "https://lk.sistemayasnosti.com/": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink"
+  ],
+  "tg://resolve?domain=sistemayasnosti_bot": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink",
+   "shared-layout"
+  ],
+  "tg://resolve?domain=sistemayasnostibot&start=start": [
+   "/",
+   "/mini"
+  ],
+  "https://lk.sistemayasnosti.com/payments/tariff_wO4vRP/checkout": [
+   "/",
+   "/mini"
+  ],
+  "https://lk.sistemayasnosti.com/payments/tariff_wZ2zZ1/checkout": [
+   "/",
+   "/mini"
+  ],
+  "https://lk.sistemayasnosti.com/payments/tariff_rOjAZQ/checkout": [
+   "/",
+   "/mini"
+  ],
+  "https://lk.sistemayasnosti.com/login": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink",
+   "shared-layout"
+  ],
+  "https://www.instagram.com/tamarapodanyova": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink",
+   "shared-layout"
+  ],
+  "https://www.youtube.com/@egotism_live": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink",
+   "shared-layout"
+  ],
+  "https://sistemayasnosti.com/": [
+   "/"
+  ],
+  "http://www.w3.org/2000/svg": [
+   "/",
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink"
+  ],
+  "mailto:tamarapodanova@gmail.com": [
+   "/about",
+   "/audio-club",
+   "/audio-club-old",
+   "/audio-club-old-old",
+   "/clarity",
+   "/consent",
+   "/cookie",
+   "/mini",
+   "/oferta",
+   "/privacy",
+   "/taplink",
+   "shared-layout"
+  ],
+  "https://sistemayasnosti.com/taplink": [
+   "/taplink"
+  ],
+  "https://sistemayasnosti.com/mini": [
+   "/mini"
+  ],
+  "https://sistemayasnosti.com/about": [
+   "/about"
+  ],
+  "https://sistemayasnosti.com/clarity": [
+   "/clarity"
+  ],
+  "https://sistemayasnosti.com/audio-club": [
+   "/audio-club",
+   "/audio-club-old-old"
+  ],
+  "https://t.me/tribute/app?startapp=s18xT": [
+   "/audio-club",
+   "/audio-club-old-old"
+  ],
+  "https://t.me/sistemayasnosti_bot?start=audio_nov": [
+   "/audio-club"
+  ],
+  "https://sistemayasnosti.com/audio-club-old": [
+   "/audio-club-old"
+  ],
+  "https://t.me/tribute/app?startapp=s15wd": [
+   "/audio-club-old"
+  ],
+  "https://sistemayasnosti.com/oferta": [
+   "/oferta"
+  ],
+  "https://sistemayasnosti.com/privacy": [
+   "/privacy"
+  ],
+  "https://sistemayasnosti.com/consent": [
+   "/consent"
+  ],
+  "https://sistemayasnosti.com/cookie": [
+   "/cookie"
+  ]
+ },
+ "external_get_check": {
+  "https://lk.sistemayasnosti.com/": {
+   "status": 302,
+   "location": "https://lk.sistemayasnosti.com/login",
+   "title": "Redirecting to https://lk.sistemayasnosti.com/login",
+   "og": null
+  },
+  "https://lk.sistemayasnosti.com/login": {
+   "status": 200,
+   "location": null,
+   "title": null,
+   "og": null
+  },
+  "https://lk.sistemayasnosti.com/payments/tariff_rOjAZQ/checkout": {
+   "status": 200,
+   "location": null,
+   "title": null,
+   "og": null
+  },
+  "https://lk.sistemayasnosti.com/payments/tariff_wO4vRP/checkout": {
+   "status": 200,
+   "location": null,
+   "title": null,
+   "og": null
+  },
+  "https://lk.sistemayasnosti.com/payments/tariff_wZ2zZ1/checkout": {
+   "status": 200,
+   "location": null,
+   "title": null,
+   "og": null
+  },
+  "https://lk.sistemayasnosti.com/pred": {
+   "status": 404,
+   "location": null,
+   "title": null,
+   "og": null
+  },
+  "https://sistemayasnosti.com/media/9b813c7a37f0498e7cda0447.png": {
+   "status": 404,
+   "location": null,
+   "title": "404 Page Not Found.",
+   "og": null
+  },
+  "https://sistemayasnosti.com/media/e962efaa20bb3218f502a869.png": {
+   "status": 404,
+   "location": null,
+   "title": "404 Page Not Found.",
+   "og": null
+  },
+  "https://t.me/sistemayasnosti_bot": {
+   "status": 200,
+   "location": null,
+   "title": "Telegram: Launch @sistemayasnosti_bot",
+   "og": "Система Ясности | бот Тамары Поданевой"
+  },
+  "https://t.me/sistemayasnosti_bot?start=audio_nov": {
+   "status": 200,
+   "location": null,
+   "title": "Telegram: Launch @sistemayasnosti_bot",
+   "og": "Система Ясности | бот Тамары Поданевой"
+  },
+  "https://t.me/sistemayasnostibot?start=start": {
+   "status": 200,
+   "location": null,
+   "title": "Telegram: Launch @sistemayasnostibot",
+   "og": "Sistemayasnosti"
+  },
+  "https://t.me/tribute/app?startapp=s15wd": {
+   "status": 200,
+   "location": null,
+   "title": "Telegram: Launch @tribute",
+   "og": "Tribute"
+  },
+  "https://t.me/tribute/app?startapp=s18xT": {
+   "status": 200,
+   "location": null,
+   "title": "Telegram: Launch @tribute",
+   "og": "Tribute"
+  },
+  "https://www.instagram.com/tamarapodanyova": {
+   "status": 200,
+   "location": null,
+   "title": "Instagram",
+   "og": null
+  },
+  "https://www.youtube.com/@egotism_live": {
+   "status": 302,
+   "location": "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%40egotism_live%3Fcbrd%3D1&gl=DE&m=0&pc=yt&cm=2&hl=de&src=1",
+   "title": null,
+   "og": null
+  }
+ },
+ "tilda_or_live_domain_refs_in_preview": [
+  {
+   "url": "https://lk.sistemayasnosti.com/",
+   "where": [
+    "/content/104485186.json",
+    "/content/130735473.json",
+    "/content/151593133.json",
+    "/content/224354503.json",
+    "/content/291755603.json",
+    "/content/365504003.json"
+   ],
+   "n": 26
+  },
+  {
+   "url": "https://lk.sistemayasnosti.com/login",
+   "where": [
+    "/content/89930006.json",
+    "/content/shared-layout.json",
+    "html:/",
+    "html:/about",
+    "html:/audio-club",
+    "html:/audio-club-old"
+   ],
+   "n": 16
+  },
+  {
+   "url": "https://lk.sistemayasnosti.com/payments/tariff_rOjAZQ/checkout",
+   "where": [
+    "/content/104485186.json",
+    "/content/89930006.json",
+    "html:/",
+    "html:/mini"
+   ],
+   "n": 4
+  },
+  {
+   "url": "https://lk.sistemayasnosti.com/payments/tariff_wO4vRP/checkout",
+   "where": [
+    "/content/104485186.json",
+    "/content/89930006.json",
+    "html:/",
+    "html:/mini"
+   ],
+   "n": 4
+  },
+  {
+   "url": "https://lk.sistemayasnosti.com/payments/tariff_wZ2zZ1/checkout",
+   "where": [
+    "/content/104485186.json",
+    "/content/89930006.json",
+    "html:/",
+    "html:/mini"
+   ],
+   "n": 4
+  },
+  {
+   "url": "https://sistemayasnosti.com",
+   "where": [
+    "/assets/index-DcxJiEbk.js"
+   ],
+   "n": 1
+  },
+  {
+   "url": "https://sistemayasnosti.com/",
+   "where": [
+    "/content/89930006.json",
+    "html:/"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/about",
+   "where": [
+    "/content/130735473.json",
+    "html:/about"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/audio-club",
+   "where": [
+    "/content/291755603.json",
+    "/content/365504003.json",
+    "html:/audio-club",
+    "html:/audio-club-old-old"
+   ],
+   "n": 4
+  },
+  {
+   "url": "https://sistemayasnosti.com/audio-club-old",
+   "where": [
+    "/content/224354503.json",
+    "html:/audio-club-old"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/clarity",
+   "where": [
+    "/content/151593133.json",
+    "html:/clarity"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/consent",
+   "where": [
+    "/content/96259526.json",
+    "html:/consent"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/cookie",
+   "where": [
+    "/content/96264136.json",
+    "html:/cookie"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/media/9b813c7a37f0498e7cda0447.png",
+   "where": [
+    "html:/about",
+    "html:/audio-club",
+    "html:/audio-club-old",
+    "html:/audio-club-old-old",
+    "html:/clarity",
+    "html:/mini"
+   ],
+   "n": 7
+  },
+  {
+   "url": "https://sistemayasnosti.com/media/e962efaa20bb3218f502a869.png",
+   "where": [
+    "html:/"
+   ],
+   "n": 1
+  },
+  {
+   "url": "https://sistemayasnosti.com/mini",
+   "where": [
+    "/content/104485186.json",
+    "html:/mini"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/oferta",
+   "where": [
+    "/content/96251136.json",
+    "html:/oferta"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/privacy",
+   "where": [
+    "/content/96252076.json",
+    "html:/privacy"
+   ],
+   "n": 2
+  },
+  {
+   "url": "https://sistemayasnosti.com/taplink",
+   "where": [
+    "/content/94778886.json",
+    "html:/taplink"
+   ],
+   "n": 2
+  },
+  {
+   "url": "sistemayasnosti.com",
+   "where": [
+    "/assets/index-DcxJiEbk.js"
+   ],
+   "n": 1
+  },
+  {
+   "url": "www.sistemayasnosti.com",
+   "where": [
+    "/assets/index-DcxJiEbk.js",
+    "/content/96251136.json",
+    "html:/oferta"
+   ],
+   "n": 3
+  },
+  {
+   "url": "www.sistemayasnosti.com,",
+   "where": [
+    "/content/96264136.json",
+    "html:/cookie"
+   ],
+   "n": 2
+  }
+ ],
+ "live_vs_preview_link_sets": {
+  "/": {
+   "live_only": [
+    "#zeropopupmain"
+   ],
+   "preview_only": [],
+   "common": 24,
+   "live_total": 25,
+   "preview_total": 24
+  },
+  "/taplink": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 16,
+   "live_total": 16,
+   "preview_total": 16
+  },
+  "/mini": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 20,
+   "live_total": 20,
+   "preview_total": 20
+  },
+  "/about": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 16,
+   "live_total": 16,
+   "preview_total": 16
+  },
+  "/clarity": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 16,
+   "live_total": 16,
+   "preview_total": 16
+  },
+  "/audio-club": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 17,
+   "live_total": 17,
+   "preview_total": 17
+  },
+  "/audio-club-old": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 16,
+   "live_total": 16,
+   "preview_total": 16
+  },
+  "/audio-club-old-old": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 16,
+   "live_total": 16,
+   "preview_total": 16
+  },
+  "/oferta": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 15,
+   "live_total": 15,
+   "preview_total": 15
+  },
+  "/privacy": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 15,
+   "live_total": 15,
+   "preview_total": 15
+  },
+  "/consent": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 15,
+   "live_total": 15,
+   "preview_total": 15
+  },
+  "/cookie": {
+   "live_only": [],
+   "preview_only": [],
+   "common": 15,
+   "live_total": 15,
+   "preview_total": 15
+  }
+ },
+ "button_pairs_live_vs_preview": {
+  "/": {
+   "matched_by_element_id": 32,
+   "href_diff": {},
+   "live_only": {
+    "1776437814550000002": [
+     "shape",
+     "",
+     [
+      "#zeropopupmain"
+     ]
+    ],
+    "1776437814550000003": [
+     "text",
+     "Что изменилось?",
+     [
+      "#zeropopupmain"
+     ]
+    ]
+   }
+  },
+  "/taplink": {
+   "matched_by_element_id": 22,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/mini": {
+   "matched_by_element_id": 23,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/about": {
+   "matched_by_element_id": 18,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/clarity": {
+   "matched_by_element_id": 24,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/audio-club": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/audio-club-old": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/audio-club-old-old": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/oferta": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {
+    "1773213623325000005": [
+     "button",
+     "Согласен t_onFuncLoad('t396_initialScale',function() {t396_initialScale('2019385",
+     [
+      "mailto:tamarapodanova@gmail.com"
+     ]
+    ]
+   }
+  },
+  "/privacy": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {
+    "1773213623325000005": [
+     "button",
+     "Согласен t_onFuncLoad('t396_initialScale',function() {t396_initialScale('2019385",
+     [
+      "mailto:tamarapodanova@gmail.com"
+     ]
+    ]
+   }
+  },
+  "/consent": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {}
+  },
+  "/cookie": {
+   "matched_by_element_id": 17,
+   "href_diff": {},
+   "live_only": {}
+  }
+ }
+}

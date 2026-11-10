@@ -54,8 +54,8 @@ if (typeof window !== 'undefined') watch(open, (value) => { if (value) addEventL
 .site-nav__list{display:inline-flex;gap:30px;margin:0;padding:0;list-style:none}
 .site-nav__link{font-family:var(--font-ui),Arial,sans-serif;font-size:var(--menu-item-size);font-weight:var(--menu-item-weight);color:var(--menu-item-color);white-space:nowrap;text-decoration:none;transition:color .3s ease-in-out,opacity .3s ease-in-out}
 .site-nav__link.is-active{color:var(--menu-item-hover)}
-/* Прозрачность пунктов как на живом (замер 10.11, ширина 1440): на главной остальные 0,9, на других страницах активный 0,7 */
-@media (min-width:1200px){.site-nav--home .site-nav__link:not(.is-active){opacity:.9}.site-nav:not(.site-nav--home) .site-nav__link.is-active{opacity:.7}}
+/* Прозрачность пунктов как на живом (замер 10.11, ширины 981–1440): на главной остальные 0,9, на других страницах активный 0,7 */
+@media (min-width:981px){.site-nav--home .site-nav__link:not(.is-active){opacity:.9}.site-nav:not(.site-nav--home) .site-nav__link.is-active{opacity:.7}}
 .site-nav__link:focus-visible{color:var(--menu-item-hover)}
 @media (hover:hover){.site-nav__link:hover{color:var(--menu-item-hover)}}
 .site-nav__logo{justify-self:start}

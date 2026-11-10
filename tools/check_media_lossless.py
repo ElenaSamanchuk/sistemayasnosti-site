@@ -87,6 +87,12 @@ def main():
                 if x is None or y is None or x != y:
                     errors.append('%s: пиксели или ICC отличаются от %s' % (name, a['file']))
                     continue
+            elif ext == '.jpg' and sext in ('.jpg', '.jpeg'):
+                # jpegtran -optimize -progressive: коэффициенты те же, пиксели обязаны совпасть
+                x, y = rgba(src, 'JPEG'), rgba(out, 'JPEG')
+                if x is None or y is None or x != y:
+                    errors.append('%s: пиксели или ICC отличаются от %s' % (name, a['file']))
+                    continue
             elif ext == '.mp4' and sext == '.mp4':
                 if mdat(out) is None or mdat(out) != mdat(src):
                     errors.append('%s: видеопоток изменён' % name)

@@ -1,4 +1,4 @@
-// Внешние счётчики и виджеты сайта. Метрика запускается только на боевом домене, виджет чата ещё и на превью GitHub Pages.
+// Внешние счётчики и виджеты сайта. Метрика запускается только на боевом домене, виджет чата ещё и на превью (GitHub Pages и preview.sistemayasnosti.com).
 // На других адресах (localhost, тестовые домены) ничего не грузится и в сеть не уходит.
 //
 // СОХРАНЕНО КАК НА ЖИВОМ (меняется только отдельным решением Елены, см. вопрос 2 в docs/T123-INVENTORY.md):
@@ -9,7 +9,7 @@
 // отличаться (предположение, не проверено).
 
 export const PRODUCTION_HOSTNAME = 'sistemayasnosti.com'
-export const PREVIEW_HOSTNAME = 'elenasamanchuk.github.io'
+export const PREVIEW_HOSTNAMES = ['elenasamanchuk.github.io', 'preview.sistemayasnosti.com']
 export const METRIKA_ID = 106581349
 export const METRIKA_SCRIPT_URL = `https://mc.yandex.ru/metrika/tag.js?id=${METRIKA_ID}`
 // Параметры Kommo из блока rec1569554833. Hash есть в публичном коде страницы, секретом сайта не считается.
@@ -26,10 +26,10 @@ export function isProductionHost(hostname) {
   return host === PRODUCTION_HOSTNAME
 }
 
-/** Превью на GitHub Pages. Решение Елены 10.11.2026: здесь работает виджет чата, Метрика остаётся только на боевом домене. */
+/** Превью на GitHub Pages и на своём поддомене. Решение Елены 10.11.2026: здесь работает виджет чата, Метрика остаётся только на боевом домене. */
 export function isPreviewHost(hostname) {
   const host = hostname ?? (typeof location !== 'undefined' ? location.hostname : '')
-  return host === PREVIEW_HOSTNAME
+  return PREVIEW_HOSTNAMES.includes(host)
 }
 
 const state = () => {

@@ -7,7 +7,7 @@
 ## Два варианта превью
 
 - [GitHub Pages](https://elenasamanchuk.github.io/sistemayasnosti-site/) использует `SITE_BASE=/sistemayasnosti-site/`. Репозиторий Pages содержит собранную статику, источник сборки `main:/`.
-- [Архив для VM](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-7) собран от корня `/`. Скачать именованный `.tar.gz` и файл `.sha256` из Assets. Порядок установки и проверки соседних сайтов в [инструкции админа](ADMIN-PREVIEW.md).
+- [Архив для VM](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-8) собран от корня `/`. Скачать именованный `.tar.gz` и файл `.sha256` из Assets. Порядок установки и проверки соседних сайтов в [инструкции админа](ADMIN-PREVIEW.md).
 
 ## Режимы сборки
 
