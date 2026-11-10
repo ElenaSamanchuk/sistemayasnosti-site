@@ -212,7 +212,7 @@ try {
     await tap('#sya-club .sya-play');
     await wait(`!document.querySelector('#sya-club').hasAttribute('data-sya-playing')`);
     const offer=await ev(`[...document.querySelectorAll('#sya-club a[href*="startapp="]')].at(-1)?.getAttribute('href')`);
-    if(offer!=='https://t.me/tribute/app?startapp=s18xT')throw new Error('Неверное назначение кнопки клуба: '+offer);
+    if(offer!=='tg://resolve?domain=tribute&appname=app&startapp=s18xT')throw new Error('Неверное назначение кнопки клуба: '+offer);
     return {paused:true,offer};
   });
   await test('12 страниц и отсутствие горизонтального переполнения',async()=>{

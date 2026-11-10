@@ -226,10 +226,10 @@ async function checkClubOffer(page, route, result) {
   const hidden = await page.evaluate(() => [...document.querySelectorAll('#sya-club [data-sya-reveal]')].filter((e) => e.getBoundingClientRect().height > 0 && getComputedStyle(e).opacity === '0').length);
   if (hidden) fail(`не раскрылись элементы: ${hidden}`);
   const spec = CLUB_OFFER[route.path];
-  await page.evaluate(() => { const links = [...document.querySelectorAll('#sya-club a[href*="tribute/app?startapp="]')].filter((a) => /Перейти\s+в\s+бот/.test(a.textContent)); links.at(-1)?.scrollIntoView({ block: 'center', behavior: 'instant' }); });
+  await page.evaluate(() => { const links = [...document.querySelectorAll('#sya-club a[href*="startapp="]')].filter((a) => /Перейти\s+в\s+бот/.test(a.textContent)); links.at(-1)?.scrollIntoView({ block: 'center', behavior: 'instant' }); });
   await sleep(page, 1000);
   const offer = await page.evaluate(() => {
-    const a = [...document.querySelectorAll('#sya-club a[href*="tribute/app?startapp="]')].filter((x) => /Перейти\s+в\s+бот/.test(x.textContent)).at(-1);
+    const a = [...document.querySelectorAll('#sya-club a[href*="startapp="]')].filter((x) => /Перейти\s+в\s+бот/.test(x.textContent)).at(-1);
     if (!a) return null;
     const r = a.getBoundingClientRect(); const section = a.closest('section');
     return { href: a.href, label: a.textContent.trim(), visible: r.width > 0 && r.top >= 0 && r.bottom <= innerHeight && Number(getComputedStyle(a).opacity) === 1 && document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2)?.closest('a') === a, text: section.innerText.replace(/\s+/g, ' ') };
@@ -237,7 +237,7 @@ async function checkClubOffer(page, route, result) {
   if (!offer) return fail('нет кнопки оплаты');
   result.clubOffer = { href: offer.href, label: offer.label, visible: offer.visible, price: offer.text.includes(spec.price) };
   if (!offer.visible) fail('кнопка не видна');
-  if (offer.href !== `https://t.me/tribute/app?startapp=${spec.id}`) fail(`ссылка ${offer.href}, нужно ${spec.id}`);
+  if (offer.href !== `tg://resolve?domain=tribute&appname=app&startapp=${spec.id}`) fail(`ссылка ${offer.href}, нужно ${spec.id}`);
   if (!offer.text.includes(spec.price)) fail(`нет цены ${spec.price}`);
   if (!/Начни\s+с\s+темы/i.test(offer.text)) fail('нет заголовка блока');
   await page.evaluate(() => window.scrollTo(0, 0));

@@ -7,7 +7,7 @@
 ## Два варианта превью
 
 - [GitHub Pages](https://elenasamanchuk.github.io/sistemayasnosti-site/) использует `SITE_BASE=/sistemayasnosti-site/`. Репозиторий Pages содержит собранную статику, источник сборки `main:/`.
-- [Архив для VM](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-8) собран от корня `/`. Скачать именованный `.tar.gz` и файл `.sha256` из Assets. Порядок установки и проверки соседних сайтов в [инструкции админа](ADMIN-PREVIEW.md).
+- [Архив для VM](https://github.com/ElenaSamanchuk/sistemayasnosti-site/releases/tag/vm-preview-20261110-9) собран от корня `/`. Скачать именованный `.tar.gz` и файл `.sha256` из Assets. Порядок установки и проверки соседних сайтов в [инструкции админа](ADMIN-PREVIEW.md).
 
 ## Режимы сборки
 
@@ -50,3 +50,7 @@ SALES_PREVIEW_TOKEN='<свой токен>' npm run build:site
 ```bash
 node --test tests/*.test.mjs     # логика SEO, продаж, 404
 ```
+
+## Боевой домен
+
+Настройки сервера для sistemayasnosti.com лежат в `deploy/nginx-production.conf`: сжатие, кэш, защита от показа во фрейме, переходы с http и www, без запрета индексации. Перед включением заменить строки с пометкой `ЗАМЕНИТЬ` и выполнить `nginx -t`. После включения: `bash tools/check-production-headers.sh`. Запрет индексации с превью на боевой сервер не переносить.

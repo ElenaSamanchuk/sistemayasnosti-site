@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "normalize": "python3 tools/normalize_export.py --all",
+    "normalize": "python3 tools/normalize_export.py --all && node tools/apply-text-fixes.mjs",
     "build:site": "node tools/build-site.mjs",
     "preview": "node tools/preview-static.mjs",
     "smoke": "node tools/smoke.mjs",
